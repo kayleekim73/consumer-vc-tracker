@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T20:57:00Z",
+  "lastUpdated": "2026-04-04T21:30:00Z",
   "processedMessageIds": [
     "19d5891ccf64c308",
     "19d5a2522a69c798",
@@ -75,6 +75,398 @@
       "sector": "Consumer Tech",
       "subsector": "Marketplace",
       "source": "Consumer VC Roundup #154"
+    },
+    {
+      "id": "deal-006",
+      "company": "Mars Men",
+      "investors": ["L Catterton"],
+      "leadInvestor": "L Catterton",
+      "amount": "$27.5M",
+      "amountNum": 27.5,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-03-31",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "CPG Wire (Mar 31)"
+    },
+    {
+      "id": "deal-007",
+      "company": "Stories & Ink",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Seed",
+      "valuation": "$11.4M",
+      "date": "2026-03-31",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "CPG Wire (Mar 31)"
+    },
+    {
+      "id": "deal-008",
+      "company": "KilgourMD",
+      "investors": ["Prelude Growth Partners"],
+      "leadInvestor": "Prelude Growth Partners",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-03-28",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "Consumer VC Roundup #153"
+    },
+    {
+      "id": "deal-009",
+      "company": "Sigmas",
+      "investors": ["Mucker Capital", "HongShan"],
+      "leadInvestor": "",
+      "amount": "$1M",
+      "amountNum": 1,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-03-28",
+      "sector": "Consumer Tech",
+      "subsector": "Social & Community",
+      "source": "Consumer VC Roundup #153"
+    },
+    {
+      "id": "deal-010",
+      "company": "Stellar Snacks",
+      "investors": ["Main Post Partners"],
+      "leadInvestor": "Main Post Partners",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Minority Investment",
+      "valuation": "",
+      "date": "2026-03-28",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Consumer VC Roundup #153"
+    },
+    {
+      "id": "deal-011",
+      "company": "Nopalera",
+      "investors": ["Next Level Fund", "Morgan Stanley"],
+      "leadInvestor": "Next Level Fund",
+      "amount": "$4M",
+      "amountNum": 4,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-03-26",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "Consumer VC Roundup #153"
+    },
+    {
+      "id": "deal-012",
+      "company": "Foreverland",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "€6M",
+      "amountNum": 6.5,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-03-28",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Consumer VC Roundup #153"
+    },
+    {
+      "id": "deal-013",
+      "company": "Good Girl Snacks",
+      "investors": ["Strand Equity", "Collaborative Fund"],
+      "leadInvestor": "Strand Equity",
+      "amount": "$3M",
+      "amountNum": 3,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-03-28",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Consumer VC Roundup #153"
+    },
+    {
+      "id": "deal-014",
+      "company": "Laoban",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$7M",
+      "amountNum": 7,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-03-28",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Consumer VC Roundup #153"
+    },
+    {
+      "id": "deal-015",
+      "company": "Flourish Care",
+      "investors": ["Zeal Capital Partners"],
+      "leadInvestor": "Zeal Capital Partners",
+      "amount": "$5.7M",
+      "amountNum": 5.7,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-03-28",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Consumer VC Roundup #153"
+    },
+    {
+      "id": "deal-016",
+      "company": "eMed",
+      "investors": ["AON"],
+      "leadInvestor": "AON",
+      "amount": "$200M",
+      "amountNum": 200,
+      "series": "Growth",
+      "valuation": "$2B+",
+      "date": "2026-03-28",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Consumer VC Roundup #153"
+    },
+    {
+      "id": "deal-017",
+      "company": "Prickly Pear Health",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$600K",
+      "amountNum": 0.6,
+      "series": "Pre-Seed",
+      "valuation": "",
+      "date": "2026-03-28",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Consumer VC Roundup #153"
+    },
+    {
+      "id": "deal-018",
+      "company": "Blossom Health",
+      "investors": ["Headline"],
+      "leadInvestor": "Headline",
+      "amount": "$20M",
+      "amountNum": 20,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-03-28",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Consumer VC Roundup #153"
+    },
+    {
+      "id": "deal-019",
+      "company": "Mirage",
+      "investors": ["General Catalyst", "CVF"],
+      "leadInvestor": "General Catalyst",
+      "amount": "$75M",
+      "amountNum": 75,
+      "series": "Growth",
+      "valuation": "",
+      "date": "2026-03-28",
+      "sector": "Consumer Tech",
+      "subsector": "AI-Native Consumer",
+      "source": "Consumer VC Roundup #153"
+    },
+    {
+      "id": "deal-020",
+      "company": "Conntour",
+      "investors": ["General Catalyst", "Y Combinator"],
+      "leadInvestor": "General Catalyst",
+      "amount": "$7M",
+      "amountNum": 7,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-03-28",
+      "sector": "Consumer Tech",
+      "subsector": "Social & Community",
+      "source": "Consumer VC Roundup #153"
+    },
+    {
+      "id": "deal-021",
+      "company": "Moda",
+      "investors": ["General Catalyst"],
+      "leadInvestor": "General Catalyst",
+      "amount": "$7.5M",
+      "amountNum": 7.5,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-03-28",
+      "sector": "Consumer Tech",
+      "subsector": "Marketplace",
+      "source": "Consumer VC Roundup #153"
+    },
+    {
+      "id": "deal-022",
+      "company": "Payy Network",
+      "investors": ["FirstMark Capital"],
+      "leadInvestor": "FirstMark Capital",
+      "amount": "$6M",
+      "amountNum": 6,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-03-28",
+      "sector": "Consumer Tech",
+      "subsector": "Fintech & Payments",
+      "source": "Consumer VC Roundup #153"
+    },
+    {
+      "id": "deal-023",
+      "company": "Tazapay",
+      "investors": ["Circle Ventures"],
+      "leadInvestor": "Circle Ventures",
+      "amount": "$36M",
+      "amountNum": 36,
+      "series": "Series B",
+      "valuation": "",
+      "date": "2026-03-28",
+      "sector": "Consumer Tech",
+      "subsector": "Fintech & Payments",
+      "source": "Consumer VC Roundup #153"
+    },
+    {
+      "id": "deal-024",
+      "company": "Glimpse",
+      "investors": ["Andreessen Horowitz"],
+      "leadInvestor": "Andreessen Horowitz",
+      "amount": "$35M",
+      "amountNum": 35,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-03-28",
+      "sector": "Consumer Tech",
+      "subsector": "Social & Community",
+      "source": "Consumer VC Roundup #153"
+    },
+    {
+      "id": "deal-025",
+      "company": "Iota",
+      "investors": ["Era VC"],
+      "leadInvestor": "Era VC",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-03-26",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "CPG Wire (Mar 26)"
+    },
+    {
+      "id": "deal-026",
+      "company": "Chilly Ones",
+      "investors": ["NÜTRL Founders"],
+      "leadInvestor": "NÜTRL Founders",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-03-14",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "CPG Wire (Mar 14)"
+    },
+    {
+      "id": "deal-027",
+      "company": "Hurray GIRL BEER",
+      "investors": ["Lakehouse Ventures"],
+      "leadInvestor": "Lakehouse Ventures",
+      "amount": "$5M",
+      "amountNum": 5,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-03-14",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "CPG Wire (Mar 14)"
+    },
+    {
+      "id": "deal-028",
+      "company": "Living Things",
+      "investors": ["The Source Ventures", "Spadel"],
+      "leadInvestor": "The Source Ventures",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-03-14",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "CPG Wire (Mar 14)"
+    },
+    {
+      "id": "deal-029",
+      "company": "Perfumer H",
+      "investors": ["Elixir 1", "ILYOS Capital"],
+      "leadInvestor": "Elixir 1",
+      "amount": "$4.5M",
+      "amountNum": 4.5,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-03-12",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "CPG Wire (Mar 12)"
+    },
+    {
+      "id": "deal-030",
+      "company": "Harken Sweets",
+      "investors": ["Selva Ventures"],
+      "leadInvestor": "Selva Ventures",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-03-05",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "CPG Wire (Mar 5)"
+    },
+    {
+      "id": "deal-031",
+      "company": "RAS Luxury Skincare",
+      "investors": ["Dabur", "Unilever Ventures"],
+      "leadInvestor": "Dabur",
+      "amount": "$7.5M",
+      "amountNum": 7.5,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-03-05",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "CPG Wire (Mar 5)"
+    },
+    {
+      "id": "deal-032",
+      "company": "Freestyle",
+      "investors": ["Silas Capital"],
+      "leadInvestor": "Silas Capital",
+      "amount": "$10M",
+      "amountNum": 10,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-03-05",
+      "sector": "Consumer Tech",
+      "subsector": "Social & Community",
+      "source": "CPG Wire (Mar 5)"
+    },
+    {
+      "id": "deal-033",
+      "company": "Pricklee Natural Hydration",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$2M",
+      "amountNum": 2,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-03-05",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "CPG Wire (Mar 5)"
     }
   ],
   "investorActivity": [
@@ -95,7 +487,7 @@
     {
       "fund": "Unilever Ventures",
       "partner": "",
-      "deals": ["Create Wellness, Inc."],
+      "deals": ["Create Wellness, Inc.", "RAS Luxury Skincare"],
       "role": "Participant",
       "date": "2026-04-04"
     },
@@ -147,9 +539,194 @@
       "deals": ["Peachy"],
       "role": "Lead",
       "date": "2026-04-04"
+    },
+    {
+      "fund": "L Catterton",
+      "partner": "",
+      "deals": ["Mars Men"],
+      "role": "Lead",
+      "date": "2026-03-31"
+    },
+    {
+      "fund": "Prelude Growth Partners",
+      "partner": "",
+      "deals": ["KilgourMD"],
+      "role": "Lead",
+      "date": "2026-03-28"
+    },
+    {
+      "fund": "Mucker Capital",
+      "partner": "",
+      "deals": ["Sigmas"],
+      "role": "Participant",
+      "date": "2026-03-28"
+    },
+    {
+      "fund": "HongShan",
+      "partner": "",
+      "deals": ["Sigmas"],
+      "role": "Participant",
+      "date": "2026-03-28"
+    },
+    {
+      "fund": "Main Post Partners",
+      "partner": "",
+      "deals": ["Stellar Snacks"],
+      "role": "Lead",
+      "date": "2026-03-28"
+    },
+    {
+      "fund": "Next Level Fund",
+      "partner": "",
+      "deals": ["Nopalera"],
+      "role": "Lead",
+      "date": "2026-03-26"
+    },
+    {
+      "fund": "Morgan Stanley",
+      "partner": "",
+      "deals": ["Nopalera"],
+      "role": "Participant",
+      "date": "2026-03-26"
+    },
+    {
+      "fund": "Strand Equity",
+      "partner": "",
+      "deals": ["Good Girl Snacks"],
+      "role": "Lead",
+      "date": "2026-03-28"
+    },
+    {
+      "fund": "Collaborative Fund",
+      "partner": "",
+      "deals": ["Good Girl Snacks"],
+      "role": "Participant",
+      "date": "2026-03-28"
+    },
+    {
+      "fund": "Zeal Capital Partners",
+      "partner": "",
+      "deals": ["Flourish Care"],
+      "role": "Lead",
+      "date": "2026-03-28"
+    },
+    {
+      "fund": "AON",
+      "partner": "",
+      "deals": ["eMed"],
+      "role": "Lead",
+      "date": "2026-03-28"
+    },
+    {
+      "fund": "Headline",
+      "partner": "",
+      "deals": ["Blossom Health"],
+      "role": "Lead",
+      "date": "2026-03-28"
+    },
+    {
+      "fund": "General Catalyst",
+      "partner": "",
+      "deals": ["Mirage", "Conntour", "Moda"],
+      "role": "Lead",
+      "date": "2026-03-28"
+    },
+    {
+      "fund": "Y Combinator",
+      "partner": "",
+      "deals": ["Conntour"],
+      "role": "Participant",
+      "date": "2026-03-28"
+    },
+    {
+      "fund": "FirstMark Capital",
+      "partner": "",
+      "deals": ["Payy Network"],
+      "role": "Lead",
+      "date": "2026-03-28"
+    },
+    {
+      "fund": "Circle Ventures",
+      "partner": "",
+      "deals": ["Tazapay"],
+      "role": "Lead",
+      "date": "2026-03-28"
+    },
+    {
+      "fund": "Andreessen Horowitz",
+      "partner": "",
+      "deals": ["Glimpse"],
+      "role": "Lead",
+      "date": "2026-03-28"
+    },
+    {
+      "fund": "Era VC",
+      "partner": "",
+      "deals": ["Iota"],
+      "role": "Lead",
+      "date": "2026-03-26"
+    },
+    {
+      "fund": "Lakehouse Ventures",
+      "partner": "",
+      "deals": ["Hurray GIRL BEER"],
+      "role": "Lead",
+      "date": "2026-03-14"
+    },
+    {
+      "fund": "The Source Ventures",
+      "partner": "",
+      "deals": ["Living Things"],
+      "role": "Lead",
+      "date": "2026-03-14"
+    },
+    {
+      "fund": "Elixir 1",
+      "partner": "",
+      "deals": ["Perfumer H"],
+      "role": "Lead",
+      "date": "2026-03-12"
+    },
+    {
+      "fund": "ILYOS Capital",
+      "partner": "",
+      "deals": ["Perfumer H"],
+      "role": "Participant",
+      "date": "2026-03-12"
+    },
+    {
+      "fund": "Selva Ventures",
+      "partner": "",
+      "deals": ["Harken Sweets"],
+      "role": "Lead",
+      "date": "2026-03-05"
+    },
+    {
+      "fund": "Dabur",
+      "partner": "",
+      "deals": ["RAS Luxury Skincare"],
+      "role": "Lead",
+      "date": "2026-03-05"
+    },
+    {
+      "fund": "Silas Capital",
+      "partner": "",
+      "deals": ["Freestyle"],
+      "role": "Lead",
+      "date": "2026-03-05"
     }
   ],
-  "fundNews": [],
+  "fundNews": [
+    {
+      "id": "news-001",
+      "fund": "Coefficient Capital",
+      "headline": "Coefficient Capital closes $500M across two vehicles",
+      "detail": "Coefficient Capital closed Fund II at $290M and its Apex growth vehicle at $240M, bringing total new capital under management to $500M. The firm focuses on consumer and retail technology investments.",
+      "type": "Fund Close",
+      "date": "2026-03-28",
+      "source": "Consumer VC Roundup #153"
+    }
+  ],
   "weeklyTalkingPoints": {
     "weekOf": "2026-03-30",
     "generatedAt": "2026-04-04",
@@ -175,6 +752,11 @@
         "take": "Stride's minority position — rather than a traditional lead round — may indicate a preference for optionality in a category where unit economics at scale are still being proven, and where regulatory risk around NP-administered treatments varies by state."
       },
       {
+        "label": "Men's Personal Care: L Catterton Backs $27.5M Series A for Mars Men",
+        "context": "Mars Men raised a $27.5M Series A led by L Catterton to expand its men's personal care and grooming brand. The deal is one of the larger Series A investments in the men's personal care category in recent memory.",
+        "take": "L Catterton's lead signals institutional conviction that men's personal care is entering a premium category expansion phase — following the playbook of women's beauty brands that scaled through DTC before transitioning into mass retail. The category has historically been undercapitalized relative to its market size."
+      },
+      {
         "label": "CPG M&A: Strategic Consolidation Accelerates",
         "context": "This week saw sweeping CPG M&A across categories: McCormick acquired Unilever's food business for $45B, Keurig Dr Pepper completed its acquisition of JDE Peet's, and Constellation Brands acquired Hopwtr to expand into non-alcoholic beverages. The pace of strategic activity signals incumbents repositioning ahead of shifting consumer preferences.",
         "take": "For early-stage founders, this wave of acquisitions compresses the exit timeline calculus — brands in bolt-on categories like non-alc, functional foods, and premium condiments may see heightened acquirer interest even at sub-scale revenue, as strategics race to fill portfolio gaps."
@@ -184,7 +766,8 @@
       {"company": "Create Wellness, Inc.", "date": "2026-04-04", "source": "Consumer VC Roundup #154"},
       {"company": "Manna Air Delivery", "date": "2026-04-04", "source": "Consumer VC Roundup #154"},
       {"company": "Standing Ovation", "date": "2026-04-04", "source": "Consumer VC Roundup #154"},
-      {"company": "Peachy", "date": "2026-04-04", "source": "Consumer VC Roundup #154"}
+      {"company": "Peachy", "date": "2026-04-04", "source": "Consumer VC Roundup #154"},
+      {"company": "Mars Men", "date": "2026-03-31", "source": "CPG Wire (Mar 31)"}
     ]
   }
 }
