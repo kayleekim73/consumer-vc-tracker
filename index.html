@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Consumer VC Tracker</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --navy: #0f1b2d;
+      --navy-light: #162338;
+      --navy-mid: #1e2f47;
+      --navy-border: #2a3f5f;
+      --amber: #f59e0b;
+      --amber-light: #fcd34d;
+      --amber-dim: rgba(245,158,11,0.15);
+      --white: #f8fafc;
+      --gray: #94a3b8;
+      --gray-light: #cbd5e1;
+      --text: #e2e8f0;
+      --text-dim: #94a3b8;
+      --green: #10b981;
+      --red: #ef4444;
+      --blue: #3b82f6;
+      --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--navy);
+      color: var(--text);
+      font-family: var(--font);
+      font-size: 14px;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: var(--navy-light);
+      border-bottom: 1px solid var(--navy-border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+
+    .brand h1 {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--white);
+      letter-spacing: -0.3px;
+    }
+
+    .brand h1 span { color: var(--amber); }
+
+    .brand p {
+      font-size: 11px;
+      color: var(--text-dim);
+      margin-top: 1px;
+    }
+
+    nav { display: flex; gap: 4px; }
+
+    nav a {
+      color: var(--text-dim);
+      text-decoration: none;
+      padding: 8px 14px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 500;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+
+    nav a:hover, nav a.active {
+      background: var(--amber-dim);
+      color: var(--amber);
+    }
+
+    /* ── LAYOUT ── */
+    main { max-width: 1280px; margin: 0 auto; padding: 32px 24px 80px; }
+
+    section { display: none; }
+    section.active { display: block; }
+
+    .section-header {
+      margin-bottom: 28px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--navy-border);
+    }
+
+    .section-header h2 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--white);
+      letter-spacing: -0.4px;
+    }
+
+    .section-header p {
+      color: var(--text-dim);
+      font-size: 13px;
+      margin-top: 4px;
+    }
+
+    /* ── STAT CARDS ── */
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+
+    .stat-card {
+      background: var(--navy-light);
+      border: 1px solid var(--navy-border);
+      border-radius: 10px;
+      padding: 20px 24px;
+    }
+
+    .stat-card .label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--text-dim);
+    }
+
+    .stat-card .value {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--amber);
+      margin: 6px 0 2px;
+      line-height: 1;
+    }
+
+    .stat-card .sub {
+      font-size: 12px;
+      color: var(--text-dim);
+    }
+
+    /* ── FILTERS ── */
+    .filters {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+      align-items: center;
+    }
+
+    .filter-group {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .filter-group label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: var(--text-dim);
+    }
+
+    select, input[type="text"] {
+      background: var(--navy-mid);
+      border: 1px solid var(--navy-border);
+      color: var(--text);
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-family: var(--font);
+      outline: none;
+      cursor: pointer;
+      min-width: 140px;
+    }
+
+    select:focus, input[type="text"]:focus {
+      border-color: var(--amber);
+    }
+
+    select option { background: var(--navy-mid); }
+
+    /* ── TABLE ── */
+    .table-wrap {
+      overflow-x: auto;
+      border-radius: 10px;
+      border: 1px solid var(--navy-border);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      white-space: nowrap;
+    }
+
+    thead th {
+      background: var(--navy-mid);
+      padding: 12px 16px;
+      text-align: left;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      color: var(--text-dim);
+      border-bottom: 1px solid var(--navy-border);
+      cursor: pointer;
+      user-select: none;
+    }
+
+    thead th:hover { color: var(--amber); }
+
+    thead th.sorted-asc::after { content: ' ↑'; color: var(--amber); }
+    thead th.sorted-desc::after { content: ' ↓'; color: var(--amber); }
+
+    tbody tr {
+      border-bottom: 1px solid var(--navy-border);
+      transition: background 0.1s;
+    }
+
+    tbody tr:last-child { border-bottom: none; }
+
+    tbody tr:hover { background: var(--navy-mid); }
+
+    tbody td {
+      padding: 13px 16px;
+      font-size: 13px;
+      color: var(--text);
+      max-width: 200px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    tbody td.company-cell {
+      font-weight: 600;
+      color: var(--white);
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+    }
+
+    .badge-cpg { background: rgba(16,185,129,0.15); color: #10b981; }
+    .badge-tech { background: rgba(59,130,246,0.15); color: #60a5fa; }
+    .badge-seed { background: rgba(245,158,11,0.15); color: var(--amber); }
+    .badge-a { background: rgba(139,92,246,0.15); color: #a78bfa; }
+    .badge-b { background: rgba(236,72,153,0.15); color: #f472b6; }
+    .badge-c { background: rgba(239,68,68,0.15); color: #f87171; }
+    .badge-other { background: rgba(148,163,184,0.12); color: var(--gray); }
+
+    .amount-cell { font-weight: 600; color: var(--amber-light); }
+
+    .no-data {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-dim);
+    }
+
+    /* ── SECTION 2: WEEKLY ── */
+    .weekly-grid {
+      display: grid;
+      gap: 20px;
+    }
+
+    .talking-point {
+      background: var(--navy-light);
+      border: 1px solid var(--navy-border);
+      border-left: 3px solid var(--amber);
+      border-radius: 0 10px 10px 0;
+      padding: 22px 26px;
+    }
+
+    .talking-point .tp-label {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--amber);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 10px;
+    }
+
+    .talking-point .tp-context {
+      font-size: 14px;
+      color: var(--text);
+      line-height: 1.65;
+      margin-bottom: 10px;
+    }
+
+    .talking-point .tp-take {
+      font-size: 13px;
+      color: var(--gray-light);
+      line-height: 1.6;
+      padding: 10px 14px;
+      background: rgba(245,158,11,0.07);
+      border-radius: 6px;
+      border-left: 2px solid var(--amber);
+    }
+
+    .tp-take::before {
+      content: '💡 ';
+      font-style: normal;
+    }
+
+    .deals-ref-section {
+      margin-top: 32px;
+      padding-top: 24px;
+      border-top: 1px solid var(--navy-border);
+    }
+
+    .deals-ref-section h3 {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: var(--text-dim);
+      margin-bottom: 12px;
+    }
+
+    .deals-ref-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .deals-ref-item {
+      display: flex;
+      gap: 16px;
+      font-size: 13px;
+      color: var(--text-dim);
+      padding: 8px 14px;
+      background: var(--navy-mid);
+      border-radius: 6px;
+    }
+
+    .deals-ref-item .dri-company { color: var(--white); font-weight: 600; }
+
+    /* ── SECTION 3: INVESTOR ACTIVITY ── */
+    .toggle-row {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+
+    .toggle-btn {
+      padding: 8px 18px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1px solid var(--navy-border);
+      background: var(--navy-mid);
+      color: var(--text-dim);
+      transition: all 0.15s;
+    }
+
+    .toggle-btn.active {
+      background: var(--amber-dim);
+      border-color: var(--amber);
+      color: var(--amber);
+    }
+
+    .investor-view { display: none; }
+    .investor-view.active { display: block; }
+
+    .investor-card {
+      background: var(--navy-light);
+      border: 1px solid var(--navy-border);
+      border-radius: 10px;
+      padding: 18px 22px;
+      margin-bottom: 12px;
+      display: grid;
+      grid-template-columns: 40px 1fr auto;
+      gap: 16px;
+      align-items: center;
+    }
+
+    .rank-num {
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--navy-border);
+      text-align: center;
+    }
+
+    .investor-info .fund-name {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 3px;
+    }
+
+    .investor-info .fund-meta {
+      font-size: 12px;
+      color: var(--text-dim);
+    }
+
+    .investor-info .fund-deals {
+      font-size: 12px;
+      color: var(--text-dim);
+      margin-top: 4px;
+    }
+
+    .deal-count-badge {
+      background: var(--amber-dim);
+      border: 1px solid var(--amber);
+      color: var(--amber);
+      border-radius: 8px;
+      padding: 6px 14px;
+      font-size: 18px;
+      font-weight: 700;
+      text-align: center;
+      min-width: 52px;
+    }
+
+    .investor-note {
+      margin-top: 24px;
+      padding: 14px 18px;
+      background: rgba(148,163,184,0.07);
+      border: 1px solid var(--navy-border);
+      border-radius: 8px;
+      font-size: 12px;
+      color: var(--text-dim);
+      font-style: italic;
+    }
+
+    /* ── SECTION 4: FUND NEWS ── */
+    .news-filters {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .news-filter-btn {
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1px solid var(--navy-border);
+      background: transparent;
+      color: var(--text-dim);
+      transition: all 0.15s;
+    }
+
+    .news-filter-btn.active {
+      background: var(--amber-dim);
+      border-color: var(--amber);
+      color: var(--amber);
+    }
+
+    .news-feed { display: flex; flex-direction: column; gap: 14px; }
+
+    .news-item {
+      background: var(--navy-light);
+      border: 1px solid var(--navy-border);
+      border-radius: 10px;
+      padding: 18px 22px;
+    }
+
+    .news-item-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+    }
+
+    .news-date { font-size: 12px; color: var(--text-dim); }
+    .news-fund { font-size: 15px; font-weight: 700; color: var(--white); }
+
+    .news-type-badge {
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    .ntb-new-fund { background: rgba(16,185,129,0.15); color: #10b981; }
+    .ntb-lp-close { background: rgba(59,130,246,0.15); color: #60a5fa; }
+    .ntb-hire { background: rgba(139,92,246,0.15); color: #a78bfa; }
+    .ntb-other { background: rgba(148,163,184,0.12); color: var(--gray); }
+
+    .news-summary { font-size: 13px; color: var(--text-dim); line-height: 1.6; }
+    .news-source { font-size: 11px; color: var(--text-dim); margin-top: 8px; }
+
+    .empty-state {
+      text-align: center;
+      padding: 64px 20px;
+      color: var(--text-dim);
+    }
+
+    .empty-state .icon { font-size: 40px; margin-bottom: 12px; }
+    .empty-state p { font-size: 14px; }
+
+    /* ── CHART ── */
+    .chart-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-bottom: 28px;
+    }
+
+    .chart-card {
+      background: var(--navy-light);
+      border: 1px solid var(--navy-border);
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    .chart-card h3 {
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: var(--text-dim);
+      margin-bottom: 16px;
+    }
+
+    .chart-container { position: relative; height: 180px; }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--navy-light);
+      border-top: 1px solid var(--navy-border);
+      padding: 20px 24px;
+      text-align: center;
+    }
+
+    footer p {
+      font-size: 12px;
+      color: var(--text-dim);
+      line-height: 1.7;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      .header-inner { padding: 0 16px; }
+      .brand h1 { font-size: 15px; }
+      nav a { padding: 6px 10px; font-size: 12px; }
+      main { padding: 20px 16px 60px; }
+      .stat-grid { grid-template-columns: 1fr; }
+      .chart-row { grid-template-columns: 1fr; }
+      .filters { flex-direction: column; align-items: flex-start; }
+      .investor-card { grid-template-columns: 32px 1fr auto; gap: 10px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="brand">
+      <h1>Consumer <span>VC</span> Tracker</h1>
+      <p>Updated daily from primary sources</p>
+    </div>
+    <nav>
+      <a href="#" class="active" onclick="showSection('deals',this)">Latest Deals</a>
+      <a href="#" onclick="showSection('weekly',this)">This Week</a>
+      <a href="#" onclick="showSection('investors',this)">Investors</a>
+      <a href="#" onclick="showSection('fundnews',this)">Fund News</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- ═══════════════════════════════════════════════
+       SECTION 1: LATEST DEALS
+  ═══════════════════════════════════════════════ -->
+  <section id="section-deals" class="active">
+    <div class="section-header">
+      <h2>Latest Deals</h2>
+      <p>Consumer VC financings tracked from subscribed newsletters · 90-day rolling window</p>
+    </div>
+
+    <!-- Stat Cards -->
+    <div class="stat-grid" id="stat-grid"></div>
+
+    <!-- Charts -->
+    <div class="chart-row">
+      <div class="chart-card">
+        <h3>Deals by Sector (30 days)</h3>
+        <div class="chart-container">
+          <canvas id="sectorChart"></canvas>
+        </div>
+      </div>
+      <div class="chart-card">
+        <h3>Deals by Subsector (30 days)</h3>
+        <div class="chart-container">
+          <canvas id="subsectorChart"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- Filters -->
+    <div class="filters">
+      <div class="filter-group">
+        <label>Sector</label>
+        <select id="filter-sector" onchange="onSectorChange()">
+          <option value="all">All Sectors</option>
+          <option value="Consumer Tech">Consumer Tech</option>
+          <option value="CPG">CPG</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>Subsector</label>
+        <select id="filter-subsector" onchange="applyFilters()">
+          <option value="all">All Subsectors</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>Stage</label>
+        <select id="filter-stage" onchange="applyFilters()">
+          <option value="all">All Stages</option>
+          <option value="Pre-Seed">Pre-Seed</option>
+          <option value="Seed">Seed</option>
+          <option value="Series A">Series A</option>
+          <option value="Series B">Series B</option>
+          <option value="Series C+">Series C+</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>Date Range</label>
+        <select id="filter-date" onchange="applyFilters()">
+          <option value="30">Last 30 days</option>
+          <option value="7">Last 7 days</option>
+          <option value="90">Last 90 days</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Table -->
+    <div class="table-wrap">
+      <table id="deals-table">
+        <thead>
+          <tr>
+            <th onclick="sortTable('date')">Date</th>
+            <th onclick="sortTable('company')">Company</th>
+            <th onclick="sortTable('sector')">Sector</th>
+            <th onclick="sortTable('subsector')">Subsector</th>
+            <th onclick="sortTable('series')">Stage</th>
+            <th onclick="sortTable('amount')">Amount</th>
+            <th>Valuation</th>
+            <th>Lead Investor</th>
+            <th>All Investors</th>
+          </tr>
+        </thead>
+        <tbody id="deals-tbody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECTION 2: THIS WEEK IN CONSUMER VC
+  ═══════════════════════════════════════════════ -->
+  <section id="section-weekly">
+    <div class="section-header">
+      <h2>This Week in Consumer VC</h2>
+      <p id="weekly-subtitle">Discussion points for early-stage consumer VC interviews · Seed &amp; Series A context</p>
+    </div>
+    <div class="weekly-grid" id="weekly-grid"></div>
+    <div class="deals-ref-section">
+      <h3>Deals Referenced This Week</h3>
+      <div class="deals-ref-list" id="deals-ref-list"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECTION 3: INVESTOR ACTIVITY TRACKER
+  ═══════════════════════════════════════════════ -->
+  <section id="section-investors">
+    <div class="section-header">
+      <h2>Investor Activity Tracker</h2>
+      <p>Deal activity from newsletters · 90-day rolling window</p>
+    </div>
+    <div class="toggle-row">
+      <button class="toggle-btn active" onclick="toggleInvestorView('fund', this)">By Fund</button>
+      <button class="toggle-btn" onclick="toggleInvestorView('partner', this)">By Partner</button>
+    </div>
+
+    <div class="investor-view active" id="view-fund">
+      <div id="fund-list"></div>
+    </div>
+    <div class="investor-view" id="view-partner">
+      <div id="partner-list"></div>
+    </div>
+
+    <p class="investor-note">Frequency reflects newsletter coverage, not verified investment data.</p>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECTION 4: FUND-LEVEL NEWS
+  ═══════════════════════════════════════════════ -->
+  <section id="section-fundnews">
+    <div class="section-header">
+      <h2>Fund-Level News</h2>
+      <p>Announcements and developments from consumer-focused funds · 90-day rolling window</p>
+    </div>
+    <div class="news-filters">
+      <button class="news-filter-btn active" onclick="filterNews('all', this)">All</button>
+      <button class="news-filter-btn" onclick="filterNews('New Fund', this)">New Fund</button>
+      <button class="news-filter-btn" onclick="filterNews('LP Close', this)">LP Close</button>
+      <button class="news-filter-btn" onclick="filterNews('New Partner Hire', this)">Hire</button>
+      <button class="news-filter-btn" onclick="filterNews('Other', this)">Other</button>
+    </div>
+    <div class="news-feed" id="news-feed"></div>
+  </section>
+
+</main>
+
+<footer>
+  <p id="footer-timestamp">Last updated: —</p>
+  <p>Data sourced from subscribed newsletters. Not investment advice.</p>
+</footer>
+
+<script>
+// ════════════════════════════════════════════════
+// DATA LAYER — loads data.json at runtime
+// ════════════════════════════════════════════════
+let DATA = null;
+let sortCol = 'date';
+let sortDir = 'desc';
+let activeNewsFilter = 'all';
+
+async function loadData() {
+  try {
+    const r = await fetch('data.json?t=' + Date.now());
+    DATA = await r.json();
+    init();
+  } catch(e) {
+    console.error('Could not load data.json', e);
+    DATA = { deals: [], investorActivity: [], fundNews: [], weeklyTalkingPoints: { points: [], dealsReferenced: [] }, lastUpdated: null };
+    init();
+  }
+}
+
+function init() {
+  setFooterTimestamp();
+  renderStatCards();
+  renderCharts();
+  applyFilters();
+  renderWeekly();
+  renderInvestors();
+  renderFundNews('all');
+}
+
+// ════════════════════════════════════════════════
+// NAVIGATION
+// ════════════════════════════════════════════════
+function showSection(id, el) {
+  document.querySelectorAll('section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
+  document.getElementById('section-' + id).classList.add('active');
+  el.classList.add('active');
+  return false;
+}
+
+// ════════════════════════════════════════════════
+// FOOTER
+// ════════════════════════════════════════════════
+function setFooterTimestamp() {
+  const ts = DATA.lastUpdated ? new Date(DATA.lastUpdated) : null;
+  const el = document.getElementById('footer-timestamp');
+  if (ts) {
+    el.textContent = 'Last updated: ' + ts.toLocaleString('en-US', { month: 'long', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit', hour12: true });
+  }
+}
+
+// ════════════════════════════════════════════════
+// HELPERS
+// ════════════════════════════════════════════════
+function daysAgo(n) {
+  const d = new Date();
+  d.setDate(d.getDate() - n);
+  return d.toISOString().slice(0,10);
+}
+
+function filterDealsByDays(days) {
+  const cutoff = daysAgo(days);
+  return DATA.deals.filter(d => d.date >= cutoff);
+}
+
+function sectorBadge(sector) {
+  if (sector === 'CPG') return '<span class="badge badge-cpg">CPG</span>';
+  if (sector === 'Consumer Tech') return '<span class="badge badge-tech">Tech</span>';
+  return '<span class="badge badge-other">' + sector + '</span>';
+}
+
+function stageBadge(series) {
+  const s = (series || '').toLowerCase();
+  if (s.includes('seed') && s.includes('pre')) return '<span class="badge badge-seed">Pre-Seed</span>';
+  if (s === 'seed') return '<span class="badge badge-seed">Seed</span>';
+  if (s.includes('series a')) return '<span class="badge badge-a">Series A</span>';
+  if (s.includes('series b')) return '<span class="badge badge-b">Series B</span>';
+  if (s.includes('series c') || s.includes('series d') || s.includes('series e')) return '<span class="badge badge-c">' + series + '</span>';
+  return '<span class="badge badge-other">' + (series || '—') + '</span>';
+}
+
+function fmtDate(d) {
+  if (!d) return '—';
+  const dt = new Date(d + 'T12:00:00');
+  return dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+}
+
+// ════════════════════════════════════════════════
+// STAT CARDS
+// ════════════════════════════════════════════════
+function renderStatCards() {
+  const deals30 = filterDealsByDays(30);
+
+  // Total deals
+  const totalDeals = deals30.length;
+
+  // Most active investor (by deal count in last 30 days)
+  const invCount = {};
+  deals30.forEach(d => {
+    d.investors.forEach(inv => {
+      invCount[inv] = (invCount[inv] || 0) + 1;
+    });
+  });
+  const topInvestor = Object.entries(invCount).sort((a,b) => b[1]-a[1])[0];
+
+  // Hottest subsector
+  const subCount = {};
+  deals30.forEach(d => {
+    subCount[d.subsector] = (subCount[d.subsector] || 0) + 1;
+  });
+  const topSub = Object.entries(subCount).sort((a,b) => b[1]-a[1])[0];
+
+  const grid = document.getElementById('stat-grid');
+  grid.innerHTML = `
+    <div class="stat-card">
+      <div class="label">Deals Tracked (30 days)</div>
+      <div class="value">${totalDeals}</div>
+      <div class="sub">From subscribed newsletters</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Most Active Investor</div>
+      <div class="value" style="font-size:18px;margin-top:8px;">${topInvestor ? topInvestor[0] : '—'}</div>
+      <div class="sub">${topInvestor ? topInvestor[1] + ' deal' + (topInvestor[1]>1?'s':'') + ' this month' : 'No data yet'}</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Hottest Subsector</div>
+      <div class="value" style="font-size:18px;margin-top:8px;">${topSub ? topSub[0] : '—'}</div>
+      <div class="sub">${topSub ? topSub[1] + ' deal' + (topSub[1]>1?'s':'') + ' this month' : 'No data yet'}</div>
+    </div>`;
+}
+
+// ════════════════════════════════════════════════
+// CHARTS
+// ════════════════════════════════════════════════
+let chartInstances = {};
+
+function renderCharts() {
+  const deals30 = filterDealsByDays(30);
+
+  // Sector chart
+  const sectorCounts = { 'CPG': 0, 'Consumer Tech': 0 };
+  deals30.forEach(d => { if (sectorCounts[d.sector] !== undefined) sectorCounts[d.sector]++; });
+
+  if (chartInstances.sector) chartInstances.sector.destroy();
+  chartInstances.sector = new Chart(document.getElementById('sectorChart'), {
+    type: 'doughnut',
+    data: {
+      labels: Object.keys(sectorCounts),
+      datasets: [{
+        data: Object.values(sectorCounts),
+        backgroundColor: ['#10b981', '#3b82f6'],
+        borderColor: '#162338',
+        borderWidth: 2
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'bottom', labels: { color: '#94a3b8', font: { size: 12 }, padding: 16 } }
+      }
+    }
+  });
+
+  // Subsector chart
+  const subCounts = {};
+  deals30.forEach(d => { subCounts[d.subsector] = (subCounts[d.subsector] || 0) + 1; });
+  const subLabels = Object.keys(subCounts);
+  const subVals = subLabels.map(k => subCounts[k]);
+  const palette = ['#f59e0b','#10b981','#3b82f6','#a78bfa','#f472b6','#60a5fa','#34d399','#fb923c'];
+
+  if (chartInstances.subsector) chartInstances.subsector.destroy();
+  chartInstances.subsector = new Chart(document.getElementById('subsectorChart'), {
+    type: 'bar',
+    data: {
+      labels: subLabels,
+      datasets: [{
+        data: subVals,
+        backgroundColor: palette.slice(0, subLabels.length),
+        borderRadius: 4,
+        borderSkipped: false
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false, indexAxis: 'y',
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { color: 'rgba(42,63,95,0.5)' }, ticks: { color: '#94a3b8', stepSize: 1 } },
+        y: { grid: { display: false }, ticks: { color: '#cbd5e1', font: { size: 11 } } }
+      }
+    }
+  });
+}
+
+// ════════════════════════════════════════════════
+// DEALS TABLE
+// ════════════════════════════════════════════════
+const CPG_SUBSECTORS = ['Food & Bev', 'Personal Care & Beauty', 'Pet', 'Home', 'Supplement & Wellness', 'Apparel', 'Other CPG'];
+const TECH_SUBSECTORS = ['Fintech & Payments', 'Healthcare & Wellness Tech', 'Social & Community', 'Hardware', 'Marketplace', 'AI-Native Consumer', 'Other Consumer Tech'];
+
+function onSectorChange() {
+  const sector = document.getElementById('filter-sector').value;
+  const subSel = document.getElementById('filter-subsector');
+  subSel.innerHTML = '<option value="all">All Subsectors</option>';
+
+  const list = sector === 'CPG' ? CPG_SUBSECTORS : sector === 'Consumer Tech' ? TECH_SUBSECTORS : [];
+  list.forEach(s => {
+    const opt = document.createElement('option');
+    opt.value = s; opt.textContent = s;
+    subSel.appendChild(opt);
+  });
+  applyFilters();
+}
+
+function applyFilters() {
+  const sector = document.getElementById('filter-sector').value;
+  const subsector = document.getElementById('filter-subsector').value;
+  const stage = document.getElementById('filter-stage').value;
+  const days = parseInt(document.getElementById('filter-date').value) || 30;
+
+  const cutoff = daysAgo(days);
+  let filtered = DATA.deals.filter(d => {
+    if (d.date < cutoff) return false;
+    if (sector !== 'all' && d.sector !== sector) return false;
+    if (subsector !== 'all' && d.subsector !== subsector) return false;
+    if (stage !== 'all') {
+      const s = (d.series || '').toLowerCase();
+      const f = stage.toLowerCase();
+      if (f === 'series c+' && !s.includes('series c') && !s.includes('series d') && !s.includes('series e')) return false;
+      if (f !== 'series c+' && s !== f) return false;
+    }
+    return true;
+  });
+
+  // Sort
+  filtered = sortDeals(filtered, sortCol, sortDir);
+
+  renderDealsTable(filtered);
+  updateSortHeaders();
+}
+
+function sortDeals(arr, col, dir) {
+  return [...arr].sort((a, b) => {
+    let va = a[col] || ''; let vb = b[col] || '';
+    if (col === 'amount') { va = a.amountNum || 0; vb = b.amountNum || 0; }
+    if (typeof va === 'string') va = va.toLowerCase();
+    if (typeof vb === 'string') vb = vb.toLowerCase();
+    if (va < vb) return dir === 'asc' ? -1 : 1;
+    if (va > vb) return dir === 'asc' ? 1 : -1;
+    return 0;
+  });
+}
+
+function sortTable(col) {
+  if (sortCol === col) sortDir = sortDir === 'asc' ? 'desc' : 'asc';
+  else { sortCol = col; sortDir = col === 'date' || col === 'amount' ? 'desc' : 'asc'; }
+  applyFilters();
+}
+
+function updateSortHeaders() {
+  document.querySelectorAll('#deals-table thead th').forEach(th => {
+    th.classList.remove('sorted-asc', 'sorted-desc');
+  });
+  const cols = ['date','company','sector','subsector','series','amount'];
+  const idx = cols.indexOf(sortCol);
+  if (idx >= 0) {
+    const th = document.querySelectorAll('#deals-table thead th')[idx];
+    if (th) th.classList.add('sorted-' + sortDir);
+  }
+}
+
+function renderDealsTable(deals) {
+  const tbody = document.getElementById('deals-tbody');
+  if (!deals.length) {
+    tbody.innerHTML = '<tr><td colspan="9" class="no-data">No deals match the selected filters.</td></tr>';
+    return;
+  }
+  tbody.innerHTML = deals.map(d => `
+    <tr>
+      <td>${fmtDate(d.date)}</td>
+      <td class="company-cell">${d.company}</td>
+      <td>${sectorBadge(d.sector)}</td>
+      <td>${d.subsector || '—'}</td>
+      <td>${stageBadge(d.series)}</td>
+      <td class="amount-cell">${d.amount || '—'}</td>
+      <td>${d.valuation || '—'}</td>
+      <td>${d.leadInvestor || '—'}</td>
+      <td style="max-width:220px;white-space:normal;">${(d.investors || []).join(', ') || '—'}</td>
+    </tr>`).join('');
+}
+
+// ════════════════════════════════════════════════
+// SECTION 2: WEEKLY TALKING POINTS
+// ════════════════════════════════════════════════
+function renderWeekly() {
+  const wk = DATA.weeklyTalkingPoints;
+  if (!wk || !wk.points.length) {
+    document.getElementById('weekly-grid').innerHTML = '<div class="empty-state"><div class="icon">📰</div><p>Talking points will appear after the first Monday run.</p></div>';
+    return;
+  }
+
+  document.getElementById('weekly-subtitle').textContent =
+    'Discussion points for early-stage consumer VC interviews · Week of ' + fmtDate(wk.weekOf);
+
+  document.getElementById('weekly-grid').innerHTML = wk.points.map(p => `
+    <div class="talking-point">
+      <div class="tp-label">${p.label}</div>
+      <div class="tp-context">${p.context}</div>
+      <div class="tp-take">${p.take}</div>
+    </div>`).join('');
+
+  const refs = wk.dealsReferenced || [];
+  document.getElementById('deals-ref-list').innerHTML = refs.length
+    ? refs.map(r => `<div class="deals-ref-item"><span class="dri-company">${r.company}</span><span>${fmtDate(r.date)}</span><span>${r.source}</span></div>`).join('')
+    : '<div style="color:var(--text-dim);font-size:13px;">None listed.</div>';
+}
+
+// ════════════════════════════════════════════════
+// SECTION 3: INVESTOR ACTIVITY
+// ════════════════════════════════════════════════
+function renderInvestors() {
+  const activity = DATA.investorActivity || [];
+  const cutoff = daysAgo(90);
+
+  // Build fund map
+  const fundMap = {};
+  activity.filter(a => a.date >= cutoff).forEach(a => {
+    if (!fundMap[a.fund]) fundMap[a.fund] = { deals: [], partners: new Set(), lastDate: '' };
+    fundMap[a.fund].deals.push(...a.deals);
+    if (a.partner) fundMap[a.fund].partners.add(a.partner);
+    if (!fundMap[a.fund].lastDate || a.date > fundMap[a.fund].lastDate) fundMap[a.fund].lastDate = a.date;
+  });
+
+  const funds = Object.entries(fundMap)
+    .map(([name, v]) => ({ name, dealCount: [...new Set(v.deals)].length, deals: [...new Set(v.deals)], partners: [...v.partners], lastDate: v.lastDate }))
+    .sort((a, b) => b.dealCount - a.dealCount);
+
+  document.getElementById('fund-list').innerHTML = funds.length
+    ? funds.map((f, i) => `
+      <div class="investor-card">
+        <div class="rank-num">${i+1}</div>
+        <div class="investor-info">
+          <div class="fund-name">${f.name}</div>
+          <div class="fund-meta">Last active: ${fmtDate(f.lastDate)}</div>
+          <div class="fund-deals">Deals: ${f.deals.join(', ')}</div>
+          ${f.partners.length ? `<div class="fund-meta">Partners: ${f.partners.join(', ')}</div>` : ''}
+        </div>
+        <div class="deal-count-badge">${f.dealCount}</div>
+      </div>`).join('')
+    : '<div class="empty-state"><div class="icon">📊</div><p>Investor data will populate as deals are tracked.</p></div>';
+
+  // Partner view — aggregate by partner name
+  const partnerMap = {};
+  activity.filter(a => a.date >= cutoff && a.partner).forEach(a => {
+    if (!partnerMap[a.partner]) partnerMap[a.partner] = { fund: a.fund, deals: [], appearances: 0 };
+    partnerMap[a.partner].appearances++;
+    partnerMap[a.partner].deals.push(...a.deals);
+  });
+
+  const partners = Object.entries(partnerMap)
+    .map(([name, v]) => ({ name, fund: v.fund, appearances: v.appearances, deals: [...new Set(v.deals)] }))
+    .sort((a, b) => b.appearances - a.appearances);
+
+  document.getElementById('partner-list').innerHTML = partners.length
+    ? partners.map((p, i) => `
+      <div class="investor-card">
+        <div class="rank-num">${i+1}</div>
+        <div class="investor-info">
+          <div class="fund-name">${p.name}</div>
+          <div class="fund-meta">${p.fund}</div>
+          <div class="fund-deals">Deals: ${p.deals.join(', ')}</div>
+        </div>
+        <div class="deal-count-badge">${p.appearances}</div>
+      </div>`).join('')
+    : '<div class="empty-state"><div class="icon">👤</div><p>No named partners tracked yet. Partner names will appear as they are mentioned in newsletters.</p></div>';
+}
+
+function toggleInvestorView(view, el) {
+  document.querySelectorAll('.investor-view').forEach(v => v.classList.remove('active'));
+  document.querySelectorAll('.toggle-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('view-' + view).classList.add('active');
+  el.classList.add('active');
+}
+
+// ════════════════════════════════════════════════
+// SECTION 4: FUND NEWS
+// ════════════════════════════════════════════════
+function newsTypeBadge(type) {
+  const map = {
+    'New Fund': 'ntb-new-fund',
+    'LP Close': 'ntb-lp-close',
+    'New Partner Hire': 'ntb-hire',
+    'Other': 'ntb-other'
+  };
+  return `<span class="news-type-badge ${map[type] || 'ntb-other'}">${type}</span>`;
+}
+
+function filterNews(type, el) {
+  activeNewsFilter = type;
+  document.querySelectorAll('.news-filter-btn').forEach(b => b.classList.remove('active'));
+  el.classList.add('active');
+  renderFundNews(type);
+}
+
+function renderFundNews(type) {
+  const cutoff = daysAgo(90);
+  let news = (DATA.fundNews || []).filter(n => n.date >= cutoff);
+  if (type !== 'all') news = news.filter(n => n.newsType === type);
+  news = news.sort((a,b) => b.date.localeCompare(a.date));
+
+  const feed = document.getElementById('news-feed');
+  if (!news.length) {
+    feed.innerHTML = `<div class="empty-state">
+      <div class="icon">📋</div>
+      <p>No fund news ${type !== 'all' ? 'of type "' + type + '" ' : ''}found in the last 90 days.</p>
+      <p style="margin-top:8px;font-size:12px;">Fund announcements will appear here as newsletters cover them.</p>
+    </div>`;
+    return;
+  }
+
+  feed.innerHTML = news.map(n => `
+    <div class="news-item" data-type="${n.newsType}">
+      <div class="news-item-header">
+        <span class="news-date">${fmtDate(n.date)}</span>
+        <span class="news-fund">${n.fund}</span>
+        ${newsTypeBadge(n.newsType)}
+      </div>
+      <div class="news-summary">${n.details || n.summary || '—'}</div>
+      <div class="news-source">Source: ${n.source || '—'}</div>
+    </div>`).join('');
+}
+
+// ════════════════════════════════════════════════
+// BOOT
+// ════════════════════════════════════════════════
+loadData();
+</script>
+</body>
+</html>

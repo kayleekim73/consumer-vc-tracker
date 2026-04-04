@@ -1,0 +1,190 @@
+{
+  "lastUpdated": "2026-04-04T20:57:00Z",
+  "processedMessageIds": [
+    "19d5891ccf64c308",
+    "19d5a2522a69c798",
+    "19d5a2a12f067085"
+  ],
+  "deals": [
+    {
+      "id": "deal-001",
+      "company": "Create Wellness, Inc.",
+      "investors": ["Alliance Consumer Growth", "Impact Capital", "Unilever Ventures"],
+      "leadInvestor": "Alliance Consumer Growth",
+      "amount": "$20M",
+      "amountNum": 20,
+      "series": "Series B",
+      "valuation": "",
+      "date": "2026-04-04",
+      "sector": "CPG",
+      "subsector": "Supplement & Wellness",
+      "source": "Consumer VC Roundup #154"
+    },
+    {
+      "id": "deal-002",
+      "company": "Manna Air Delivery",
+      "investors": ["ARK Invest", "Ireland Strategic Investment Fund", "Schooner Capital", "Coca-Cola HBC", "Molten Ventures"],
+      "leadInvestor": "",
+      "amount": "$50M",
+      "amountNum": 50,
+      "series": "Series B",
+      "valuation": "",
+      "date": "2026-04-04",
+      "sector": "Consumer Tech",
+      "subsector": "Marketplace",
+      "source": "Consumer VC Roundup #154"
+    },
+    {
+      "id": "deal-003",
+      "company": "Standing Ovation",
+      "investors": ["Ecotechnologies"],
+      "leadInvestor": "Ecotechnologies",
+      "amount": "$28.5M",
+      "amountNum": 28.5,
+      "series": "Series B",
+      "valuation": "",
+      "date": "2026-04-04",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Consumer VC Roundup #154"
+    },
+    {
+      "id": "deal-004",
+      "company": "Peachy",
+      "investors": ["Stride Consumer Partners"],
+      "leadInvestor": "Stride Consumer Partners",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Minority Investment",
+      "valuation": "",
+      "date": "2026-04-04",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "Consumer VC Roundup #154"
+    },
+    {
+      "id": "deal-005",
+      "company": "estaie",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "7-figure",
+      "amountNum": null,
+      "series": "Pre-Seed",
+      "valuation": "",
+      "date": "2026-04-04",
+      "sector": "Consumer Tech",
+      "subsector": "Marketplace",
+      "source": "Consumer VC Roundup #154"
+    }
+  ],
+  "investorActivity": [
+    {
+      "fund": "Alliance Consumer Growth",
+      "partner": "",
+      "deals": ["Create Wellness, Inc."],
+      "role": "Lead",
+      "date": "2026-04-04"
+    },
+    {
+      "fund": "Impact Capital",
+      "partner": "",
+      "deals": ["Create Wellness, Inc."],
+      "role": "Participant",
+      "date": "2026-04-04"
+    },
+    {
+      "fund": "Unilever Ventures",
+      "partner": "",
+      "deals": ["Create Wellness, Inc."],
+      "role": "Participant",
+      "date": "2026-04-04"
+    },
+    {
+      "fund": "ARK Invest",
+      "partner": "",
+      "deals": ["Manna Air Delivery"],
+      "role": "Participant",
+      "date": "2026-04-04"
+    },
+    {
+      "fund": "Ireland Strategic Investment Fund",
+      "partner": "",
+      "deals": ["Manna Air Delivery"],
+      "role": "Participant",
+      "date": "2026-04-04"
+    },
+    {
+      "fund": "Schooner Capital",
+      "partner": "",
+      "deals": ["Manna Air Delivery"],
+      "role": "Participant",
+      "date": "2026-04-04"
+    },
+    {
+      "fund": "Coca-Cola HBC",
+      "partner": "",
+      "deals": ["Manna Air Delivery"],
+      "role": "Existing Investor",
+      "date": "2026-04-04"
+    },
+    {
+      "fund": "Molten Ventures",
+      "partner": "",
+      "deals": ["Manna Air Delivery"],
+      "role": "Existing Investor",
+      "date": "2026-04-04"
+    },
+    {
+      "fund": "Ecotechnologies",
+      "partner": "",
+      "deals": ["Standing Ovation"],
+      "role": "Lead",
+      "date": "2026-04-04"
+    },
+    {
+      "fund": "Stride Consumer Partners",
+      "partner": "",
+      "deals": ["Peachy"],
+      "role": "Lead",
+      "date": "2026-04-04"
+    }
+  ],
+  "fundNews": [],
+  "weeklyTalkingPoints": {
+    "weekOf": "2026-03-30",
+    "generatedAt": "2026-04-04",
+    "points": [
+      {
+        "label": "Supplement & Wellness: Creatine Goes Mainstream",
+        "context": "Create Wellness raised a $20M Series B led by Alliance Consumer Growth, with participation from Impact Capital and Unilever Ventures, to expand its creatine gummy brand into powdered beverages. The round signals continued institutional conviction in functional supplement brands that can cross from niche fitness into mass-market retail.",
+        "take": "Unilever Ventures' participation alongside a dedicated consumer growth fund suggests the category is maturing toward strategic acquirer interest — a signal worth tracking for how legacy CPG scouts emerging supplement plays."
+      },
+      {
+        "label": "Drone Delivery: Infrastructure Moment Arrives",
+        "context": "Manna Air Delivery raised $50M in Series B funding from ARK Invest, ISIF, and Schooner Capital to expand drone delivery across U.S. suburban communities, having already completed 250,000+ deliveries and partnered with Uber Eats, Deliveroo, and DoorDash. Simultaneously, GrubHub is piloting drone delivery in New Jersey.",
+        "take": "The convergence of multiple last-mile delivery partnerships on a single drone operator — rather than vertical integration — suggests the market may be settling on an 'infrastructure layer' model where drone operators serve as neutral rails, which has significant implications for unit economics and defensibility."
+      },
+      {
+        "label": "Alt-Protein: Precision Fermentation Finds Institutional Support",
+        "context": "Standing Ovation, a French precision fermentation startup producing next-generation dairy proteins, closed a $28.5M Series B led by Ecotechnologies. The raise is earmarked to scale dairy protein production at commercial volumes.",
+        "take": "A European alt-protein company raising Series B capital specifically to scale dairy protein — not plant-based meat — reflects a thesis shift toward ingredient-layer plays that sell into existing CPG supply chains, rather than direct-to-consumer brand building."
+      },
+      {
+        "label": "Beauty Services: Multi-Unit Retail Gets Consumer Growth Backing",
+        "context": "Peachy, a beauty-services retail chain offering treatments by certified Nurse Practitioners, received a minority investment from Stride Consumer Partners. The deal reflects growing VC interest in the intersection of medical aesthetics and accessible retail formats.",
+        "take": "Stride's minority position — rather than a traditional lead round — may indicate a preference for optionality in a category where unit economics at scale are still being proven, and where regulatory risk around NP-administered treatments varies by state."
+      },
+      {
+        "label": "CPG M&A: Strategic Consolidation Accelerates",
+        "context": "This week saw sweeping CPG M&A across categories: McCormick acquired Unilever's food business for $45B, Keurig Dr Pepper completed its acquisition of JDE Peet's, and Constellation Brands acquired Hopwtr to expand into non-alcoholic beverages. The pace of strategic activity signals incumbents repositioning ahead of shifting consumer preferences.",
+        "take": "For early-stage founders, this wave of acquisitions compresses the exit timeline calculus — brands in bolt-on categories like non-alc, functional foods, and premium condiments may see heightened acquirer interest even at sub-scale revenue, as strategics race to fill portfolio gaps."
+      }
+    ],
+    "dealsReferenced": [
+      {"company": "Create Wellness, Inc.", "date": "2026-04-04", "source": "Consumer VC Roundup #154"},
+      {"company": "Manna Air Delivery", "date": "2026-04-04", "source": "Consumer VC Roundup #154"},
+      {"company": "Standing Ovation", "date": "2026-04-04", "source": "Consumer VC Roundup #154"},
+      {"company": "Peachy", "date": "2026-04-04", "source": "Consumer VC Roundup #154"}
+    ]
+  }
+}
