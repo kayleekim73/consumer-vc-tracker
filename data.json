@@ -1,22 +1,102 @@
 {
-  "lastUpdated": "2026-04-05T13:34:55Z",
+  "lastUpdated": "2026-06-15T08:00:00.000000+00:00",
   "processedMessageIds": [
-    "19d5891ccf64c308",
-    "19d5a2522a69c798",
-    "19d5a2a12f067085",
-    "19d3490850538739",
-    "19cde30d986dc680",
-    "19c9a05d86d4fa49",
+    "19df80e80ef42b17",
+    "19d88c052c033410",
+    "19e02581775f932d",
+    "19ddee85262bee68",
+    "19d96343765054bd",
+    "19d67da332fdac4b",
+    "19dd57a7a06c5bdb",
+    "19dde0bdee44d555",
+    "19df9d20c2c0a17a",
+    "19c345577e59b4e1",
     "19c8038e8ef9332c",
-    "19c822b86f8a0adc",
+    "19dde49e7b844c3f",
+    "19db48b31a0cbbb4",
+    "19dcf07235623748",
+    "19d8be77491fe22c",
     "19c34596c0ad9874",
-    "19c345577e59b4e1"
+    "19dba3e611ab3ac0",
+    "19dd93e941292940",
+    "19d779643c5484c3",
+    "19d96de79cfa8ebc",
+    "19dd40a18f771b7d",
+    "19d5891ccf64c308",
+    "19de5133eb23419c",
+    "19dd4624b29d81be",
+    "19d5a2522a69c798",
+    "19df80d3d2be9cc3",
+    "19c822b86f8a0adc",
+    "19db72b5f6e863ef",
+    "19dd9c95547eb68e",
+    "19daff91b0fa79c6",
+    "19dc0efec86f41d7",
+    "19db540b49a84557",
+    "19d3490850538739",
+    "19c9a05d86d4fa49",
+    "19db9ff75279cea9",
+    "19d5a2a12f067085",
+    "19e028f480e27251",
+    "19de565a89c99aac",
+    "19cde30d986dc680",
+    "19e4535b935ca983",
+    "19e41f6181960792",
+    "19e2b926f675c395",
+    "19e2d5196cfddb4f",
+    "19e21413248be5bd",
+    "19e1dbd50c47f272",
+    "19e091fa377cac8f",
+    "19e4b9a303425b3f",
+    "19e4f9a6363559a5",
+    "19e51475f4556220",
+    "19e4ca7ad3efda63",
+    "19e4a3161f8b043e",
+    "19e4ba472938adbb",
+    "19e4b0e0abaa57e4",
+    "19e4acf380dd6171",
+    "19e40db80b5036b6",
+    "19e695941ed93382",
+    "19e68c994f89bfa8",
+    "19e65df8e36903a6",
+    "19e6e3dc41141659",
+    "19e69506e3115421",
+    "19e6ad595c97b663",
+    "19e65b2eb6271d7e",
+    "19e70677cc85ab1b",
+    "19e75661abb1d736",
+    "19e73eec33c9c802",
+    "19e73ba302ad83b1",
+    "19e8d709e0c0dc77",
+    "19e89de23c8d2b8c",
+    "19e99ae6b72016af",
+    "19e99895dccf2639",
+    "19e97b606efa09ca",
+    "19e93f7e4a05f33a",
+    "19e933e25c973ca9",
+    "19e9326c8819e0a7",
+    "19e92dda85c69350",
+    "19eadfc04755daf2",
+    "19eaceab3c62a7f4",
+    "19eb172c2c0ef279",
+    "19eb2fc16eeb3065",
+    "19eb6574574f0944",
+    "19eb6aeb962a1a61",
+    "19ebbca3ca80c07a",
+    "19ebc9e679adf6f8",
+    "19ebd2b05c553cf1",
+    "19ebda8d9416ce5d",
+    "19ec14b18c31da8c"
   ],
   "deals": [
     {
       "id": "deal-001",
       "company": "Create Wellness, Inc.",
-      "investors": ["Alliance Consumer Growth", "Impact Capital", "Unilever Ventures"],
+      "investors": [
+        "Alliance Consumer Growth",
+        "Impact Capital",
+        "Unilever Ventures"
+      ],
       "leadInvestor": "Alliance Consumer Growth",
       "amount": "$20M",
       "amountNum": 20,
@@ -30,7 +110,13 @@
     {
       "id": "deal-002",
       "company": "Manna Air Delivery",
-      "investors": ["ARK Invest", "Ireland Strategic Investment Fund", "Schooner Capital", "Coca-Cola HBC", "Molten Ventures"],
+      "investors": [
+        "ARK Invest",
+        "Ireland Strategic Investment Fund",
+        "Schooner Capital",
+        "Coca-Cola HBC",
+        "Molten Ventures"
+      ],
       "leadInvestor": "",
       "amount": "$50M",
       "amountNum": 50,
@@ -44,7 +130,9 @@
     {
       "id": "deal-003",
       "company": "Standing Ovation",
-      "investors": ["Ecotechnologies"],
+      "investors": [
+        "Ecotechnologies"
+      ],
       "leadInvestor": "Ecotechnologies",
       "amount": "$28.5M",
       "amountNum": 28.5,
@@ -58,7 +146,9 @@
     {
       "id": "deal-004",
       "company": "Peachy",
-      "investors": ["Stride Consumer Partners"],
+      "investors": [
+        "Stride Consumer Partners"
+      ],
       "leadInvestor": "Stride Consumer Partners",
       "amount": "Undisclosed",
       "amountNum": null,
@@ -86,7 +176,9 @@
     {
       "id": "deal-006",
       "company": "Mars Men",
-      "investors": ["L Catterton"],
+      "investors": [
+        "L Catterton"
+      ],
       "leadInvestor": "L Catterton",
       "amount": "$27.5M",
       "amountNum": 27.5,
@@ -114,7 +206,12 @@
     {
       "id": "deal-008",
       "company": "KilgourMD",
-      "investors": ["Prelude Growth Partners"],
+      "investors": [
+        "Prelude Growth Partners",
+        "Willow Growth",
+        "Joyance Partners",
+        "Able Partners"
+      ],
       "leadInvestor": "Prelude Growth Partners",
       "amount": "Undisclosed",
       "amountNum": null,
@@ -128,21 +225,26 @@
     {
       "id": "deal-009",
       "company": "Sigmas",
-      "investors": ["Mucker Capital", "HongShan"],
+      "investors": [
+        "Mucker Capital",
+        "HongShan Capital"
+      ],
       "leadInvestor": "",
       "amount": "$1M",
       "amountNum": 1,
       "series": "Seed",
       "valuation": "",
       "date": "2026-03-28",
-      "sector": "Consumer Tech",
-      "subsector": "Social & Community",
+      "sector": "CPG",
+      "subsector": "Apparel",
       "source": "Consumer VC Roundup #153"
     },
     {
       "id": "deal-010",
       "company": "Stellar Snacks",
-      "investors": ["Main Post Partners"],
+      "investors": [
+        "Main Post Partners"
+      ],
       "leadInvestor": "Main Post Partners",
       "amount": "Undisclosed",
       "amountNum": null,
@@ -156,13 +258,16 @@
     {
       "id": "deal-011",
       "company": "Nopalera",
-      "investors": ["Next Level Fund", "Morgan Stanley"],
-      "leadInvestor": "Next Level Fund",
+      "investors": [
+        "Morgan Stanley Next Level Fund",
+        "L'ATTITUDE Ventures"
+      ],
+      "leadInvestor": "Morgan Stanley Next Level Fund",
       "amount": "$4M",
       "amountNum": 4,
-      "series": "Series A",
+      "series": "Seed",
       "valuation": "",
-      "date": "2026-03-26",
+      "date": "2026-03-28",
       "sector": "CPG",
       "subsector": "Personal Care & Beauty",
       "source": "Consumer VC Roundup #153"
@@ -170,11 +275,15 @@
     {
       "id": "deal-012",
       "company": "Foreverland",
-      "investors": [],
+      "investors": [
+        "Kost Capital",
+        "Maia Ventures",
+        "Newtree Impact"
+      ],
       "leadInvestor": "",
-      "amount": "€6M",
-      "amountNum": 6.5,
-      "series": "Series A",
+      "amount": "\u20ac6M",
+      "amountNum": null,
+      "series": "Seed",
       "valuation": "",
       "date": "2026-03-28",
       "sector": "CPG",
@@ -184,8 +293,13 @@
     {
       "id": "deal-013",
       "company": "Good Girl Snacks",
-      "investors": ["Strand Equity", "Collaborative Fund"],
-      "leadInvestor": "Strand Equity",
+      "investors": [
+        "Strand Equity",
+        "RiverPark Ventures",
+        "Nucleus Ventures",
+        "Collaborative Fund"
+      ],
+      "leadInvestor": "",
       "amount": "$3M",
       "amountNum": 3,
       "series": "Seed",
@@ -202,7 +316,7 @@
       "leadInvestor": "",
       "amount": "$7M",
       "amountNum": 7,
-      "series": "Series A",
+      "series": "Seed",
       "valuation": "",
       "date": "2026-03-28",
       "sector": "CPG",
@@ -212,7 +326,12 @@
     {
       "id": "deal-015",
       "company": "Flourish Care",
-      "investors": ["Zeal Capital Partners"],
+      "investors": [
+        "Zeal Capital Partners",
+        "Create Health Ventures",
+        "Collide Capital",
+        "Rogue Women's Fund"
+      ],
       "leadInvestor": "Zeal Capital Partners",
       "amount": "$5.7M",
       "amountNum": 5.7,
@@ -226,8 +345,10 @@
     {
       "id": "deal-016",
       "company": "eMed",
-      "investors": ["AON"],
-      "leadInvestor": "AON",
+      "investors": [
+        "AON Consulting"
+      ],
+      "leadInvestor": "AON Consulting",
       "amount": "$200M",
       "amountNum": 200,
       "series": "Growth",
@@ -240,9 +361,13 @@
     {
       "id": "deal-017",
       "company": "Prickly Pear Health",
-      "investors": [],
+      "investors": [
+        "Emmeline Ventures",
+        "Bayless Ventures",
+        "AZ Venture Capital"
+      ],
       "leadInvestor": "",
-      "amount": "$600K",
+      "amount": "$600K+",
       "amountNum": 0.6,
       "series": "Pre-Seed",
       "valuation": "",
@@ -254,7 +379,13 @@
     {
       "id": "deal-018",
       "company": "Blossom Health",
-      "investors": ["Headline"],
+      "investors": [
+        "Headline",
+        "Village Global",
+        "TA Ventures",
+        "Operator Partners",
+        "Correlation Ventures"
+      ],
       "leadInvestor": "Headline",
       "amount": "$20M",
       "amountNum": 20,
@@ -268,7 +399,9 @@
     {
       "id": "deal-019",
       "company": "Mirage",
-      "investors": ["General Catalyst", "CVF"],
+      "investors": [
+        "General Catalyst"
+      ],
       "leadInvestor": "General Catalyst",
       "amount": "$75M",
       "amountNum": 75,
@@ -282,7 +415,12 @@
     {
       "id": "deal-020",
       "company": "Conntour",
-      "investors": ["General Catalyst", "Y Combinator"],
+      "investors": [
+        "General Catalyst",
+        "Y Combinator",
+        "SV Angel",
+        "Liquid 2 Ventures"
+      ],
       "leadInvestor": "General Catalyst",
       "amount": "$7M",
       "amountNum": 7,
@@ -290,13 +428,16 @@
       "valuation": "",
       "date": "2026-03-28",
       "sector": "Consumer Tech",
-      "subsector": "Social & Community",
+      "subsector": "AI-Native Consumer",
       "source": "Consumer VC Roundup #153"
     },
     {
       "id": "deal-021",
       "company": "Moda",
-      "investors": ["General Catalyst"],
+      "investors": [
+        "General Catalyst",
+        "Pear VC"
+      ],
       "leadInvestor": "General Catalyst",
       "amount": "$7.5M",
       "amountNum": 7.5,
@@ -304,13 +445,17 @@
       "valuation": "",
       "date": "2026-03-28",
       "sector": "Consumer Tech",
-      "subsector": "Marketplace",
+      "subsector": "AI-Native Consumer",
       "source": "Consumer VC Roundup #153"
     },
     {
       "id": "deal-022",
       "company": "Payy Network",
-      "investors": ["FirstMark Capital"],
+      "investors": [
+        "FirstMark Capital",
+        "Robot Ventures",
+        "DBA Crypto"
+      ],
       "leadInvestor": "FirstMark Capital",
       "amount": "$6M",
       "amountNum": 6,
@@ -324,7 +469,13 @@
     {
       "id": "deal-023",
       "company": "Tazapay",
-      "investors": ["Circle Ventures"],
+      "investors": [
+        "Circle Ventures",
+        "CMT Digital",
+        "Coinbase Ventures",
+        "Ripple",
+        "Norinchukin Capital"
+      ],
       "leadInvestor": "Circle Ventures",
       "amount": "$36M",
       "amountNum": 36,
@@ -338,7 +489,11 @@
     {
       "id": "deal-024",
       "company": "Glimpse",
-      "investors": ["Andreessen Horowitz"],
+      "investors": [
+        "Andreessen Horowitz",
+        "8VC",
+        "Y Combinator"
+      ],
       "leadInvestor": "Andreessen Horowitz",
       "amount": "$35M",
       "amountNum": 35,
@@ -346,13 +501,51 @@
       "valuation": "",
       "date": "2026-03-28",
       "sector": "Consumer Tech",
-      "subsector": "Social & Community",
+      "subsector": "Marketplace",
       "source": "Consumer VC Roundup #153"
     },
     {
       "id": "deal-025",
+      "company": "Grub Lab",
+      "investors": [
+        "Quantaco"
+      ],
+      "leadInvestor": "Quantaco",
+      "amount": "$6M",
+      "amountNum": 6,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-03-28",
+      "sector": "Consumer Tech",
+      "subsector": "Marketplace",
+      "source": "Consumer VC Roundup #153"
+    },
+    {
+      "id": "deal-026",
+      "company": "DOSS",
+      "investors": [
+        "Madrona",
+        "Premji Invest",
+        "Greyhound",
+        "Commerce Ventures",
+        "Intuit Ventures"
+      ],
+      "leadInvestor": "Madrona",
+      "amount": "$55M",
+      "amountNum": 55,
+      "series": "Series B",
+      "valuation": "",
+      "date": "2026-03-28",
+      "sector": "Consumer Tech",
+      "subsector": "AI-Native Consumer",
+      "source": "Consumer VC Roundup #153"
+    },
+    {
+      "id": "deal-027",
       "company": "Iota",
-      "investors": ["Era VC"],
+      "investors": [
+        "Era VC"
+      ],
       "leadInvestor": "Era VC",
       "amount": "Undisclosed",
       "amountNum": null,
@@ -364,10 +557,177 @@
       "source": "CPG Wire (Mar 26)"
     },
     {
-      "id": "deal-026",
+      "id": "deal-028",
+      "company": "Osmo",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$70M",
+      "amountNum": 70,
+      "series": "Series B",
+      "valuation": "",
+      "date": "2026-02-21",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "Consumer VC Roundup #152"
+    },
+    {
+      "id": "deal-029",
+      "company": "Pat McGrath Labs",
+      "investors": [
+        "GDA Luma Capital"
+      ],
+      "leadInvestor": "GDA Luma Capital",
+      "amount": "$30M",
+      "amountNum": 30,
+      "series": "Growth",
+      "valuation": "",
+      "date": "2026-02-21",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "Consumer VC Roundup #152"
+    },
+    {
+      "id": "deal-030",
+      "company": "Willie's Remedy+",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$15M",
+      "amountNum": 15,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-02-21",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Consumer VC Roundup #152"
+    },
+    {
+      "id": "deal-031",
+      "company": "Green Rebel Foods",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$12.5M",
+      "amountNum": 12.5,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-02-21",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Consumer VC Roundup #152"
+    },
+    {
+      "id": "deal-032",
+      "company": "Throne Sport Coffee",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$10M",
+      "amountNum": 10,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-02-21",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Consumer VC Roundup #152"
+    },
+    {
+      "id": "deal-033",
+      "company": "Just Ice Tea",
+      "investors": [
+        "Robert Trone"
+      ],
+      "leadInvestor": "",
+      "amount": "$9M",
+      "amountNum": 9,
+      "series": "Series B",
+      "valuation": "",
+      "date": "2026-02-21",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Consumer VC Roundup #152"
+    },
+    {
+      "id": "deal-034",
+      "company": "Epet\u014dme",
+      "investors": [
+        "Active Partners",
+        "Redrice Ventures"
+      ],
+      "leadInvestor": "Active Partners",
+      "amount": "Multi-million \u00a3",
+      "amountNum": null,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-02-21",
+      "sector": "CPG",
+      "subsector": "Supplement & Wellness",
+      "source": "Consumer VC Roundup #152"
+    },
+    {
+      "id": "deal-035",
+      "company": "Simile",
+      "investors": [
+        "Index Ventures"
+      ],
+      "leadInvestor": "Index Ventures",
+      "amount": "$100M",
+      "amountNum": 100,
+      "series": "Growth",
+      "valuation": "",
+      "date": "2026-02-21",
+      "sector": "Consumer Tech",
+      "subsector": "AI-Native Consumer",
+      "source": "Consumer VC Roundup #152"
+    },
+    {
+      "id": "deal-036",
+      "company": "Credit Key",
+      "investors": [
+        "Barings"
+      ],
+      "leadInvestor": "Barings",
+      "amount": "$90M",
+      "amountNum": 90,
+      "series": "Growth",
+      "valuation": "",
+      "date": "2026-02-21",
+      "sector": "Consumer Tech",
+      "subsector": "Fintech & Payments",
+      "source": "Consumer VC Roundup #152"
+    },
+    {
+      "id": "deal-037",
+      "company": "GrubMarket",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$50M",
+      "amountNum": 50,
+      "series": "Series H",
+      "valuation": "$4.5B",
+      "date": "2026-02-21",
+      "sector": "Consumer Tech",
+      "subsector": "Marketplace",
+      "source": "Consumer VC Roundup #152"
+    },
+    {
+      "id": "deal-038",
+      "company": "Made With Intent",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "\u00a32.4M",
+      "amountNum": null,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-02-21",
+      "sector": "Consumer Tech",
+      "subsector": "Marketplace",
+      "source": "Consumer VC Roundup #152"
+    },
+    {
+      "id": "deal-039",
       "company": "Chilly Ones",
-      "investors": ["NÜTRL Founders"],
-      "leadInvestor": "NÜTRL Founders",
+      "investors": [
+        "N\u00dcTRL Founders"
+      ],
+      "leadInvestor": "N\u00dcTRL Founders",
       "amount": "Undisclosed",
       "amountNum": null,
       "series": "Seed",
@@ -378,9 +738,11 @@
       "source": "CPG Wire (Mar 14)"
     },
     {
-      "id": "deal-027",
+      "id": "deal-040",
       "company": "Hurray GIRL BEER",
-      "investors": ["Lakehouse Ventures"],
+      "investors": [
+        "Lakehouse Ventures"
+      ],
       "leadInvestor": "Lakehouse Ventures",
       "amount": "$5M",
       "amountNum": 5,
@@ -392,9 +754,12 @@
       "source": "CPG Wire (Mar 14)"
     },
     {
-      "id": "deal-028",
+      "id": "deal-041",
       "company": "Living Things",
-      "investors": ["The Source Ventures", "Spadel"],
+      "investors": [
+        "The Source Ventures",
+        "Spadel"
+      ],
       "leadInvestor": "The Source Ventures",
       "amount": "Undisclosed",
       "amountNum": null,
@@ -406,9 +771,12 @@
       "source": "CPG Wire (Mar 14)"
     },
     {
-      "id": "deal-029",
+      "id": "deal-042",
       "company": "Perfumer H",
-      "investors": ["Elixir 1", "ILYOS Capital"],
+      "investors": [
+        "Elixir 1",
+        "ILYOS Capital"
+      ],
       "leadInvestor": "Elixir 1",
       "amount": "$4.5M",
       "amountNum": 4.5,
@@ -420,9 +788,11 @@
       "source": "CPG Wire (Mar 12)"
     },
     {
-      "id": "deal-030",
+      "id": "deal-043",
       "company": "Harken Sweets",
-      "investors": ["Selva Ventures"],
+      "investors": [
+        "Selva Ventures"
+      ],
       "leadInvestor": "Selva Ventures",
       "amount": "Undisclosed",
       "amountNum": null,
@@ -434,9 +804,12 @@
       "source": "CPG Wire (Mar 5)"
     },
     {
-      "id": "deal-031",
+      "id": "deal-044",
       "company": "RAS Luxury Skincare",
-      "investors": ["Dabur", "Unilever Ventures"],
+      "investors": [
+        "Dabur",
+        "Unilever Ventures"
+      ],
       "leadInvestor": "Dabur",
       "amount": "$7.5M",
       "amountNum": 7.5,
@@ -448,9 +821,11 @@
       "source": "CPG Wire (Mar 5)"
     },
     {
-      "id": "deal-032",
+      "id": "deal-045",
       "company": "Freestyle",
-      "investors": ["Silas Capital"],
+      "investors": [
+        "Silas Capital"
+      ],
       "leadInvestor": "Silas Capital",
       "amount": "$10M",
       "amountNum": 10,
@@ -462,7 +837,7 @@
       "source": "CPG Wire (Mar 5)"
     },
     {
-      "id": "deal-033",
+      "id": "deal-046",
       "company": "Pricklee Natural Hydration",
       "investors": [],
       "leadInvestor": "",
@@ -474,307 +849,3591 @@
       "sector": "CPG",
       "subsector": "Food & Bev",
       "source": "CPG Wire (Mar 5)"
+    },
+    {
+      "id": "deal-047",
+      "company": "Cadootz",
+      "investors": [
+        "Selva Ventures"
+      ],
+      "leadInvestor": "Selva Ventures",
+      "amount": "$3M",
+      "amountNum": 3,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-04-13",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Consumer VC Roundup #155"
+    },
+    {
+      "id": "deal-048",
+      "company": "Fermtech (Koji Cocoa)",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "\u00a32.5M",
+      "amountNum": 3.1,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-04-13",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Consumer VC Roundup #155"
+    },
+    {
+      "id": "deal-049",
+      "company": "Mezza",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-04-13",
+      "sector": "Consumer Tech",
+      "subsector": "Marketplace",
+      "source": "Consumer VC Roundup #155"
+    },
+    {
+      "id": "deal-050",
+      "company": "Cadootz",
+      "investors": [
+        "Selva Ventures"
+      ],
+      "leadInvestor": "Selva Ventures",
+      "amount": "$3M",
+      "amountNum": 3,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-04-13",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Consumer VC - Apr 13"
+    },
+    {
+      "id": "deal-051",
+      "company": "Mezza",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-04-13",
+      "sector": "Consumer Tech",
+      "subsector": "Marketplace",
+      "source": "Consumer VC - Apr 13"
+    },
+    {
+      "id": "deal-052",
+      "company": "Lucille",
+      "investors": [
+        "IRIS Ventures"
+      ],
+      "leadInvestor": "IRIS Ventures",
+      "amount": "7-figure",
+      "amountNum": null,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-04-16",
+      "sector": "CPG",
+      "subsector": "Supplement & Wellness",
+      "source": "CPG Wire - Apr 16"
+    },
+    {
+      "id": "deal-053",
+      "company": "Clean Food Group",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "\u00a34.5M",
+      "amountNum": 5.7,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-04-16",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "CPG Wire - Apr 16"
+    },
+    {
+      "id": "deal-054",
+      "company": "Rip Van",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "",
+      "valuation": "",
+      "date": "2026-04-16",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "CPG Wire - Apr 16"
+    },
+    {
+      "id": "deal-055",
+      "company": "Ripi",
+      "investors": [
+        "Cutting Horse",
+        "Great Circle Ventures",
+        "Paperboy Ventures",
+        "SuperAngel.Fund"
+      ],
+      "leadInvestor": "Cutting Horse",
+      "amount": "$2.4M",
+      "amountNum": 2.4,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-04-22",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Consumer VC Roundup #155"
+    },
+    {
+      "id": "deal-056",
+      "company": "Juice Runners",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$2M",
+      "amountNum": 2,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-04-21",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Apr 21)"
+    },
+    {
+      "id": "deal-057",
+      "company": "Nomio",
+      "investors": [
+        "Collaborative Fund"
+      ],
+      "leadInvestor": "Collaborative Fund",
+      "amount": "$4M",
+      "amountNum": 4,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-04-21",
+      "sector": "CPG",
+      "subsector": "Supplement & Wellness",
+      "source": "This Week in CPG (Apr 21)"
+    },
+    {
+      "id": "deal-058",
+      "company": "Hanni",
+      "investors": [
+        "L'Oreal BOLD",
+        "Melitas Ventures",
+        "Cult Capital",
+        "Rodeo Growth Partners"
+      ],
+      "leadInvestor": "L'Oreal BOLD",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Minority Investment",
+      "valuation": "",
+      "date": "2026-04-21",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "This Week in CPG (Apr 21)"
+    },
+    {
+      "id": "deal-059",
+      "company": "Frozen One",
+      "investors": [
+        "Supernatural Ventures",
+        "The Angel Group"
+      ],
+      "leadInvestor": "Supernatural Ventures",
+      "amount": "$2M",
+      "amountNum": 2,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-04-23",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG, April 23 2026"
+    },
+    {
+      "id": "deal-060",
+      "company": "Wavers",
+      "investors": [
+        "Capital Q Ventures"
+      ],
+      "leadInvestor": "",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Minority Investment",
+      "valuation": "",
+      "date": "2026-04-23",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG, April 23 2026"
+    },
+    {
+      "id": "deal-061",
+      "company": "Lumen",
+      "investors": [
+        "Taste Tomorrow Ventures"
+      ],
+      "leadInvestor": "Taste Tomorrow Ventures",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-04-23",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG, April 23 2026"
+    },
+    {
+      "id": "deal-062",
+      "company": "Westman Atelier",
+      "investors": [
+        "Prelude Growth Partners",
+        "Imaginary Ventures"
+      ],
+      "leadInvestor": "",
+      "amount": "$15M",
+      "amountNum": 15,
+      "series": "Series B",
+      "valuation": "",
+      "date": "2026-04-23",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "This Week in CPG, April 23 2026"
+    },
+    {
+      "id": "deal-063",
+      "company": "Laird Superfood",
+      "investors": [
+        "Nexus Capital"
+      ],
+      "leadInvestor": "Nexus Capital",
+      "amount": "$60M",
+      "amountNum": 60,
+      "series": "Minority Investment",
+      "valuation": "",
+      "date": "2026-04-21",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG, April 23 2026"
+    },
+    {
+      "id": "deal-064",
+      "company": "Leisure Hydration",
+      "investors": [
+        "Midnight Venture Partners"
+      ],
+      "leadInvestor": "Midnight Venture Partners",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-04-24",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Fitt Insider Issue No. 387"
+    },
+    {
+      "id": "deal-065",
+      "company": "Z\u00f3calo Health",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$15M",
+      "amountNum": 15,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-04-24",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 387"
+    },
+    {
+      "id": "deal-066",
+      "company": "Calibre",
+      "investors": [
+        "Amino Collective"
+      ],
+      "leadInvestor": "Amino Collective",
+      "amount": "$3.3M",
+      "amountNum": 3.3,
+      "series": "Pre-Seed",
+      "valuation": "",
+      "date": "2026-04-24",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 387"
+    },
+    {
+      "id": "deal-067",
+      "company": "BASE4 Biosciences",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$1M",
+      "amountNum": 1,
+      "series": "Pre-Seed",
+      "valuation": "",
+      "date": "2026-04-24",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 387"
+    },
+    {
+      "id": "deal-068",
+      "company": "Qalzy",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Pre-Seed",
+      "valuation": "",
+      "date": "2026-04-24",
+      "sector": "Consumer Tech",
+      "subsector": "Hardware",
+      "source": "Fitt Insider Issue No. 387"
+    },
+    {
+      "id": "deal-069",
+      "company": "Neutonic",
+      "investors": [
+        "Alan Barratt",
+        "Ollie Marchon",
+        "Nomit Shah",
+        "Codie Sanchez",
+        "Zach Ranen"
+      ],
+      "leadInvestor": "",
+      "amount": "$6M",
+      "amountNum": 6,
+      "series": "Seed",
+      "valuation": "$60M",
+      "date": "2026-04-28",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Apr 28, 2026)"
+    },
+    {
+      "id": "deal-070",
+      "company": "Smearcase",
+      "investors": [
+        "Listen Ventures"
+      ],
+      "leadInvestor": "Listen Ventures",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-04-28",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Apr 28, 2026)"
+    },
+    {
+      "id": "deal-071",
+      "company": "Zesty Snackz",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$1.1M",
+      "amountNum": 1.1,
+      "series": "Pre-Seed",
+      "valuation": "",
+      "date": "2026-04-28",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Apr 28, 2026)"
+    },
+    {
+      "id": "deal-072",
+      "company": "Wet Hydration",
+      "investors": [
+        "Paul George"
+      ],
+      "leadInvestor": "",
+      "amount": "$10M",
+      "amountNum": 10,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-04-28",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Apr 28, 2026)"
+    },
+    {
+      "id": "deal-073",
+      "company": "818 Tequila",
+      "investors": [
+        "Sazerac"
+      ],
+      "leadInvestor": "Sazerac",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Minority Investment",
+      "valuation": "",
+      "date": "2026-04-30",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Apr 30, 2026)"
+    },
+    {
+      "id": "deal-074",
+      "company": "TIES",
+      "investors": [
+        "HumanCo"
+      ],
+      "leadInvestor": "HumanCo",
+      "amount": "$1.5M",
+      "amountNum": 1.5,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-04-30",
+      "sector": "CPG",
+      "subsector": "Supplement & Wellness",
+      "source": "This Week in CPG (Apr 30, 2026)"
+    },
+    {
+      "id": "deal-075",
+      "company": "111Skin",
+      "investors": [
+        "The Est\u00e9e Lauder Companies",
+        "SKKY Partners"
+      ],
+      "leadInvestor": "The Est\u00e9e Lauder Companies",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Minority Investment",
+      "valuation": "",
+      "date": "2026-04-30",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "This Week in CPG (Apr 30, 2026)"
+    },
+    {
+      "id": "deal-076",
+      "company": "Chord",
+      "investors": [
+        "Equal Ventures"
+      ],
+      "leadInvestor": "Equal Ventures",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-04-29",
+      "sector": "Consumer Tech",
+      "subsector": "AI-Native Consumer",
+      "source": "Equal Ventures Newsletter (Apr 29, 2026)"
+    },
+    {
+      "id": "deal-077",
+      "company": "Betterness",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$2.5M",
+      "amountNum": 2.5,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-04-28",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 388"
+    },
+    {
+      "id": "deal-078",
+      "company": "Future Fertility",
+      "investors": [
+        "M Ventures",
+        "Whitecap Venture Partners"
+      ],
+      "leadInvestor": "M Ventures",
+      "amount": "$4.1M",
+      "amountNum": 4.1,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-04-28",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 388"
+    },
+    {
+      "id": "deal-079",
+      "company": "Series",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$5.1M",
+      "amountNum": 5.1,
+      "series": "Pre-Seed",
+      "valuation": "",
+      "date": "2026-04-28",
+      "sector": "Consumer Tech",
+      "subsector": "Social & Community",
+      "source": "Fitt Insider Issue No. 388"
+    },
+    {
+      "id": "deal-080",
+      "company": "MINISH Technology",
+      "investors": [
+        "VIG Partners"
+      ],
+      "leadInvestor": "VIG Partners",
+      "amount": "$22M",
+      "amountNum": 22,
+      "series": "Series B",
+      "valuation": "$110M",
+      "date": "2026-04-28",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 388"
+    },
+    {
+      "id": "deal-069",
+      "company": "Neutonic",
+      "investors": [
+        "Alan Barratt",
+        "Ollie Marchon",
+        "Nomit Shah",
+        "Codie Sanchez",
+        "Zach Ranen"
+      ],
+      "leadInvestor": "",
+      "amount": "$6M",
+      "amountNum": 6,
+      "series": "Seed",
+      "valuation": "$60M",
+      "date": "2026-04-28",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Apr 28, 2026)"
+    },
+    {
+      "id": "deal-070",
+      "company": "Smearcase",
+      "investors": [
+        "Listen Ventures"
+      ],
+      "leadInvestor": "Listen Ventures",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-04-28",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Apr 28, 2026)"
+    },
+    {
+      "id": "deal-071",
+      "company": "Zesty Snackz",
+      "investors": [
+        "Paul Cuffaro",
+        "Brenten Szekely"
+      ],
+      "leadInvestor": "",
+      "amount": "$1.1M",
+      "amountNum": 1.1,
+      "series": "Pre-Seed",
+      "valuation": "",
+      "date": "2026-04-28",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Apr 28, 2026)"
+    },
+    {
+      "id": "deal-072",
+      "company": "Wet Hydration",
+      "investors": [
+        "Paul George"
+      ],
+      "leadInvestor": "",
+      "amount": "$10M",
+      "amountNum": 10,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-04-28",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Apr 28, 2026)"
+    },
+    {
+      "id": "deal-073",
+      "company": "TIES",
+      "investors": [
+        "HumanCo"
+      ],
+      "leadInvestor": "HumanCo",
+      "amount": "$1.5M",
+      "amountNum": 1.5,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-04-30",
+      "sector": "CPG",
+      "subsector": "Supplement & Wellness",
+      "source": "This Week in CPG (Apr 30, 2026)"
+    },
+    {
+      "id": "deal-074",
+      "company": "818 Tequila",
+      "investors": [
+        "Sazerac"
+      ],
+      "leadInvestor": "Sazerac",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Minority Investment",
+      "valuation": "",
+      "date": "2026-04-30",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Apr 30, 2026)"
+    },
+    {
+      "id": "deal-075",
+      "company": "111Skin",
+      "investors": [
+        "The Est\u00e9e Lauder Companies",
+        "SKKY Partners"
+      ],
+      "leadInvestor": "The Est\u00e9e Lauder Companies",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Minority Investment",
+      "valuation": "",
+      "date": "2026-04-30",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "This Week in CPG (Apr 30, 2026)"
+    },
+    {
+      "id": "deal-076",
+      "company": "Chord",
+      "investors": [
+        "Equal Ventures"
+      ],
+      "leadInvestor": "Equal Ventures",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-04-29",
+      "sector": "Consumer Tech",
+      "subsector": "AI-Native Consumer",
+      "source": "Equal Ventures Newsletter (Apr 29, 2026)"
+    },
+    {
+      "id": "deal-077",
+      "company": "Betterness",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$2.5M",
+      "amountNum": 2.5,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-04-28",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue #388 (Apr 28, 2026)"
+    },
+    {
+      "id": "deal-078",
+      "company": "Future Fertility",
+      "investors": [
+        "M Ventures",
+        "Whitecap Venture Partners"
+      ],
+      "leadInvestor": "M Ventures",
+      "amount": "$4.1M",
+      "amountNum": 4.1,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-04-28",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue #388 (Apr 28, 2026)"
+    },
+    {
+      "id": "deal-079",
+      "company": "Series",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$5.1M",
+      "amountNum": 5.1,
+      "series": "Pre-Seed",
+      "valuation": "",
+      "date": "2026-04-28",
+      "sector": "Consumer Tech",
+      "subsector": "Social & Community",
+      "source": "Fitt Insider Issue #388 (Apr 28, 2026)"
+    },
+    {
+      "id": "deal-080",
+      "company": "SquareMind",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$18M",
+      "amountNum": 18,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-04-28",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue #388 (Apr 28, 2026)"
+    },
+    {
+      "id": "deal-081",
+      "company": "MOSH",
+      "investors": [
+        "Main Street Advisors",
+        "Morrison Seger",
+        "Great Circle Ventures",
+        "Tonic Ventures",
+        "PCG"
+      ],
+      "leadInvestor": "Main Street Advisors",
+      "amount": "$13M",
+      "amountNum": 13,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-05-07",
+      "sector": "CPG",
+      "subsector": "Supplement & Wellness",
+      "source": "This Week in CPG (May 7, 2026)"
+    },
+    {
+      "id": "deal-082",
+      "company": "Jesse & Ben's",
+      "investors": [
+        "Greycroft",
+        "Rich Products Ventures"
+      ],
+      "leadInvestor": "Greycroft",
+      "amount": "$10M",
+      "amountNum": 10,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-05-07",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (May 7, 2026)"
+    },
+    {
+      "id": "deal-083",
+      "company": "Waterdrop",
+      "investors": [
+        "Atlantic Grupa",
+        "Aspeya (Philip Morris International)"
+      ],
+      "leadInvestor": "",
+      "amount": "\u20ac100M (~$110M)",
+      "amountNum": 110,
+      "series": "Growth",
+      "valuation": "",
+      "date": "2026-05-07",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (May 7, 2026)"
+    },
+    {
+      "id": "deal-084",
+      "company": "Forti",
+      "investors": [
+        "Ollie Marchon / MARCHON"
+      ],
+      "leadInvestor": "Ollie Marchon / MARCHON",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Pre-Seed",
+      "valuation": "",
+      "date": "2026-05-07",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (May 7, 2026)"
+    },
+    {
+      "id": "deal-085",
+      "company": "Quinn",
+      "investors": [
+        "SG Credit"
+      ],
+      "leadInvestor": "SG Credit",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Debt",
+      "valuation": "",
+      "date": "2026-05-05",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (May 5, 2026)"
+    },
+    {
+      "id": "deal-086",
+      "company": "OLIPOP",
+      "investors": [
+        "Morgan Stanley (banker)"
+      ],
+      "leadInvestor": "",
+      "amount": "$200M (exploring)",
+      "amountNum": 200,
+      "series": "Growth",
+      "valuation": "",
+      "date": "2026-05-05",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (May 5, 2026) via Axios"
+    },
+    {
+      "id": "deal-087",
+      "company": "Crazy Mountain",
+      "investors": [
+        "CAVU Consumer Partners",
+        "Coatue",
+        "Discovery Land Company"
+      ],
+      "leadInvestor": "CAVU Consumer Partners",
+      "amount": "$15M",
+      "amountNum": 15,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-04-29",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (May 5, 2026)"
+    },
+    {
+      "id": "deal-088",
+      "company": "Gymkhana Fine Foods",
+      "investors": [
+        "CAVU Consumer Partners"
+      ],
+      "leadInvestor": "CAVU Consumer Partners",
+      "amount": "$8.5M",
+      "amountNum": 8.5,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-04-29",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (May 5, 2026)"
+    },
+    {
+      "id": "deal-089",
+      "company": "Alchemy Springs",
+      "investors": [
+        "Nucleus Ventures"
+      ],
+      "leadInvestor": "Nucleus Ventures",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Undisclosed",
+      "valuation": "",
+      "date": "2026-05-05",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 390 (May 5, 2026)"
+    },
+    {
+      "id": "deal-090",
+      "company": "NOHO",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$16M",
+      "amountNum": 16,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-05-05",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 390 (May 5, 2026)"
+    },
+    {
+      "id": "deal-091",
+      "company": "Axoft",
+      "investors": [
+        "C.P. Group Innovation"
+      ],
+      "leadInvestor": "C.P. Group Innovation",
+      "amount": "$55M",
+      "amountNum": 55,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-05-05",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 390 (May 5, 2026)"
+    },
+    {
+      "id": "deal-092",
+      "company": "Enzo Health",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$20M",
+      "amountNum": 20,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-05-05",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 390 (May 5, 2026)"
+    },
+    {
+      "id": "deal-093",
+      "company": "Castore",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "\u00a390M (~$122M)",
+      "amountNum": 122,
+      "series": "Growth",
+      "valuation": "",
+      "date": "2026-05-05",
+      "sector": "CPG",
+      "subsector": "Apparel",
+      "source": "Fitt Insider Issue No. 390 (May 5, 2026)"
+    },
+    {
+      "id": "deal-094",
+      "company": "Healthfab",
+      "investors": [
+        "Atomic Capital"
+      ],
+      "leadInvestor": "Atomic Capital",
+      "amount": "$2.4M",
+      "amountNum": 2.4,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-05-05",
+      "sector": "CPG",
+      "subsector": "Apparel",
+      "source": "Fitt Insider Issue No. 390 (May 5, 2026)"
+    },
+    {
+      "id": "deal-095",
+      "company": "CHOSEN",
+      "investors": [
+        "Fireside Ventures"
+      ],
+      "leadInvestor": "Fireside Ventures",
+      "amount": "$5M",
+      "amountNum": 5,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-05-05",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "Fitt Insider Issue No. 390 (May 5, 2026)"
+    },
+    {
+      "id": "deal-096",
+      "company": "Proper Wild",
+      "investors": [
+        "Altria",
+        "Vice Ventures"
+      ],
+      "leadInvestor": "",
+      "amount": "$11M",
+      "amountNum": 11,
+      "series": "Growth",
+      "valuation": "$161M",
+      "date": "2026-05-20",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (May 20, 2026)"
+    },
+    {
+      "id": "deal-097",
+      "company": "Brami",
+      "investors": [
+        "VMG Partners"
+      ],
+      "leadInvestor": "VMG Partners",
+      "amount": "$33M",
+      "amountNum": 33,
+      "series": "Series B",
+      "valuation": "",
+      "date": "2026-05-18",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (May 20, 2026)"
+    },
+    {
+      "id": "deal-098",
+      "company": "Stone & Skillet",
+      "investors": [
+        "BFG Partners",
+        "Beliade Consumer Partners",
+        "Supernatural Ventures"
+      ],
+      "leadInvestor": "BFG Partners",
+      "amount": "$5M",
+      "amountNum": 5,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-05-20",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (May 20, 2026)"
+    },
+    {
+      "id": "deal-099",
+      "company": "Roxberry",
+      "investors": [
+        "Habitat Partners"
+      ],
+      "leadInvestor": "",
+      "amount": "$4M",
+      "amountNum": 4,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-05-15",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (May 15, 2026)"
+    },
+    {
+      "id": "deal-100",
+      "company": "Oishii",
+      "investors": [
+        "SPARX Asset Management",
+        "Nomura Real Estate Development",
+        "MISUMI Group"
+      ],
+      "leadInvestor": "",
+      "amount": "$150M",
+      "amountNum": 150,
+      "series": "Series C",
+      "valuation": "",
+      "date": "2026-05-15",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (May 15, 2026)"
+    },
+    {
+      "id": "deal-101",
+      "company": "Ruka",
+      "investors": [
+        "Henkel Ventures",
+        "Freedom Trail Capital"
+      ],
+      "leadInvestor": "Henkel Ventures",
+      "amount": "$4.5M",
+      "amountNum": 4.5,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-05-15",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "This Week in CPG (May 15, 2026)"
+    },
+    {
+      "id": "deal-102",
+      "company": "Rogue",
+      "investors": [
+        "Science Inc",
+        "Simple Food Ventures",
+        "Uncommon VC"
+      ],
+      "leadInvestor": "Science Inc",
+      "amount": "$2.5M",
+      "amountNum": 2.5,
+      "series": "Pre-Seed",
+      "valuation": "",
+      "date": "2026-05-13",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (May 13, 2026)"
+    },
+    {
+      "id": "deal-103",
+      "company": "4AM",
+      "investors": [
+        "CAVU Consumer Partners",
+        "B4 Capital",
+        "Type Capital"
+      ],
+      "leadInvestor": "CAVU Consumer Partners",
+      "amount": "$4M",
+      "amountNum": 4,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-05-11",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "This Week in CPG (May 13, 2026)"
+    },
+    {
+      "id": "deal-104",
+      "company": "Crown Affair",
+      "investors": [
+        "Stride Consumer Partners"
+      ],
+      "leadInvestor": "Stride Consumer Partners",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Series C",
+      "valuation": "",
+      "date": "2026-05-13",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "This Week in CPG (May 13, 2026)"
+    },
+    {
+      "id": "deal-105",
+      "company": "Nourish",
+      "investors": [
+        "Menlo Ventures"
+      ],
+      "leadInvestor": "Menlo Ventures",
+      "amount": "$100M",
+      "amountNum": 100,
+      "series": "Series C",
+      "valuation": "",
+      "date": "2026-05-19",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 394 (May 19, 2026)"
+    },
+    {
+      "id": "deal-106",
+      "company": "Kin Health",
+      "investors": [
+        "Maveron"
+      ],
+      "leadInvestor": "Maveron",
+      "amount": "$9M",
+      "amountNum": 9,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-05-19",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 394 (May 19, 2026)"
+    },
+    {
+      "id": "deal-107",
+      "company": "Vital Signals",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$15M",
+      "amountNum": 15,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-05-19",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 394 (May 19, 2026)"
+    },
+    {
+      "id": "deal-108",
+      "company": "Thea",
+      "investors": [
+        "General Catalyst"
+      ],
+      "leadInvestor": "General Catalyst",
+      "amount": "$4M",
+      "amountNum": 4,
+      "series": "Pre-Seed",
+      "valuation": "",
+      "date": "2026-05-08",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 391 (May 8, 2026)"
+    },
+    {
+      "id": "deal-109",
+      "company": "Meatly",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "\u00a310.4M (~$14M)",
+      "amountNum": 14,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-05-12",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Fitt Insider Issue No. 392 (May 12, 2026)"
+    },
+    {
+      "id": "deal-110",
+      "company": "SIPMARGS",
+      "investors": [
+        "Sazerac"
+      ],
+      "leadInvestor": "Sazerac",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Minority Investment",
+      "valuation": "",
+      "date": "2026-05-15",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (May 15, 2026)"
+    },
+    {
+      "id": "deal-111",
+      "company": "Regulate",
+      "investors": [
+        "4impact capital"
+      ],
+      "leadInvestor": "4impact capital",
+      "amount": "\u20ac1.4M (~$1.6M)",
+      "amountNum": 1.6,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-05-15",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 393 (May 15, 2026)"
+    },
+    {
+      "id": "deal-112",
+      "company": "Suja Life",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$186.7M",
+      "amountNum": 186.7,
+      "series": "Growth",
+      "valuation": "",
+      "date": "2026-05-08",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Fitt Insider Issue No. 391 (May 8, 2026)"
+    },
+    {
+      "id": "deal-113",
+      "company": "Konvy",
+      "investors": [
+        "Cool Japan Fund"
+      ],
+      "leadInvestor": "Cool Japan Fund",
+      "amount": "$22M",
+      "amountNum": 22,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-05-12",
+      "sector": "Consumer Tech",
+      "subsector": "Marketplace",
+      "source": "Fitt Insider Issue No. 392 (May 12, 2026)"
+    },
+    {
+      "id": "deal-114",
+      "company": "Banagua",
+      "investors": [
+        "Hingham Growth Partners"
+      ],
+      "leadInvestor": "Hingham Growth Partners",
+      "amount": "$5.5M",
+      "amountNum": 5.5,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-05-20",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG - May 22, 2026"
+    },
+    {
+      "id": "deal-115",
+      "company": "Good Molecules",
+      "investors": [
+        "Aria Growth Partners"
+      ],
+      "leadInvestor": "Aria Growth Partners",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Minority Investment",
+      "valuation": "",
+      "date": "2026-05-19",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "This Week in CPG - May 22, 2026"
+    },
+    {
+      "id": "deal-116",
+      "company": "Khloud",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$15M",
+      "amountNum": 15,
+      "series": "Growth",
+      "valuation": "",
+      "date": "2026-05-27",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (May 27, 2026)"
+    },
+    {
+      "id": "deal-117",
+      "company": "Sleep or Die",
+      "investors": [
+        "True Beauty Ventures"
+      ],
+      "leadInvestor": "True Beauty Ventures",
+      "amount": "$1M",
+      "amountNum": 1,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-05-27",
+      "sector": "CPG",
+      "subsector": "Supplement & Wellness",
+      "source": "This Week in CPG (May 27, 2026)"
+    },
+    {
+      "id": "deal-118",
+      "company": "Campo Grande",
+      "investors": [
+        "Valor Equity Partners",
+        "Spacestation Investments",
+        "Supernatural Ventures"
+      ],
+      "leadInvestor": "Valor Equity Partners",
+      "amount": "$4M",
+      "amountNum": 4,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-05-27",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (May 27, 2026)"
+    },
+    {
+      "id": "deal-119",
+      "company": "B-SIDES",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$500K",
+      "amountNum": 0.5,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-05-26",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Fitt Insider Issue No. 396 (May 26, 2026)"
+    },
+    {
+      "id": "deal-120",
+      "company": "Lucis",
+      "investors": [
+        "Singular"
+      ],
+      "leadInvestor": "Singular",
+      "amount": "$20M",
+      "amountNum": 20,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-05-26",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 396 (May 26, 2026)"
+    },
+    {
+      "id": "deal-121",
+      "company": "Oli",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "A$6.5M (~$4.7M)",
+      "amountNum": 4.7,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-05-26",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 396 (May 26, 2026)"
+    },
+    {
+      "id": "deal-122",
+      "company": "Black Buffalo",
+      "investors": [
+        "Listen Ventures",
+        "Access Capital",
+        "Watchfire Ventures",
+        "Vice Ventures"
+      ],
+      "leadInvestor": "",
+      "amount": "$150M",
+      "amountNum": 150,
+      "series": "M&A Exit",
+      "valuation": "",
+      "date": "2026-05-29",
+      "sector": "CPG",
+      "subsector": "Other CPG",
+      "source": "This Week in CPG (May 29, 2026)"
+    },
+    {
+      "id": "deal-123",
+      "company": "Feel Peptides",
+      "investors": [
+        "Sugar Capital",
+        "Hyve Ventures"
+      ],
+      "leadInvestor": "Sugar Capital",
+      "amount": "$3M",
+      "amountNum": 3,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-05-29",
+      "sector": "CPG",
+      "subsector": "Supplement & Wellness",
+      "source": "This Week in CPG (May 29, 2026)"
+    },
+    {
+      "id": "deal-124",
+      "company": "Orebella",
+      "investors": [
+        "Silas Capital",
+        "Celebrands"
+      ],
+      "leadInvestor": "Silas Capital",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-05-29",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "This Week in CPG (May 29, 2026)"
+    },
+    {
+      "id": "deal-125",
+      "company": "Fields Good",
+      "investors": [
+        "Female Founders Fund"
+      ],
+      "leadInvestor": "Female Founders Fund",
+      "amount": "$1.8M",
+      "amountNum": 1.8,
+      "series": "Pre-Seed",
+      "valuation": "",
+      "date": "2026-05-29",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (May 29, 2026)"
+    },
+    {
+      "id": "deal-126",
+      "company": "Violette_FR",
+      "investors": [
+        "Silas Capital",
+        "Monogram Capital Partners",
+        "Felix Capital"
+      ],
+      "leadInvestor": "",
+      "amount": "$5M",
+      "amountNum": 5,
+      "series": "Growth",
+      "valuation": "",
+      "date": "2026-05-29",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "This Week in CPG (May 29, 2026)"
+    },
+    {
+      "id": "deal-127",
+      "company": "Ryl Tea",
+      "investors": [
+        "Purchase Capital"
+      ],
+      "leadInvestor": "Purchase Capital",
+      "amount": "$20M",
+      "amountNum": 20,
+      "series": "Series C",
+      "valuation": "",
+      "date": "2026-06-02",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Jun 3, 2026)"
+    },
+    {
+      "id": "deal-128",
+      "company": "Lune & Wild",
+      "investors": [
+        "Guinness Ventures"
+      ],
+      "leadInvestor": "Guinness Ventures",
+      "amount": "\u00e32.3M (~$2.5M)",
+      "amountNum": 2.5,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-06-03",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Jun 3, 2026)"
+    },
+    {
+      "id": "deal-129",
+      "company": "VitaHustle",
+      "investors": [
+        "Axum Capital Partners"
+      ],
+      "leadInvestor": "Axum Capital Partners",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Growth",
+      "valuation": "",
+      "date": "2026-05-28",
+      "sector": "CPG",
+      "subsector": "Supplement & Wellness",
+      "source": "Fitt Insider Issue No. 398 (Jun 2, 2026)"
+    },
+    {
+      "id": "deal-130",
+      "company": "Mommenpop",
+      "investors": [
+        "Total Beverage Solution (TBS)"
+      ],
+      "leadInvestor": "Total Beverage Solution (TBS)",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "M&A Exit",
+      "valuation": "",
+      "date": "2026-06-03",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Jun 3, 2026)"
+    },
+    {
+      "id": "deal-131",
+      "company": "Protein Works",
+      "investors": [
+        "Lactalis"
+      ],
+      "leadInvestor": "Lactalis",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "M&A Exit",
+      "valuation": "",
+      "date": "2026-06-01",
+      "sector": "CPG",
+      "subsector": "Supplement & Wellness",
+      "source": "This Week in CPG (Jun 3, 2026)"
+    },
+    {
+      "id": "deal-132",
+      "company": "Smash Foods",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$5M",
+      "amountNum": 5,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-06-02",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Fitt Insider Issue No. 398 (Jun 2, 2026)"
+    },
+    {
+      "id": "deal-133",
+      "company": "FILAMENT",
+      "investors": [
+        "Wittington Ventures"
+      ],
+      "leadInvestor": "Wittington Ventures",
+      "amount": "$2M",
+      "amountNum": 2,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-06-02",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "Fitt Insider Issue No. 398 (Jun 2, 2026)"
+    },
+    {
+      "id": "deal-134",
+      "company": "Ilant Health",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$15M",
+      "amountNum": 15,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-06-02",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 398 (Jun 2, 2026)"
+    },
+    {
+      "id": "deal-135",
+      "company": "Adaptive Innovations",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$60M",
+      "amountNum": 60,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-06-02",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 398 (Jun 2, 2026)"
+    },
+    {
+      "id": "deal-136",
+      "company": "Sequel",
+      "investors": [
+        "Deep Blue Sports + Entertainment"
+      ],
+      "leadInvestor": "",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-06-02",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "Fitt Insider Issue No. 398 (Jun 2, 2026)"
+    },
+    {
+      "id": "deal-137",
+      "company": "Paralign Health",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$3M",
+      "amountNum": 3,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-05-27",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 398 (Jun 2, 2026)"
+    },
+    {
+      "id": "deal-138",
+      "company": "TIVA Performance",
+      "investors": [
+        "APEX"
+      ],
+      "leadInvestor": "APEX",
+      "amount": "\u20ac525K (~$612K)",
+      "amountNum": 0.6,
+      "series": "Pre-Seed",
+      "valuation": "",
+      "date": "2026-06-02",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "Fitt Insider Issue No. 398 (Jun 2, 2026)"
+    },
+    {
+      "id": "deal-139",
+      "company": "noa",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "\u20ac5M (~$5.8M)",
+      "amountNum": 5.8,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-06-02",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 398 (Jun 2, 2026)"
+    },
+    {
+      "id": "deal-140",
+      "company": "California Naturals",
+      "investors": [
+        "Align Ventures",
+        "L Catterton",
+        "Midnight Venture Partners",
+        "Elizabeth Street Ventures",
+        "Able Partners"
+      ],
+      "leadInvestor": "Align Ventures",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Series B",
+      "valuation": "",
+      "date": "2026-06-05",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "Fitt Insider Issue No. 399 (Jun 5, 2026)"
+    },
+    {
+      "id": "deal-141",
+      "company": "Novellia",
+      "investors": [
+        "Spark Capital"
+      ],
+      "leadInvestor": "Spark Capital",
+      "amount": "$18M",
+      "amountNum": 18,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-06-05",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 399 (Jun 5, 2026)"
+    },
+    {
+      "id": "deal-142",
+      "company": "Forage",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$40M",
+      "amountNum": 40,
+      "series": "Series B",
+      "valuation": "",
+      "date": "2026-06-05",
+      "sector": "Consumer Tech",
+      "subsector": "Fintech & Payments",
+      "source": "Fitt Insider Issue No. 399 (Jun 5, 2026)"
+    },
+    {
+      "id": "deal-143",
+      "company": "Flok Health",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$12.5M",
+      "amountNum": 12.5,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-06-05",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 399 (Jun 5, 2026)"
+    },
+    {
+      "id": "deal-144",
+      "company": "Semble",
+      "investors": [
+        "Revaia"
+      ],
+      "leadInvestor": "Revaia",
+      "amount": "\u00a330M (~$40.3M)",
+      "amountNum": 40.3,
+      "series": "Series C",
+      "valuation": "",
+      "date": "2026-06-05",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 399 (Jun 5, 2026)"
+    },
+    {
+      "id": "deal-145",
+      "company": "NewLimit",
+      "investors": [
+        "Founders Fund"
+      ],
+      "leadInvestor": "Founders Fund",
+      "amount": "$435M",
+      "amountNum": 435,
+      "series": "Series C",
+      "valuation": "$3.1B",
+      "date": "2026-06-05",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 399 (Jun 5, 2026)"
+    },
+    {
+      "id": "deal-146",
+      "company": "Stars + Honey",
+      "investors": [
+        "VMG Partners"
+      ],
+      "leadInvestor": "VMG Partners",
+      "amount": "$24M",
+      "amountNum": 24,
+      "series": "Minority Investment",
+      "valuation": "",
+      "date": "2026-06-09",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Fitt Insider Issue No. 400 (Jun 9, 2026)"
+    },
+    {
+      "id": "deal-147",
+      "company": "Kalogon",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$5.75M",
+      "amountNum": 5.75,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-06-09",
+      "sector": "Consumer Tech",
+      "subsector": "Hardware",
+      "source": "Fitt Insider Issue No. 400 (Jun 9, 2026)"
+    },
+    {
+      "id": "deal-148",
+      "company": "Laboratoire Nutergia",
+      "investors": [
+        "3i Group"
+      ],
+      "leadInvestor": "3i Group",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Growth",
+      "valuation": "",
+      "date": "2026-06-09",
+      "sector": "CPG",
+      "subsector": "Supplement & Wellness",
+      "source": "Fitt Insider Issue No. 400 (Jun 9, 2026)"
+    },
+    {
+      "id": "deal-149",
+      "company": "Rem3dy Health (Nourished)",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "\u00a314M (~$18.8M)",
+      "amountNum": 18.8,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-06-09",
+      "sector": "CPG",
+      "subsector": "Supplement & Wellness",
+      "source": "Fitt Insider Issue No. 400 (Jun 9, 2026)"
+    },
+    {
+      "id": "deal-150",
+      "company": "Joyvie Health",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "\u00a3771K (~$1M)",
+      "amountNum": 1,
+      "series": "Pre-Seed",
+      "valuation": "",
+      "date": "2026-06-09",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 400 (Jun 9, 2026)"
+    },
+    {
+      "id": "deal-151",
+      "company": "Redan",
+      "investors": [
+        "8AM Golf"
+      ],
+      "leadInvestor": "8AM Golf",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Minority Investment",
+      "valuation": "",
+      "date": "2026-06-09",
+      "sector": "Consumer Tech",
+      "subsector": "Other Consumer Tech",
+      "source": "Fitt Insider Issue No. 400 (Jun 9, 2026)"
+    },
+    {
+      "id": "deal-152",
+      "company": "Bawi",
+      "investors": [
+        "Brand Foundry Ventures"
+      ],
+      "leadInvestor": "Brand Foundry Ventures",
+      "amount": "$6M",
+      "amountNum": 6,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-06-09",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "CPGD Newsletter (Jun 9, 2026)"
+    },
+    {
+      "id": "deal-153",
+      "company": "Tillamook Country Smoker",
+      "investors": [
+        "Second Nature Brands"
+      ],
+      "leadInvestor": "Second Nature Brands",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "M&A Exit",
+      "valuation": "",
+      "date": "2026-06-10",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Jun 10, 2026)"
+    },
+    {
+      "id": "deal-154",
+      "company": "Patti's Good Life",
+      "investors": [
+        "Factory Holdings"
+      ],
+      "leadInvestor": "Factory Holdings",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Minority Investment",
+      "valuation": "",
+      "date": "2026-06-11",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Consumer VC Roundup #156"
+    },
+    {
+      "id": "deal-155",
+      "company": "WeRoad",
+      "investors": [
+        "Airbnb"
+      ],
+      "leadInvestor": "Airbnb",
+      "amount": "$58M",
+      "amountNum": 58,
+      "series": "Series C",
+      "valuation": "",
+      "date": "2026-06-11",
+      "sector": "Consumer Tech",
+      "subsector": "Marketplace",
+      "source": "Consumer VC Roundup #156"
+    },
+    {
+      "id": "deal-156",
+      "company": "Sychedelic",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$3.5M",
+      "amountNum": 3.5,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-06-11",
+      "sector": "Consumer Tech",
+      "subsector": "Hardware",
+      "source": "Consumer VC Roundup #156"
+    },
+    {
+      "id": "deal-157",
+      "company": "Phytolon",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$23.6M",
+      "amountNum": 23.6,
+      "series": "Series B",
+      "valuation": "",
+      "date": "2026-06-11",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Consumer VC Roundup #156"
+    },
+    {
+      "id": "deal-158",
+      "company": "Malama Health",
+      "investors": [
+        "Acumen America"
+      ],
+      "leadInvestor": "Acumen America",
+      "amount": "$9.2M",
+      "amountNum": 9.2,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-06-11",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Consumer VC Roundup #156"
+    },
+    {
+      "id": "deal-159",
+      "company": "GammaTime",
+      "investors": [
+        "Versant Media Group"
+      ],
+      "leadInvestor": "Versant Media Group",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-06-11",
+      "sector": "Consumer Tech",
+      "subsector": "Social & Community",
+      "source": "Consumer VC Roundup #156"
+    },
+    {
+      "id": "deal-160",
+      "company": "CardsHQ",
+      "investors": [
+        "Shamrock Capital",
+        "EnOne Ventures"
+      ],
+      "leadInvestor": "Shamrock Capital",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Growth",
+      "valuation": "",
+      "date": "2026-06-11",
+      "sector": "Consumer Tech",
+      "subsector": "Marketplace",
+      "source": "Consumer VC Roundup #156"
+    },
+    {
+      "id": "deal-161",
+      "company": "Garner Health",
+      "investors": [
+        "Index Ventures"
+      ],
+      "leadInvestor": "Index Ventures",
+      "amount": "$100M",
+      "amountNum": 100,
+      "series": "Series E",
+      "valuation": "$2.74B",
+      "date": "2026-06-11",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Consumer VC Roundup #156"
+    },
+    {
+      "id": "deal-162",
+      "company": "Wize Tea",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "M&A Exit",
+      "valuation": "",
+      "date": "2026-06-11",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Consumer VC Roundup #156"
+    },
+    {
+      "id": "deal-163",
+      "company": "REMEDY",
+      "investors": [
+        "L Catterton",
+        "Norwest",
+        "Sonoma Brands Capital"
+      ],
+      "leadInvestor": "L Catterton",
+      "amount": "$20M",
+      "amountNum": 20,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-06-11",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "This Week in CPG (June 12, 2026)"
+    },
+    {
+      "id": "deal-164",
+      "company": "Diamond Brew",
+      "investors": [
+        "G/7 Venture Studio",
+        "Cambridge Companies SPG",
+        "Beckett Industries",
+        "SGL Acquisitions",
+        "Kingsland Capital Group",
+        "Nobel Partners",
+        "Habitat Partners"
+      ],
+      "leadInvestor": "",
+      "amount": "7-figure",
+      "amountNum": null,
+      "series": "Pre-Seed",
+      "valuation": "",
+      "date": "2026-06-11",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (June 12, 2026)"
     }
   ],
   "investorActivity": [
     {
       "fund": "Alliance Consumer Growth",
       "partner": "",
-      "deals": ["Create Wellness, Inc."],
+      "deals": [
+        "Create Wellness, Inc."
+      ],
       "role": "Lead",
       "date": "2026-04-04"
     },
     {
       "fund": "Impact Capital",
       "partner": "",
-      "deals": ["Create Wellness, Inc."],
+      "deals": [
+        "Create Wellness, Inc."
+      ],
       "role": "Participant",
       "date": "2026-04-04"
     },
     {
       "fund": "Unilever Ventures",
       "partner": "",
-      "deals": ["Create Wellness, Inc.", "RAS Luxury Skincare"],
+      "deals": [
+        "Create Wellness, Inc.",
+        "RAS Luxury Skincare"
+      ],
       "role": "Participant",
       "date": "2026-04-04"
     },
     {
       "fund": "ARK Invest",
       "partner": "",
-      "deals": ["Manna Air Delivery"],
-      "role": "Participant",
-      "date": "2026-04-04"
-    },
-    {
-      "fund": "Ireland Strategic Investment Fund",
-      "partner": "",
-      "deals": ["Manna Air Delivery"],
+      "deals": [
+        "Manna Air Delivery"
+      ],
       "role": "Participant",
       "date": "2026-04-04"
     },
     {
       "fund": "Schooner Capital",
       "partner": "",
-      "deals": ["Manna Air Delivery"],
+      "deals": [
+        "Manna Air Delivery"
+      ],
       "role": "Participant",
-      "date": "2026-04-04"
-    },
-    {
-      "fund": "Coca-Cola HBC",
-      "partner": "",
-      "deals": ["Manna Air Delivery"],
-      "role": "Existing Investor",
-      "date": "2026-04-04"
-    },
-    {
-      "fund": "Molten Ventures",
-      "partner": "",
-      "deals": ["Manna Air Delivery"],
-      "role": "Existing Investor",
       "date": "2026-04-04"
     },
     {
       "fund": "Ecotechnologies",
       "partner": "",
-      "deals": ["Standing Ovation"],
+      "deals": [
+        "Standing Ovation"
+      ],
       "role": "Lead",
       "date": "2026-04-04"
     },
     {
       "fund": "Stride Consumer Partners",
       "partner": "",
-      "deals": ["Peachy"],
+      "deals": [
+        "Peachy"
+      ],
       "role": "Lead",
       "date": "2026-04-04"
     },
     {
       "fund": "L Catterton",
       "partner": "",
-      "deals": ["Mars Men"],
+      "deals": [
+        "Mars Men"
+      ],
       "role": "Lead",
       "date": "2026-03-31"
     },
     {
       "fund": "Prelude Growth Partners",
-      "partner": "",
-      "deals": ["KilgourMD"],
+      "partner": "Alicia Sontag",
+      "deals": [
+        "KilgourMD"
+      ],
       "role": "Lead",
+      "date": "2026-03-28"
+    },
+    {
+      "fund": "Willow Growth",
+      "partner": "",
+      "deals": [
+        "KilgourMD"
+      ],
+      "role": "Participant",
+      "date": "2026-03-28"
+    },
+    {
+      "fund": "Joyance Partners",
+      "partner": "",
+      "deals": [
+        "KilgourMD"
+      ],
+      "role": "Participant",
+      "date": "2026-03-28"
+    },
+    {
+      "fund": "Able Partners",
+      "partner": "",
+      "deals": [
+        "KilgourMD"
+      ],
+      "role": "Participant",
       "date": "2026-03-28"
     },
     {
       "fund": "Mucker Capital",
       "partner": "",
-      "deals": ["Sigmas"],
+      "deals": [
+        "Sigmas"
+      ],
       "role": "Participant",
       "date": "2026-03-28"
     },
     {
-      "fund": "HongShan",
+      "fund": "HongShan Capital",
       "partner": "",
-      "deals": ["Sigmas"],
+      "deals": [
+        "Sigmas"
+      ],
       "role": "Participant",
       "date": "2026-03-28"
     },
     {
       "fund": "Main Post Partners",
       "partner": "",
-      "deals": ["Stellar Snacks"],
+      "deals": [
+        "Stellar Snacks"
+      ],
       "role": "Lead",
       "date": "2026-03-28"
     },
     {
-      "fund": "Next Level Fund",
+      "fund": "Morgan Stanley Next Level Fund",
       "partner": "",
-      "deals": ["Nopalera"],
+      "deals": [
+        "Nopalera"
+      ],
       "role": "Lead",
-      "date": "2026-03-26"
+      "date": "2026-03-28"
     },
     {
-      "fund": "Morgan Stanley",
+      "fund": "L'ATTITUDE Ventures",
       "partner": "",
-      "deals": ["Nopalera"],
+      "deals": [
+        "Nopalera"
+      ],
       "role": "Participant",
-      "date": "2026-03-26"
+      "date": "2026-03-28"
     },
     {
       "fund": "Strand Equity",
       "partner": "",
-      "deals": ["Good Girl Snacks"],
+      "deals": [
+        "Good Girl Snacks"
+      ],
       "role": "Lead",
       "date": "2026-03-28"
     },
     {
       "fund": "Collaborative Fund",
       "partner": "",
-      "deals": ["Good Girl Snacks"],
+      "deals": [
+        "Good Girl Snacks"
+      ],
       "role": "Participant",
       "date": "2026-03-28"
     },
     {
       "fund": "Zeal Capital Partners",
       "partner": "",
-      "deals": ["Flourish Care"],
+      "deals": [
+        "Flourish Care"
+      ],
       "role": "Lead",
       "date": "2026-03-28"
     },
     {
-      "fund": "AON",
+      "fund": "AON Consulting",
       "partner": "",
-      "deals": ["eMed"],
+      "deals": [
+        "eMed"
+      ],
       "role": "Lead",
       "date": "2026-03-28"
     },
     {
       "fund": "Headline",
       "partner": "",
-      "deals": ["Blossom Health"],
+      "deals": [
+        "Blossom Health"
+      ],
       "role": "Lead",
       "date": "2026-03-28"
     },
     {
       "fund": "General Catalyst",
       "partner": "",
-      "deals": ["Mirage", "Conntour", "Moda"],
+      "deals": [
+        "Mirage",
+        "Conntour",
+        "Moda"
+      ],
       "role": "Lead",
       "date": "2026-03-28"
     },
     {
       "fund": "Y Combinator",
       "partner": "",
-      "deals": ["Conntour"],
+      "deals": [
+        "Conntour",
+        "Glimpse"
+      ],
       "role": "Participant",
       "date": "2026-03-28"
     },
     {
       "fund": "FirstMark Capital",
       "partner": "",
-      "deals": ["Payy Network"],
+      "deals": [
+        "Payy Network"
+      ],
       "role": "Lead",
       "date": "2026-03-28"
     },
     {
       "fund": "Circle Ventures",
       "partner": "",
-      "deals": ["Tazapay"],
+      "deals": [
+        "Tazapay"
+      ],
       "role": "Lead",
       "date": "2026-03-28"
     },
     {
       "fund": "Andreessen Horowitz",
       "partner": "",
-      "deals": ["Glimpse"],
+      "deals": [
+        "Glimpse"
+      ],
+      "role": "Lead",
+      "date": "2026-03-28"
+    },
+    {
+      "fund": "Madrona",
+      "partner": "",
+      "deals": [
+        "DOSS"
+      ],
+      "role": "Lead",
+      "date": "2026-03-28"
+    },
+    {
+      "fund": "Quantaco",
+      "partner": "",
+      "deals": [
+        "Grub Lab"
+      ],
       "role": "Lead",
       "date": "2026-03-28"
     },
     {
       "fund": "Era VC",
       "partner": "",
-      "deals": ["Iota"],
+      "deals": [
+        "Iota"
+      ],
       "role": "Lead",
       "date": "2026-03-26"
     },
     {
+      "fund": "GDA Luma Capital",
+      "partner": "",
+      "deals": [
+        "Pat McGrath Labs"
+      ],
+      "role": "Lead",
+      "date": "2026-02-21"
+    },
+    {
+      "fund": "Active Partners",
+      "partner": "",
+      "deals": [
+        "Epet\u014dme"
+      ],
+      "role": "Lead",
+      "date": "2026-02-21"
+    },
+    {
+      "fund": "Redrice Ventures",
+      "partner": "",
+      "deals": [
+        "Epet\u014dme"
+      ],
+      "role": "Participant",
+      "date": "2026-02-21"
+    },
+    {
+      "fund": "Index Ventures",
+      "partner": "",
+      "deals": [
+        "Simile"
+      ],
+      "role": "Lead",
+      "date": "2026-02-21"
+    },
+    {
+      "fund": "Barings",
+      "partner": "",
+      "deals": [
+        "Credit Key"
+      ],
+      "role": "Lead",
+      "date": "2026-02-21"
+    },
+    {
       "fund": "Lakehouse Ventures",
       "partner": "",
-      "deals": ["Hurray GIRL BEER"],
+      "deals": [
+        "Hurray GIRL BEER"
+      ],
       "role": "Lead",
       "date": "2026-03-14"
-    },
-    {
-      "fund": "The Source Ventures",
-      "partner": "",
-      "deals": ["Living Things"],
-      "role": "Lead",
-      "date": "2026-03-14"
-    },
-    {
-      "fund": "Elixir 1",
-      "partner": "",
-      "deals": ["Perfumer H"],
-      "role": "Lead",
-      "date": "2026-03-12"
-    },
-    {
-      "fund": "ILYOS Capital",
-      "partner": "",
-      "deals": ["Perfumer H"],
-      "role": "Participant",
-      "date": "2026-03-12"
     },
     {
       "fund": "Selva Ventures",
       "partner": "",
-      "deals": ["Harken Sweets"],
+      "deals": [
+        "Harken Sweets"
+      ],
       "role": "Lead",
       "date": "2026-03-05"
     },
     {
       "fund": "Dabur",
       "partner": "",
-      "deals": ["RAS Luxury Skincare"],
+      "deals": [
+        "RAS Luxury Skincare"
+      ],
       "role": "Lead",
       "date": "2026-03-05"
     },
     {
       "fund": "Silas Capital",
       "partner": "",
-      "deals": ["Freestyle"],
+      "deals": [
+        "Freestyle"
+      ],
       "role": "Lead",
       "date": "2026-03-05"
+    },
+    {
+      "fund": "Selva Ventures",
+      "partner": "",
+      "deals": [
+        "Cadootz"
+      ],
+      "role": "Lead",
+      "date": "2026-04-13"
+    },
+    {
+      "fund": "Selva Ventures",
+      "partner": "",
+      "deals": [
+        "Cadootz"
+      ],
+      "role": "Lead",
+      "date": "2026-04-13"
+    },
+    {
+      "fund": "IRIS Ventures",
+      "partner": "",
+      "deals": [
+        "Lucille"
+      ],
+      "role": "Lead",
+      "date": "2026-04-16"
+    },
+    {
+      "fund": "Cutting Horse",
+      "partner": "",
+      "deals": [
+        "Ripi"
+      ],
+      "role": "Lead",
+      "date": "2026-04-22"
+    },
+    {
+      "fund": "Great Circle Ventures",
+      "partner": "",
+      "deals": [
+        "Ripi"
+      ],
+      "role": "Participant",
+      "date": "2026-04-22"
+    },
+    {
+      "fund": "Paperboy Ventures",
+      "partner": "",
+      "deals": [
+        "Ripi"
+      ],
+      "role": "Participant",
+      "date": "2026-04-22"
+    },
+    {
+      "fund": "SuperAngel.Fund",
+      "partner": "",
+      "deals": [
+        "Ripi"
+      ],
+      "role": "Participant",
+      "date": "2026-04-22"
+    },
+    {
+      "fund": "Collaborative Fund",
+      "partner": "",
+      "deals": [
+        "Nomio"
+      ],
+      "role": "Lead",
+      "date": "2026-04-21"
+    },
+    {
+      "fund": "L'Oreal BOLD",
+      "partner": "",
+      "deals": [
+        "Hanni"
+      ],
+      "role": "Lead",
+      "date": "2026-04-21"
+    },
+    {
+      "fund": "Melitas Ventures",
+      "partner": "",
+      "deals": [
+        "Hanni"
+      ],
+      "role": "Existing Investor",
+      "date": "2026-04-21"
+    },
+    {
+      "fund": "Cult Capital",
+      "partner": "",
+      "deals": [
+        "Hanni"
+      ],
+      "role": "Existing Investor",
+      "date": "2026-04-21"
+    },
+    {
+      "fund": "Rodeo Growth Partners",
+      "partner": "",
+      "deals": [
+        "Hanni"
+      ],
+      "role": "Existing Investor",
+      "date": "2026-04-21"
+    },
+    {
+      "fund": "Supernatural Ventures",
+      "partner": "",
+      "deals": [
+        "Frozen One"
+      ],
+      "role": "Lead",
+      "date": "2026-04-23"
+    },
+    {
+      "fund": "The Angel Group",
+      "partner": "",
+      "deals": [
+        "Frozen One"
+      ],
+      "role": "Participant",
+      "date": "2026-04-23"
+    },
+    {
+      "fund": "Capital Q Ventures",
+      "partner": "",
+      "deals": [
+        "Wavers"
+      ],
+      "role": "Participant",
+      "date": "2026-04-23"
+    },
+    {
+      "fund": "Taste Tomorrow Ventures",
+      "partner": "",
+      "deals": [
+        "Lumen"
+      ],
+      "role": "Lead",
+      "date": "2026-04-23"
+    },
+    {
+      "fund": "Prelude Growth Partners",
+      "partner": "",
+      "deals": [
+        "Westman Atelier"
+      ],
+      "role": "Existing Investor",
+      "date": "2026-04-23"
+    },
+    {
+      "fund": "Imaginary Ventures",
+      "partner": "",
+      "deals": [
+        "Westman Atelier"
+      ],
+      "role": "Existing Investor",
+      "date": "2026-04-23"
+    },
+    {
+      "fund": "Nexus Capital",
+      "partner": "",
+      "deals": [
+        "Laird Superfood"
+      ],
+      "role": "Lead",
+      "date": "2026-04-21"
+    },
+    {
+      "fund": "Midnight Venture Partners",
+      "partner": "",
+      "deals": [
+        "Leisure Hydration"
+      ],
+      "role": "Lead",
+      "date": "2026-04-24"
+    },
+    {
+      "fund": "Amino Collective",
+      "partner": "",
+      "deals": [
+        "Calibre"
+      ],
+      "role": "Lead",
+      "date": "2026-04-24"
+    },
+    {
+      "fund": "Listen Ventures",
+      "partner": "",
+      "deals": [
+        "Smearcase"
+      ],
+      "role": "Lead",
+      "date": "2026-04-28"
+    },
+    {
+      "fund": "HumanCo",
+      "partner": "Jason Karp",
+      "deals": [
+        "TIES"
+      ],
+      "role": "Lead",
+      "date": "2026-04-30"
+    },
+    {
+      "fund": "Sazerac",
+      "partner": "",
+      "deals": [
+        "818 Tequila"
+      ],
+      "role": "Lead",
+      "date": "2026-04-30"
+    },
+    {
+      "fund": "The Est\u00e9e Lauder Companies",
+      "partner": "",
+      "deals": [
+        "111Skin"
+      ],
+      "role": "Participant",
+      "date": "2026-04-30"
+    },
+    {
+      "fund": "Equal Ventures",
+      "partner": "",
+      "deals": [
+        "Chord"
+      ],
+      "role": "Lead",
+      "date": "2026-04-29"
+    },
+    {
+      "fund": "M Ventures",
+      "partner": "",
+      "deals": [
+        "Future Fertility"
+      ],
+      "role": "Lead",
+      "date": "2026-04-28"
+    },
+    {
+      "fund": "Whitecap Venture Partners",
+      "partner": "",
+      "deals": [
+        "Future Fertility"
+      ],
+      "role": "Participant",
+      "date": "2026-04-28"
+    },
+    {
+      "fund": "VIG Partners",
+      "partner": "",
+      "deals": [
+        "MINISH Technology"
+      ],
+      "role": "Lead",
+      "date": "2026-04-28"
+    },
+    {
+      "fund": "Listen Ventures",
+      "partner": "",
+      "deals": [
+        "Smearcase"
+      ],
+      "role": "Lead",
+      "date": "2026-04-28"
+    },
+    {
+      "fund": "HumanCo",
+      "partner": "Jason Karp",
+      "deals": [
+        "TIES"
+      ],
+      "role": "Lead",
+      "date": "2026-04-30"
+    },
+    {
+      "fund": "Sazerac",
+      "partner": "",
+      "deals": [
+        "818 Tequila"
+      ],
+      "role": "Lead",
+      "date": "2026-04-30"
+    },
+    {
+      "fund": "The Est\u00e9e Lauder Companies",
+      "partner": "",
+      "deals": [
+        "111Skin"
+      ],
+      "role": "Participant",
+      "date": "2026-04-30"
+    },
+    {
+      "fund": "SKKY Partners",
+      "partner": "",
+      "deals": [
+        "111Skin"
+      ],
+      "role": "Existing Investor",
+      "date": "2026-04-30"
+    },
+    {
+      "fund": "Equal Ventures",
+      "partner": "",
+      "deals": [
+        "Chord"
+      ],
+      "role": "Lead",
+      "date": "2026-04-29"
+    },
+    {
+      "fund": "M Ventures",
+      "partner": "",
+      "deals": [
+        "Future Fertility"
+      ],
+      "role": "Lead",
+      "date": "2026-04-28"
+    },
+    {
+      "fund": "Whitecap Venture Partners",
+      "partner": "",
+      "deals": [
+        "Future Fertility"
+      ],
+      "role": "Participant",
+      "date": "2026-04-28"
+    },
+    {
+      "fund": "L Catterton",
+      "partner": "",
+      "deals": [
+        "CHAMP (partnership with Patricof Co)"
+      ],
+      "role": "Lead",
+      "date": "2026-04-28"
+    },
+    {
+      "fund": "Patricof Co",
+      "partner": "",
+      "deals": [
+        "CHAMP (partnership with L Catterton)"
+      ],
+      "role": "Lead",
+      "date": "2026-04-28"
+    },
+    {
+      "fund": "Main Street Advisors",
+      "partner": "",
+      "deals": [
+        "MOSH"
+      ],
+      "role": "Lead",
+      "date": "2026-05-07"
+    },
+    {
+      "fund": "Greycroft",
+      "partner": "",
+      "deals": [
+        "Jesse & Ben's"
+      ],
+      "role": "Lead",
+      "date": "2026-05-07"
+    },
+    {
+      "fund": "Rich Products Ventures",
+      "partner": "",
+      "deals": [
+        "Jesse & Ben's"
+      ],
+      "role": "Participant",
+      "date": "2026-05-07"
+    },
+    {
+      "fund": "Morrison Seger",
+      "partner": "",
+      "deals": [
+        "MOSH"
+      ],
+      "role": "Participant",
+      "date": "2026-05-07"
+    },
+    {
+      "fund": "Great Circle Ventures",
+      "partner": "",
+      "deals": [
+        "MOSH"
+      ],
+      "role": "Participant",
+      "date": "2026-05-07"
+    },
+    {
+      "fund": "CAVU Consumer Partners",
+      "partner": "",
+      "deals": [
+        "Crazy Mountain",
+        "Gymkhana Fine Foods"
+      ],
+      "role": "Lead",
+      "date": "2026-04-29"
+    },
+    {
+      "fund": "Coatue",
+      "partner": "",
+      "deals": [
+        "Crazy Mountain"
+      ],
+      "role": "Participant",
+      "date": "2026-04-29"
+    },
+    {
+      "fund": "Nucleus Ventures",
+      "partner": "",
+      "deals": [
+        "Alchemy Springs"
+      ],
+      "role": "Lead",
+      "date": "2026-05-05"
+    },
+    {
+      "fund": "C.P. Group Innovation",
+      "partner": "",
+      "deals": [
+        "Axoft"
+      ],
+      "role": "Lead",
+      "date": "2026-05-05"
+    },
+    {
+      "fund": "Atomic Capital",
+      "partner": "",
+      "deals": [
+        "Healthfab"
+      ],
+      "role": "Lead",
+      "date": "2026-05-05"
+    },
+    {
+      "fund": "Fireside Ventures",
+      "partner": "",
+      "deals": [
+        "CHOSEN"
+      ],
+      "role": "Lead",
+      "date": "2026-05-05"
+    },
+    {
+      "fund": "Lerer Hippeau",
+      "partner": "",
+      "deals": [
+        "Brainiac (exit \u2014 acquired by Bel Group)"
+      ],
+      "role": "Existing Investor",
+      "date": "2026-05-07"
+    },
+    {
+      "fund": "VMG Partners",
+      "partner": "Wayne Wu",
+      "deals": [
+        "Brami"
+      ],
+      "role": "Lead",
+      "date": "2026-05-18"
+    },
+    {
+      "fund": "BFG Partners",
+      "partner": "",
+      "deals": [
+        "Stone & Skillet"
+      ],
+      "role": "Lead",
+      "date": "2026-05-20"
+    },
+    {
+      "fund": "Beliade Consumer Partners",
+      "partner": "",
+      "deals": [
+        "Stone & Skillet"
+      ],
+      "role": "Participant",
+      "date": "2026-05-20"
+    },
+    {
+      "fund": "Supernatural Ventures",
+      "partner": "",
+      "deals": [
+        "Stone & Skillet"
+      ],
+      "role": "Participant",
+      "date": "2026-05-20"
+    },
+    {
+      "fund": "Science Inc",
+      "partner": "",
+      "deals": [
+        "Rogue"
+      ],
+      "role": "Lead",
+      "date": "2026-05-13"
+    },
+    {
+      "fund": "Simple Food Ventures",
+      "partner": "",
+      "deals": [
+        "Rogue"
+      ],
+      "role": "Participant",
+      "date": "2026-05-13"
+    },
+    {
+      "fund": "Uncommon VC",
+      "partner": "",
+      "deals": [
+        "Rogue"
+      ],
+      "role": "Participant",
+      "date": "2026-05-13"
+    },
+    {
+      "fund": "CAVU Consumer Partners",
+      "partner": "",
+      "deals": [
+        "4AM"
+      ],
+      "role": "Lead",
+      "date": "2026-05-11"
+    },
+    {
+      "fund": "Stride Consumer Partners",
+      "partner": "",
+      "deals": [
+        "Crown Affair"
+      ],
+      "role": "Lead",
+      "date": "2026-05-13"
+    },
+    {
+      "fund": "Menlo Ventures",
+      "partner": "",
+      "deals": [
+        "Nourish"
+      ],
+      "role": "Lead",
+      "date": "2026-05-19"
+    },
+    {
+      "fund": "Maveron",
+      "partner": "",
+      "deals": [
+        "Kin Health"
+      ],
+      "role": "Lead",
+      "date": "2026-05-19"
+    },
+    {
+      "fund": "General Catalyst",
+      "partner": "",
+      "deals": [
+        "Thea"
+      ],
+      "role": "Lead",
+      "date": "2026-05-08"
+    },
+    {
+      "fund": "Henkel Ventures",
+      "partner": "",
+      "deals": [
+        "Ruka"
+      ],
+      "role": "Lead",
+      "date": "2026-05-15"
+    },
+    {
+      "fund": "Freedom Trail Capital",
+      "partner": "",
+      "deals": [
+        "Ruka"
+      ],
+      "role": "Participant",
+      "date": "2026-05-15"
+    },
+    {
+      "fund": "4impact capital",
+      "partner": "",
+      "deals": [
+        "Regulate"
+      ],
+      "role": "Lead",
+      "date": "2026-05-15"
+    },
+    {
+      "fund": "Sazerac",
+      "partner": "",
+      "deals": [
+        "SIPMARGS"
+      ],
+      "role": "Lead",
+      "date": "2026-05-15"
+    },
+    {
+      "fund": "Cool Japan Fund",
+      "partner": "",
+      "deals": [
+        "Konvy"
+      ],
+      "role": "Lead",
+      "date": "2026-05-12"
+    },
+    {
+      "fund": "Taste Tomorrow Ventures",
+      "partner": "",
+      "deals": [
+        "Harken Sweets"
+      ],
+      "role": "Participant",
+      "date": "2026-05-13"
+    },
+    {
+      "fund": "Hingham Growth Partners",
+      "partner": "",
+      "deals": [
+        "Banagua"
+      ],
+      "role": "Lead",
+      "date": "2026-05-20"
+    },
+    {
+      "fund": "Aria Growth Partners",
+      "partner": "",
+      "deals": [
+        "Good Molecules"
+      ],
+      "role": "Lead",
+      "date": "2026-05-19"
+    },
+    {
+      "fund": "True Beauty Ventures",
+      "partner": "",
+      "deals": [
+        "Sleep or Die"
+      ],
+      "role": "Lead",
+      "date": "2026-05-27"
+    },
+    {
+      "fund": "Valor Equity Partners",
+      "partner": "",
+      "deals": [
+        "Campo Grande"
+      ],
+      "role": "Existing Investor",
+      "date": "2026-05-27"
+    },
+    {
+      "fund": "Spacestation Investments",
+      "partner": "",
+      "deals": [
+        "Campo Grande"
+      ],
+      "role": "Participant",
+      "date": "2026-05-27"
+    },
+    {
+      "fund": "Supernatural Ventures",
+      "partner": "",
+      "deals": [
+        "Campo Grande"
+      ],
+      "role": "Participant",
+      "date": "2026-05-27"
+    },
+    {
+      "fund": "Singular",
+      "partner": "",
+      "deals": [
+        "Lucis"
+      ],
+      "role": "Lead",
+      "date": "2026-05-26"
+    },
+    {
+      "fund": "Sugar Capital",
+      "partner": "",
+      "deals": [
+        "Feel Peptides"
+      ],
+      "role": "Lead",
+      "date": "2026-05-29"
+    },
+    {
+      "fund": "Hyve Ventures",
+      "partner": "",
+      "deals": [
+        "Feel Peptides"
+      ],
+      "role": "Participant",
+      "date": "2026-05-29"
+    },
+    {
+      "fund": "Silas Capital",
+      "partner": "",
+      "deals": [
+        "Orebella"
+      ],
+      "role": "Lead",
+      "date": "2026-05-29"
+    },
+    {
+      "fund": "Celebrands",
+      "partner": "",
+      "deals": [
+        "Orebella"
+      ],
+      "role": "Existing Investor",
+      "date": "2026-05-29"
+    },
+    {
+      "fund": "Female Founders Fund",
+      "partner": "",
+      "deals": [
+        "Fields Good"
+      ],
+      "role": "Lead",
+      "date": "2026-05-29"
+    },
+    {
+      "fund": "Purchase Capital",
+      "partner": "",
+      "deals": [
+        "Ryl Tea"
+      ],
+      "role": "Lead",
+      "date": "2026-06-02"
+    },
+    {
+      "fund": "Guinness Ventures",
+      "partner": "",
+      "deals": [
+        "Lune & Wild"
+      ],
+      "role": "Lead",
+      "date": "2026-06-03"
+    },
+    {
+      "fund": "Axum Capital Partners",
+      "partner": "",
+      "deals": [
+        "VitaHustle"
+      ],
+      "role": "Lead",
+      "date": "2026-05-28"
+    },
+    {
+      "fund": "Wittington Ventures",
+      "partner": "",
+      "deals": [
+        "FILAMENT"
+      ],
+      "role": "Lead",
+      "date": "2026-06-02"
+    },
+    {
+      "fund": "Deep Blue Sports + Entertainment",
+      "partner": "",
+      "deals": [
+        "Sequel"
+      ],
+      "role": "Participant",
+      "date": "2026-06-02"
+    },
+    {
+      "fund": "APEX",
+      "partner": "",
+      "deals": [
+        "TIVA Performance"
+      ],
+      "role": "Lead",
+      "date": "2026-06-02"
+    },
+    {
+      "fund": "Align Ventures",
+      "partner": "",
+      "deals": [
+        "California Naturals"
+      ],
+      "role": "Lead",
+      "date": "2026-06-05"
+    },
+    {
+      "fund": "L Catterton",
+      "partner": "",
+      "deals": [
+        "California Naturals"
+      ],
+      "role": "Participant",
+      "date": "2026-06-05"
+    },
+    {
+      "fund": "Midnight Venture Partners",
+      "partner": "",
+      "deals": [
+        "California Naturals"
+      ],
+      "role": "Participant",
+      "date": "2026-06-05"
+    },
+    {
+      "fund": "Elizabeth Street Ventures",
+      "partner": "",
+      "deals": [
+        "California Naturals"
+      ],
+      "role": "Participant",
+      "date": "2026-06-05"
+    },
+    {
+      "fund": "Able Partners",
+      "partner": "",
+      "deals": [
+        "California Naturals"
+      ],
+      "role": "Participant",
+      "date": "2026-06-05"
+    },
+    {
+      "fund": "Spark Capital",
+      "partner": "",
+      "deals": [
+        "Novellia"
+      ],
+      "role": "Lead",
+      "date": "2026-06-05"
+    },
+    {
+      "fund": "Founders Fund",
+      "partner": "",
+      "deals": [
+        "NewLimit"
+      ],
+      "role": "Lead",
+      "date": "2026-06-05"
+    },
+    {
+      "fund": "Revaia",
+      "partner": "",
+      "deals": [
+        "Semble"
+      ],
+      "role": "Lead",
+      "date": "2026-06-05"
+    },
+    {
+      "fund": "VMG Partners",
+      "partner": "",
+      "deals": [
+        "Stars + Honey"
+      ],
+      "role": "Lead",
+      "date": "2026-06-09"
+    },
+    {
+      "fund": "3i Group",
+      "partner": "",
+      "deals": [
+        "Laboratoire Nutergia"
+      ],
+      "role": "Lead",
+      "date": "2026-06-09"
+    },
+    {
+      "fund": "8AM Golf",
+      "partner": "",
+      "deals": [
+        "Redan"
+      ],
+      "role": "Lead",
+      "date": "2026-06-09"
+    },
+    {
+      "fund": "Brand Foundry Ventures",
+      "partner": "",
+      "deals": [
+        "Bawi"
+      ],
+      "role": "Lead",
+      "date": "2026-06-09"
+    },
+    {
+      "fund": "Insignia Capital Group",
+      "partner": "",
+      "deals": [
+        "Tillamook Country Smoker"
+      ],
+      "role": "Existing Investor",
+      "date": "2026-06-10"
+    },
+    {
+      "fund": "Factory Holdings",
+      "partner": "",
+      "deals": [
+        "Patti's Good Life"
+      ],
+      "role": "Lead",
+      "date": "2026-06-11"
+    },
+    {
+      "fund": "Airbnb",
+      "partner": "",
+      "deals": [
+        "WeRoad"
+      ],
+      "role": "Lead",
+      "date": "2026-06-11"
+    },
+    {
+      "fund": "Acumen America",
+      "partner": "",
+      "deals": [
+        "Malama Health"
+      ],
+      "role": "Lead",
+      "date": "2026-06-11"
+    },
+    {
+      "fund": "Versant Media Group",
+      "partner": "",
+      "deals": [
+        "GammaTime"
+      ],
+      "role": "Lead",
+      "date": "2026-06-11"
+    },
+    {
+      "fund": "Shamrock Capital",
+      "partner": "",
+      "deals": [
+        "CardsHQ"
+      ],
+      "role": "Lead",
+      "date": "2026-06-11"
+    },
+    {
+      "fund": "EnOne Ventures",
+      "partner": "",
+      "deals": [
+        "CardsHQ"
+      ],
+      "role": "Participant",
+      "date": "2026-06-11"
+    },
+    {
+      "fund": "Index Ventures",
+      "partner": "",
+      "deals": [
+        "Garner Health"
+      ],
+      "role": "Lead",
+      "date": "2026-06-11"
+    },
+    {
+      "fund": "L Catterton",
+      "partner": "",
+      "deals": [
+        "REMEDY"
+      ],
+      "role": "Lead",
+      "date": "2026-06-11"
+    },
+    {
+      "fund": "Norwest",
+      "partner": "",
+      "deals": [
+        "REMEDY"
+      ],
+      "role": "Existing Investor",
+      "date": "2026-06-11"
+    },
+    {
+      "fund": "Sonoma Brands Capital",
+      "partner": "",
+      "deals": [
+        "REMEDY"
+      ],
+      "role": "Participant",
+      "date": "2026-06-11"
     }
   ],
   "fundNews": [
     {
       "id": "news-001",
       "fund": "Coefficient Capital",
-      "headline": "Coefficient Capital closes $500M across two vehicles",
-      "detail": "Coefficient Capital closed Fund II at $290M and its Apex growth vehicle at $240M, bringing total new capital under management to $500M. The firm focuses on consumer and retail technology investments.",
-      "type": "Fund Close",
+      "newsType": "LP Close",
+      "details": "Coefficient Capital closed Fund II at $290M and its Apex growth vehicle at $240M, bringing total new capital under management to $500M. The firm focuses on consumer and retail technology investments. The dual-close structure signals strong LP appetite for consumer-focused venture strategies at both the early and growth stages.",
       "date": "2026-03-28",
       "source": "Consumer VC Roundup #153"
+    },
+    {
+      "id": "news-002",
+      "fund": "Top Knot Ventures",
+      "newsType": "Other",
+      "details": "Manica Blain, founder of Top Knot Ventures, joined Consumer VC podcast (Episode #362) to discuss the state of early-stage consumer VC. The conversation explored whether the asset class is broken and what it takes to build durable consumer brands in the current market environment.",
+      "date": "2026-03-11",
+      "source": "Consumer VC Podcast #362"
+    },
+    {
+      "id": "news-003",
+      "fund": "Collaborative Fund",
+      "newsType": "New Fund",
+      "details": "Collaborative Fund raised $250M for Collab Holdings, a new private equity vehicle focused on consumer brands. The fund represents a significant shift from their venture roots into later-stage growth equity and PE buyouts. Strong LP demand for consumer-focused PE strategies underscores the maturation of the consumer brand investment ecosystem.",
+      "date": "2026-04-16",
+      "source": "CPG Wire - Apr 16"
+    },
+    {
+      "id": "news-004",
+      "fund": "L Catterton / Patricof Co",
+      "newsType": "Other",
+      "details": "L Catterton and Patricof Co announced the formation of CHAMP, a strategic partnership connecting top athletes with consumer investment opportunities. The platform allows athletes including Kevin Durant, Cooper Flagg, Livvy Dunne, and Cade Cunningham to co-invest alongside L Catterton in emerging and scaled consumer brands. CHAMP represents a novel convergence of celebrity/athlete capital and institutional consumer VC deal access.",
+      "date": "2026-04-28",
+      "source": "This Week in CPG (Apr 28, 2026)"
+    },
+    {
+      "fund": "True Beauty Ventures",
+      "newsType": "New Fund",
+      "details": "True Beauty Ventures kicked off fundraising for Fund III. Since launching in 2020, the firm has backed brands including Vacation, K18, Jupiter, Crown Affair, and Biologica. The fund focuses on beauty, wellness, and personal care investments.",
+      "date": "2026-05-05",
+      "source": "This Week in CPG (May 5, 2026)"
+    },
+    {
+      "id": "news-005",
+      "fund": "S2G Investments",
+      "newsType": "New Fund",
+      "details": "S2G Investments secured $1B for Solutions Fund I, focused on backing growth-stage startups in Europe and North America across food, agriculture, and energy. Previous S2G investments include 80 Acres Farms, Apeel Sciences, Atomo Coffee, and Bettani Farms. The fund's scale signals strong LP appetite for sustainable food systems investing at the growth stage.",
+      "date": "2026-05-15",
+      "source": "This Week in CPG (May 15, 2026)"
+    },
+    {
+      "id": "news-006",
+      "fund": "Mother Ventures",
+      "newsType": "New Fund",
+      "details": "Mother Ventures closed a $10M fund to support companies building healthy futures for mothers and their families. The fund reflects growing institutional interest in the maternal health and family wellness category, building on strong consumer demand for products and services supporting the perinatal journey.",
+      "date": "2026-05-12",
+      "source": "Fitt Insider Issue No. 392 (May 12, 2026)"
+    },
+    {
+      "fund": "e.l.f. Beauty / Keys Soulcare",
+      "newsType": "Other",
+      "details": "e.l.f. Beauty transferred ownership of Keys Soulcare back to co-founder Alicia Keys as of May 21, 2026. The brand exit was announced during e.l.f.'s earnings call as the company refocuses on its five core growth brands including e.l.f. Cosmetics, rhode, Naturium, and W3LL People. Keys Soulcare was originally co-founded and incubated by e.l.f. in 2020.",
+      "date": "2026-05-21",
+      "source": "Thingtesting Newsletter / This Week in CPG"
+    },
+    {
+      "fund": "Shein / Everlane",
+      "newsType": "Other",
+      "details": "Shein acquired San Francisco-based apparel brand Everlane for approximately $100 million. Everlane, known for its radical transparency positioning and minimalist staples, had been struggling with $90 million in debt. The brand will retain operational autonomy and its sustainability commitments under Shein ownership.",
+      "date": "2026-05-19",
+      "source": "Thingtesting Newsletter - May 21, 2026"
+    },
+    {
+      "fund": "Heartland Food Products Group / Whole Earth Brands",
+      "newsType": "Other",
+      "details": "Heartland Food Products Group, the owner of Splenda, acquired the Americas business of Whole Earth Brands and its broad portfolio of natural sweeteners. Heartland now owns a diversified sweetener portfolio including Equal, Swerve, Whole Earth, Chuker, and Splenda. The deal consolidates two major players in the better-for-you sweetener category.",
+      "date": "2026-05-27",
+      "source": "This Week in CPG (May 27, 2026)"
+    },
+    {
+      "fund": "Scholl's Wellness Company / VKTRY",
+      "newsType": "Other",
+      "details": "Scholl's Wellness Company, parent of the Dr. Scholl's brand, acquired performance-focused insole maker VKTRY. VKTRY is known for its carbon fiber insoles used by elite athletes to enhance performance and reduce injury risk. The acquisition expands Dr. Scholl's portfolio into the performance footwear innovation segment.",
+      "date": "2026-05-26",
+      "source": "Fitt Insider Issue No. 396 (May 26, 2026)"
+    },
+    {
+      "fund": "Imperial Brands / Black Buffalo",
+      "newsType": "Other",
+      "details": "UK-based Imperial Brands (through ITG Brands) acquired tobacco alternative brand Black Buffalo for $150M plus earnout. Black Buffalo was founded in 2015 and backed by Listen Ventures, Vice Ventures, Access Capital, and Watchfire Ventures. The exit represents a notable consumer CPG M&A outcome for early-stage backers in the smokeless tobacco alternatives space.",
+      "date": "2026-05-29",
+      "source": "This Week in CPG (May 29, 2026)"
+    },
+    {
+      "id": "news-007",
+      "fund": "Lactalis / Protein Works",
+      "newsType": "Other",
+      "details": "Global dairy giant Lactalis acquired UK-based sports nutrition brand Protein Works for an undisclosed sum. Protein Works, founded in 2012 in Liverpool, generates ~$75M in annual sales across protein supplements and nutrition products. The deal follows Danone's $1.15B acquisition of Huel earlier in 2026, signaling accelerating Big Food/Dairy consolidation into functional nutrition.",
+      "date": "2026-06-01",
+      "source": "This Week in CPG (Jun 3, 2026)"
+    },
+    {
+      "id": "news-008",
+      "fund": "Church & Dwight / Miss Mouth's Messy Eater",
+      "newsType": "Other",
+      "details": "Church & Dwight (NYSE: CHD) acquired Miss Mouth's Messy Eater for $325M. Thrasio had purchased the brand in 2020 and scaled it into the largest stain remover brand on Amazon, generating $80M net sales and $28M EBITDA in 2025. The acquisition continues Church & Dwight's disciplined acquisition playbook and highlights how Amazon-native brands can achieve significant strategic exits.",
+      "date": "2026-06-02",
+      "source": "This Week in CPG (Jun 3, 2026)"
+    },
+    {
+      "fund": "Animal Capital",
+      "newsType": "New Fund",
+      "details": "Animal Capital closed Fund III with $33 million in total commitments on June 10, 2026. Led by founder Marshall Sandman, the fund nearly doubles the firm's prior vehicle and targets early-stage, primarily U.S.-based consumer tech investments that leverage technology to improve consumer lives. Fund III increases the firm's target check size by approximately 150% versus its inaugural fund.",
+      "date": "2026-06-10",
+      "source": "This Week in CPG (June 12, 2026)"
     }
   ],
   "weeklyTalkingPoints": {
-    "weekOf": "2026-03-30",
-    "generatedAt": "2026-04-04",
+    "weekOf": "2026-06-15",
+    "generatedAt": "2026-06-15",
+    "dealsReferenced": [
+      "Garner Health",
+      "WeRoad",
+      "REMEDY",
+      "Stars + Honey",
+      "Phytolon",
+      "Malama Health",
+      "Rem3dy Health",
+      "Kalogon",
+      "Sychedelic",
+      "Animal Capital Fund III",
+      "Tillamook Country Smoker",
+      "Wize Tea"
+    ],
     "points": [
       {
-        "label": "Supplement & Wellness: Creatine Goes Mainstream",
-        "context": "Create Wellness raised a $20M Series B led by Alliance Consumer Growth, with participation from Impact Capital and Unilever Ventures, to expand its creatine gummy brand into powdered beverages. The round signals continued institutional conviction in functional supplement brands that can cross from niche fitness into mass-market retail.",
-        "take": "Unilever Ventures' participation alongside a dedicated consumer growth fund suggests the category is maturing toward strategic acquirer interest — a signal worth tracking for how legacy CPG scouts emerging supplement plays."
+        "label": "Garner Health's $100M Series E at $2.74B Validates Consumer Healthcare Navigation at Scale",
+        "context": "Index Ventures led Garner Health's $100M Series E at a $2.74B valuation, making it one of the largest consumer health tech rounds of the year. Garner helps employers steer employees toward higher-quality, lower-cost doctors \u2014 a model that sits at the confluence of employer benefits, consumer behavior change, and healthcare cost reduction. The scale of this round, led by a generalist tier-1 fund, signals that consumer healthcare navigation has crossed from 'interesting niche' to 'category-defining infrastructure.'",
+        "take": "Garner's $2.74B valuation anchors the consumer health navigation category as institutional \u2014 founders building adjacent services (mental health navigation, specialty care routing, diagnostic guidance) now have a credible comparables framework for Series A and B conversations, and should lean into the 'cost reduction + quality improvement' narrative rather than pure 'consumer wellness' positioning when pitching institutional funds."
       },
       {
-        "label": "Drone Delivery: Infrastructure Moment Arrives",
-        "context": "Manna Air Delivery raised $50M in Series B funding from ARK Invest, ISIF, and Schooner Capital to expand drone delivery across U.S. suburban communities, having already completed 250,000+ deliveries and partnered with Uber Eats, Deliveroo, and DoorDash. Simultaneously, GrubHub is piloting drone delivery in New Jersey.",
-        "take": "The convergence of multiple last-mile delivery partnerships on a single drone operator — rather than vertical integration — suggests the market may be settling on an 'infrastructure layer' model where drone operators serve as neutral rails, which has significant implications for unit economics and defensibility."
+        "label": "Airbnb Leads WeRoad's $58M Series C \u2014 Strategic Investors Are Taking the Lead Investor Seat",
+        "context": "Airbnb led WeRoad's $58M Series C for the European group travel marketplace \u2014 a notable instance of a major platform company taking the lead investor seat in a consumer marketplace round rather than a financial VC. WeRoad specializes in community-driven group travel for solo travelers, a segment that aligns with Airbnb's own community-first positioning. The deal reflects a broader pattern in 2026 of strategic corporates writing lead checks in adjacent consumer categories rather than deferring to financial sponsors.",
+        "take": "Strategic-led rounds like WeRoad's signal a structural shift in late-stage consumer marketplace funding dynamics \u2014 founders in travel, social, or community-commerce categories should treat platform companies (Airbnb, Duolingo, Reddit) as viable Series B/C lead candidates rather than just distribution partners, especially where the strategic value of the relationship is more defensible than what any financial VC could provide."
       },
       {
-        "label": "Alt-Protein: Precision Fermentation Finds Institutional Support",
-        "context": "Standing Ovation, a French precision fermentation startup producing next-generation dairy proteins, closed a $28.5M Series B led by Ecotechnologies. The raise is earmarked to scale dairy protein production at commercial volumes.",
-        "take": "A European alt-protein company raising Series B capital specifically to scale dairy protein — not plant-based meat — reflects a thesis shift toward ingredient-layer plays that sell into existing CPG supply chains, rather than direct-to-consumer brand building."
+        "label": "L Catterton's REMEDY Series A Reinforces PE's Continued Appetite for Early-Stage Consumer Health",
+        "context": "L Catterton led REMEDY's $20M Series A alongside Norwest and Sonoma Brands Capital \u2014 a significant signal given that L Catterton typically deploys growth equity at later stages. The deal follows L Catterton's participation in the California Naturals Series B last week, suggesting the fund is deliberately moving earlier in the consumer health and wellness category. REMEDY's personal care positioning in the health-beauty convergence space continues to attract premium lead investors.",
+        "take": "L Catterton writing two consecutive A/B-stage checks in a single week is a meaningful deployment signal \u2014 consumer health founders in the $10-25M Series A range should treat L Catterton as an active target for lead conversations rather than assuming they'll wait for growth stage, particularly if the brand is positioned at the intersection of health outcomes and premium consumer aesthetics."
       },
       {
-        "label": "Beauty Services: Multi-Unit Retail Gets Consumer Growth Backing",
-        "context": "Peachy, a beauty-services retail chain offering treatments by certified Nurse Practitioners, received a minority investment from Stride Consumer Partners. The deal reflects growing VC interest in the intersection of medical aesthetics and accessible retail formats.",
-        "take": "Stride's minority position — rather than a traditional lead round — may indicate a preference for optionality in a category where unit economics at scale are still being proven, and where regulatory risk around NP-administered treatments varies by state."
+        "label": "Food & Bev M&A Continues at Pace: Two Exits in One Week",
+        "context": "Second Nature Brands acquired Tillamook Country Smoker and an undisclosed buyer acquired Wize Tea \u2014 two CPG food exits in the same week from Consumer VC Roundup #156. These add to a Q2 2026 pattern of sustained M&A activity in food & bev where strategic acquirers and holding companies are actively scooping up established brands at various stages. The clustering of exits in the June timeframe suggests acquirers are deploying capital before summer slowdown windows.",
+        "take": "The continued Food & Bev exit cadence in Q2 2026 is a positive signal for seed and Series A CPG founders \u2014 acquirers are clearly active and the pipeline of strategic buyers in food has diversified beyond the traditional Big Food players to include brand holding companies and PE-backed platforms, suggesting multiple potential exit channels rather than a single buyer-of-last-resort dynamic."
       },
       {
-        "label": "Men's Personal Care: L Catterton Backs $27.5M Series A for Mars Men",
-        "context": "Mars Men raised a $27.5M Series A led by L Catterton to expand its men's personal care and grooming brand. The deal is one of the larger Series A investments in the men's personal care category in recent memory.",
-        "take": "L Catterton's lead signals institutional conviction that men's personal care is entering a premium category expansion phase — following the playbook of women's beauty brands that scaled through DTC before transitioning into mass retail. The category has historically been undercapitalized relative to its market size."
+        "label": "Hardware Emerges as an Overlooked Seed Opportunity: Kalogon + Sychedelic Both Raise at Seed",
+        "context": "Two hardware-focused consumer tech companies raised seed rounds this week: Kalogon ($5.75M, smart wheelchair cushion technology) and Sychedelic ($3.5M, consumer brain stimulation wearables). Both tackle deeply physical problems \u2014 mobility and cognitive enhancement \u2014 that software-only approaches cannot solve. Hardware consumer deals remain a small fraction of overall consumer VC volume despite the category's potential for defensibility through physical product moats.",
+        "take": "Hardware-native consumer companies at the seed stage are often systematically underpriced by software-trained VCs who underestimate defensibility at the intersection of physical form factor and health outcomes \u2014 the Kalogon and Sychedelic raises, both at the seed stage, suggest that specialized investors are finding asymmetric opportunities in categories that generalist software funds routinely pass on."
       },
       {
-        "label": "CPG M&A: Strategic Consolidation Accelerates",
-        "context": "This week saw sweeping CPG M&A across categories: McCormick acquired Unilever's food business for $45B, Keurig Dr Pepper completed its acquisition of JDE Peet's, and Constellation Brands acquired Hopwtr to expand into non-alcoholic beverages. The pace of strategic activity signals incumbents repositioning ahead of shifting consumer preferences.",
-        "take": "For early-stage founders, this wave of acquisitions compresses the exit timeline calculus — brands in bolt-on categories like non-alc, functional foods, and premium condiments may see heightened acquirer interest even at sub-scale revenue, as strategics race to fill portfolio gaps."
+        "label": "European Supplement Brands Attracting Cross-Border Institutional Capital",
+        "context": "Rem3dy Health (Nourished), a UK-based personalized nutrition brand, raised \u00a314M (~$18.8M) in a Series A, while French supplement company Laboratoire Nutergia was acquired by 3i Group (Growth) in the same week. Together, these deals reflect growing institutional appetite for European supplement and functional nutrition brands \u2014 a category that has historically been concentrated in the US and Australian markets. The 3i deal in particular signals PE-level conviction in European supplement scale.",
+        "take": "The simultaneous institutional investment and PE acquisition of European supplement brands signals that the category is approaching a professionalization inflection point in Europe \u2014 US-focused supplement investors should be developing European deal flow now before category multiples compress as PE platforms consolidate the most attractive assets."
+      },
+      {
+        "label": "Animal Capital's $33M Fund III Shows Micro-VC Consumer Tech Is Institutionalizing",
+        "context": "Animal Capital closed Fund III at $33M \u2014 nearly double the prior vehicle \u2014 with lead Marshall Sandman targeting early-stage US consumer tech companies that use technology to improve consumer lives. The fund's growth in size and LP base mirrors a broader trend of specialist consumer tech micro-funds achieving institutional maturity after initial vintage performance. Animal Capital increases its check size by approximately 150% vs. its inaugural fund, enabling it to compete more aggressively for conviction A-round opportunities.",
+        "take": "The institutionalization of micro-fund consumer VC \u2014 with Animal Capital III now writing meaningfully larger checks \u2014 is compressing the gap between seed-stage specialists and traditional A-round institutional VCs, creating a new competitive dynamic where founders in the pre-Series A window have more qualified lead options than at any prior point in the consumer VC cycle."
       }
-    ],
-    "dealsReferenced": [
-      {"company": "Create Wellness, Inc.", "date": "2026-04-04", "source": "Consumer VC Roundup #154"},
-      {"company": "Manna Air Delivery", "date": "2026-04-04", "source": "Consumer VC Roundup #154"},
-      {"company": "Standing Ovation", "date": "2026-04-04", "source": "Consumer VC Roundup #154"},
-      {"company": "Peachy", "date": "2026-04-04", "source": "Consumer VC Roundup #154"},
-      {"company": "Mars Men", "date": "2026-03-31", "source": "CPG Wire (Mar 31)"}
     ]
   }
 }
