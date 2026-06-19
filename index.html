@@ -6,498 +6,570 @@
 <title>Consumer VC Dashboard</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: #0f1b2d; color: #e2e8f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; min-height: 100vh; }
-  a { color: #f59e0b; }
-  
-  /* NAV */
-  nav { background: #0a1628; border-bottom: 1px solid #1e3a5f; padding: 0 24px; display: flex; align-items: center; gap: 8px; position: sticky; top: 0; z-index: 100; }
-  .brand { color: #f59e0b; font-weight: 700; font-size: 18px; padding: 16px 16px 16px 0; border-right: 1px solid #1e3a5f; margin-right: 8px; white-space: nowrap; }
-  .tab-btn { background: none; border: none; color: #94a3b8; cursor: pointer; padding: 18px 16px; font-size: 14px; font-weight: 500; border-bottom: 3px solid transparent; transition: all 0.2s; white-space: nowrap; }
-  .tab-btn:hover { color: #e2e8f0; }
-  .tab-btn.active { color: #f59e0b; border-bottom-color: #f59e0b; }
+  :root {
+    --navy: #0f1b2d;
+    --navy-light: #162236;
+    --navy-card: #1a2d47;
+    --amber: #f59e0b;
+    --amber-light: #fbbf24;
+    --white: #f1f5f9;
+    --gray: #94a3b8;
+    --gray-dark: #64748b;
+    --green: #10b981;
+    --red: #ef4444;
+    --blue: #3b82f6;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--navy); color: var(--white); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; min-height: 100vh; }
 
-  /* MAIN */
+  /* NAV */
+  header { background: var(--navy-light); border-bottom: 1px solid rgba(245,158,11,0.2); padding: 0 24px; position: sticky; top: 0; z-index: 100; }
+  .header-inner { display: flex; align-items: center; gap: 32px; max-width: 1400px; margin: 0 auto; flex-wrap: wrap; }
+  .logo { font-size: 18px; font-weight: 700; color: var(--amber); padding: 16px 0; white-space: nowrap; }
+  nav { display: flex; gap: 0; }
+  nav button { background: none; border: none; color: var(--gray); cursor: pointer; padding: 18px 16px; font-size: 14px; font-weight: 500; border-bottom: 3px solid transparent; transition: all 0.2s; white-space: nowrap; }
+  nav button:hover { color: var(--white); }
+  nav button.active { color: var(--amber); border-bottom-color: var(--amber); }
+
+  /* LAYOUT */
   main { max-width: 1400px; margin: 0 auto; padding: 24px; }
   .section { display: none; }
   .section.active { display: block; }
 
-  /* STAT CARDS */
-  .stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 24px; }
-  .stat-card { background: #0a1628; border: 1px solid #1e3a5f; border-radius: 12px; padding: 20px; }
-  .stat-card .label { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: #64748b; margin-bottom: 8px; }
-  .stat-card .value { font-size: 28px; font-weight: 700; color: #f59e0b; }
-  .stat-card .sub { font-size: 13px; color: #94a3b8; margin-top: 4px; }
+  /* CARDS */
+  .stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-bottom: 24px; }
+  .stat-card { background: var(--navy-card); border: 1px solid rgba(245,158,11,0.15); border-radius: 12px; padding: 20px; }
+  .stat-card .label { font-size: 12px; color: var(--gray); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+  .stat-card .value { font-size: 28px; font-weight: 700; color: var(--amber); }
+  .stat-card .sub { font-size: 13px; color: var(--gray); margin-top: 4px; }
 
   /* CHARTS */
-  .chart-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px; }
-  @media (max-width: 768px) { .chart-grid { grid-template-columns: 1fr; } }
-  .chart-card { background: #0a1628; border: 1px solid #1e3a5f; border-radius: 12px; padding: 20px; }
-  .chart-card h3 { font-size: 14px; color: #94a3b8; margin-bottom: 16px; text-transform: uppercase; letter-spacing: .06em; }
-  .chart-wrap { position: relative; height: 260px; }
+  .charts-row { display: grid; grid-template-columns: 1fr 2fr; gap: 16px; margin-bottom: 24px; }
+  @media (max-width: 768px) { .charts-row { grid-template-columns: 1fr; } }
+  .chart-card { background: var(--navy-card); border: 1px solid rgba(245,158,11,0.1); border-radius: 12px; padding: 20px; }
+  .chart-card h3 { font-size: 14px; color: var(--gray); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; }
+  .chart-wrap { position: relative; }
 
   /* FILTERS */
-  .filter-bar { background: #0a1628; border: 1px solid #1e3a5f; border-radius: 12px; padding: 16px; margin-bottom: 16px; display: flex; flex-wrap: wrap; gap: 12px; align-items: flex-end; }
-  .filter-group { display: flex; flex-direction: column; gap: 4px; }
-  .filter-group label { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: #64748b; }
-  .filter-group select, .filter-group input { background: #0f1b2d; border: 1px solid #1e3a5f; border-radius: 6px; color: #e2e8f0; padding: 6px 10px; font-size: 13px; min-width: 140px; }
-  .filter-group select:focus, .filter-group input:focus { outline: 2px solid #f59e0b; }
-  .reset-btn { background: #1e3a5f; border: none; color: #94a3b8; padding: 7px 14px; border-radius: 6px; cursor: pointer; font-size: 13px; }
-  .reset-btn:hover { color: #e2e8f0; }
+  .filters { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 16px; align-items: center; }
+  .filters select, .filters input { background: var(--navy-card); border: 1px solid rgba(245,158,11,0.2); color: var(--white); padding: 8px 12px; border-radius: 8px; font-size: 13px; cursor: pointer; }
+  .filters select:focus, .filters input:focus { outline: none; border-color: var(--amber); }
+  .filters label { font-size: 13px; color: var(--gray); }
+  .filter-group { display: flex; align-items: center; gap: 8px; }
 
   /* TABLE */
-  .table-wrap { overflow-x: auto; border-radius: 12px; border: 1px solid #1e3a5f; }
+  .table-wrap { overflow-x: auto; border-radius: 12px; border: 1px solid rgba(245,158,11,0.1); }
   table { width: 100%; border-collapse: collapse; font-size: 13px; }
-  thead th { background: #0a1628; padding: 12px 14px; text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: #64748b; cursor: pointer; white-space: nowrap; user-select: none; border-bottom: 1px solid #1e3a5f; }
-  thead th:hover { color: #f59e0b; }
-  thead th .sort-icon { margin-left: 4px; opacity: .5; }
-  tbody tr { border-bottom: 1px solid #0f1b2d; transition: background .15s; }
-  tbody tr:hover { background: #0a1628; }
+  thead th { background: var(--navy-light); padding: 12px 14px; text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--gray); cursor: pointer; white-space: nowrap; user-select: none; }
+  thead th:hover { color: var(--amber); }
+  thead th .sort-icon { margin-left: 4px; opacity: 0.5; }
+  thead th.sorted .sort-icon { opacity: 1; color: var(--amber); }
+  tbody tr { border-top: 1px solid rgba(255,255,255,0.05); transition: background 0.1s; }
+  tbody tr:hover { background: rgba(245,158,11,0.05); }
   tbody td { padding: 11px 14px; vertical-align: top; }
   .badge { display: inline-block; padding: 2px 8px; border-radius: 20px; font-size: 11px; font-weight: 600; }
-  .badge-cpg { background: #1a3a2a; color: #4ade80; }
-  .badge-tech { background: #1a2a3a; color: #60a5fa; }
-  .badge-amount { background: #2d1f05; color: #f59e0b; }
-  .empty { text-align: center; padding: 48px; color: #64748b; }
+  .badge-cpg { background: rgba(16,185,129,0.15); color: #10b981; }
+  .badge-tech { background: rgba(59,130,246,0.15); color: #60a5fa; }
+  .badge-seed { background: rgba(245,158,11,0.15); color: var(--amber); }
+  .badge-a { background: rgba(139,92,246,0.15); color: #a78bfa; }
+  .badge-b { background: rgba(236,72,153,0.15); color: #f472b6; }
+  .badge-c { background: rgba(239,68,68,0.15); color: #f87171; }
+  .badge-pre { background: rgba(20,184,166,0.15); color: #2dd4bf; }
+  .amount-col { font-weight: 600; color: var(--amber-light); white-space: nowrap; }
+  .investors-list { color: var(--gray); font-size: 12px; }
+  .lead-investor { color: var(--white); font-weight: 500; }
+  .date-col { color: var(--gray); white-space: nowrap; }
+  .no-data { text-align: center; padding: 40px; color: var(--gray); }
 
   /* TALKING POINTS */
-  .tp-grid { display: grid; gap: 16px; margin-bottom: 32px; }
-  .tp-card { background: #0a1628; border: 1px solid #1e3a5f; border-radius: 12px; padding: 20px; border-left: 3px solid #f59e0b; }
-  .tp-card .tp-label { font-size: 15px; font-weight: 700; color: #f59e0b; margin-bottom: 10px; }
-  .tp-card .tp-context { font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 8px; }
-  .tp-card .tp-take { font-size: 13px; color: #94a3b8; line-height: 1.6; font-style: italic; }
-  .tp-week { font-size: 12px; color: #64748b; margin-bottom: 16px; }
-  .ref-deals { background: #0a1628; border: 1px solid #1e3a5f; border-radius: 12px; padding: 20px; }
-  .ref-deals h3 { font-size: 14px; color: #94a3b8; text-transform: uppercase; letter-spacing: .06em; margin-bottom: 12px; }
-  .deal-chips { display: flex; flex-wrap: wrap; gap: 8px; }
-  .deal-chip { background: #1e3a5f; color: #e2e8f0; padding: 4px 12px; border-radius: 20px; font-size: 12px; }
+  .week-label { font-size: 13px; color: var(--gray); margin-bottom: 20px; }
+  .tp-grid { display: grid; gap: 16px; }
+  .tp-card { background: var(--navy-card); border: 1px solid rgba(245,158,11,0.1); border-radius: 12px; padding: 20px; border-left: 3px solid var(--amber); }
+  .tp-card .tp-label { font-size: 13px; font-weight: 700; color: var(--amber); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+  .tp-card .tp-context { font-size: 14px; color: var(--white); line-height: 1.6; margin-bottom: 8px; }
+  .tp-card .tp-take { font-size: 13px; color: var(--gray); line-height: 1.5; font-style: italic; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 8px; margin-top: 8px; }
+  .tp-take::before { content: '📌 '; }
+  .deals-ref { background: var(--navy-card); border: 1px solid rgba(245,158,11,0.1); border-radius: 12px; padding: 20px; margin-top: 20px; }
+  .deals-ref h3 { font-size: 14px; color: var(--gray); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px; }
+  .deals-ref-list { display: flex; flex-wrap: wrap; gap: 8px; }
+  .deals-ref-list span { background: rgba(245,158,11,0.1); color: var(--amber); padding: 4px 12px; border-radius: 20px; font-size: 13px; }
 
-  /* INVESTOR */
-  .toggle-bar { display: flex; gap: 8px; margin-bottom: 16px; }
-  .toggle-btn { background: #0a1628; border: 1px solid #1e3a5f; color: #94a3b8; padding: 7px 18px; border-radius: 6px; cursor: pointer; font-size: 13px; transition: all .2s; }
-  .toggle-btn.active { background: #f59e0b; border-color: #f59e0b; color: #0f1b2d; font-weight: 700; }
-  .inv-table { background: #0a1628; border: 1px solid #1e3a5f; border-radius: 12px; overflow: hidden; }
-  .inv-row { display: grid; grid-template-columns: 2fr 1fr 3fr; padding: 12px 16px; border-bottom: 1px solid #0f1b2d; font-size: 13px; align-items: start; }
-  .inv-row:last-child { border-bottom: none; }
-  .inv-head { background: #071020; padding: 10px 16px; font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: #64748b; display: grid; grid-template-columns: 2fr 1fr 3fr; }
-  .inv-fund { font-weight: 600; color: #e2e8f0; }
-  .inv-count { color: #f59e0b; font-weight: 700; }
-  .inv-deals-list { color: #94a3b8; font-size: 12px; }
+  /* INVESTOR TRACKER */
+  .toggle-row { display: flex; gap: 8px; margin-bottom: 20px; }
+  .toggle-btn { background: var(--navy-card); border: 1px solid rgba(245,158,11,0.2); color: var(--gray); padding: 8px 18px; border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: 500; transition: all 0.2s; }
+  .toggle-btn.active { background: rgba(245,158,11,0.15); color: var(--amber); border-color: var(--amber); }
+  .investor-grid { display: grid; gap: 12px; }
+  .investor-card { background: var(--navy-card); border: 1px solid rgba(245,158,11,0.1); border-radius: 12px; padding: 16px 20px; display: flex; align-items: center; gap: 16px; }
+  .investor-rank { font-size: 20px; font-weight: 700; color: var(--amber); min-width: 36px; }
+  .investor-info { flex: 1; }
+  .investor-name { font-size: 15px; font-weight: 600; margin-bottom: 4px; }
+  .investor-deals { font-size: 12px; color: var(--gray); }
+  .investor-count { font-size: 24px; font-weight: 700; color: var(--amber); }
+  .investor-count-label { font-size: 11px; color: var(--gray); text-align: center; }
+  .disclaimer { font-size: 12px; color: var(--gray-dark); margin-top: 12px; font-style: italic; }
 
   /* FUND NEWS */
-  .news-filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
-  .news-filter-btn { background: #0a1628; border: 1px solid #1e3a5f; color: #94a3b8; padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 12px; }
-  .news-filter-btn.active { background: #1e3a5f; color: #e2e8f0; }
-  .news-feed { display: grid; gap: 12px; }
-  .news-card { background: #0a1628; border: 1px solid #1e3a5f; border-radius: 12px; padding: 20px; }
+  .news-feed { display: grid; gap: 14px; }
+  .news-card { background: var(--navy-card); border: 1px solid rgba(245,158,11,0.1); border-radius: 12px; padding: 18px 20px; }
   .news-card .news-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; margin-bottom: 8px; }
-  .news-card .news-fund { font-weight: 700; color: #f59e0b; font-size: 15px; }
-  .news-card .news-type-badge { background: #1e3a5f; color: #94a3b8; padding: 2px 10px; border-radius: 20px; font-size: 11px; white-space: nowrap; }
-  .news-card .news-date { font-size: 12px; color: #64748b; margin-bottom: 8px; }
-  .news-card .news-details { font-size: 13px; color: #cbd5e1; line-height: 1.6; }
-  .news-card .news-source { font-size: 11px; color: #64748b; margin-top: 8px; }
+  .news-card .fund-name { font-size: 15px; font-weight: 600; }
+  .news-card .news-date { font-size: 12px; color: var(--gray); white-space: nowrap; }
+  .news-card .news-badge { font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-bottom: 8px; display: inline-block; }
+  .news-badge-fund { background: rgba(245,158,11,0.15); color: var(--amber); }
+  .news-badge-hire { background: rgba(59,130,246,0.15); color: #60a5fa; }
+  .news-badge-lp { background: rgba(16,185,129,0.15); color: #10b981; }
+  .news-badge-other { background: rgba(100,116,139,0.2); color: var(--gray); }
+  .news-card .news-details { font-size: 13px; color: var(--gray); line-height: 1.6; }
+  .news-card .news-source { font-size: 11px; color: var(--gray-dark); margin-top: 8px; }
+
+  /* SECTION HEADER */
+  .section-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 12px; }
+  .section-title { font-size: 20px; font-weight: 700; }
 
   /* FOOTER */
-  footer { text-align: center; padding: 32px 24px; color: #475569; font-size: 12px; border-top: 1px solid #1e3a5f; margin-top: 48px; }
+  footer { text-align: center; padding: 32px 24px; color: var(--gray-dark); font-size: 12px; border-top: 1px solid rgba(255,255,255,0.05); margin-top: 48px; }
+  footer span { display: block; margin-top: 4px; }
 
-  /* SECTION TITLE */
-  .section-title { font-size: 22px; font-weight: 700; color: #e2e8f0; margin-bottom: 20px; }
-  .disclaimer { font-size: 11px; color: #475569; margin-bottom: 12px; }
+  /* LOADING */
+  .loading { display: flex; align-items: center; justify-content: center; padding: 80px; flex-direction: column; gap: 16px; }
+  .spinner { width: 36px; height: 36px; border: 3px solid rgba(245,158,11,0.2); border-top-color: var(--amber); border-radius: 50%; animation: spin 0.8s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
 </style>
 </head>
 <body>
 
-<nav>
-  <div class="brand">Consumer VC</div>
-  <button class="tab-btn active" onclick="showTab('deals')">Latest Deals</button>
-  <button class="tab-btn" onclick="showTab('weekly')">This Week</button>
-  <button class="tab-btn" onclick="showTab('investors')">Investor Activity</button>
-  <button class="tab-btn" onclick="showTab('news')">Fund News</button>
-</nav>
+<header>
+  <div class="header-inner">
+    <div class="logo">⚡ Consumer VC</div>
+    <nav id="nav">
+      <button class="active" onclick="showSection('deals', this)">Latest Deals</button>
+      <button onclick="showSection('talking', this)">This Week</button>
+      <button onclick="showSection('investors', this)">Investors</button>
+      <button onclick="showSection('news', this)">Fund News</button>
+    </nav>
+  </div>
+</header>
 
 <main>
-
-<!-- SECTION 1: LATEST DEALS -->
-<section id="section-deals" class="section active">
-  <div id="stat-cards" class="stat-grid"></div>
-  <div class="chart-grid">
-    <div class="chart-card">
-      <h3>Deals by Sector (30 days)</h3>
-      <div class="chart-wrap"><canvas id="chartSector"></canvas></div>
-    </div>
-    <div class="chart-card">
-      <h3>Deals by Subsector (30 days)</h3>
-      <div class="chart-wrap"><canvas id="chartSubsector"></canvas></div>
+  <div id="deals" class="section active">
+    <div class="loading" id="deals-loading"><div class="spinner"></div><span style="color:var(--gray)">Loading deals…</span></div>
+    <div id="deals-content" style="display:none">
+      <div class="stat-row" id="stat-row"></div>
+      <div class="charts-row">
+        <div class="chart-card">
+          <h3>By Sector (30d)</h3>
+          <div class="chart-wrap" style="height:220px"><canvas id="sectorChart"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <h3>By Subsector (30d)</h3>
+          <div class="chart-wrap" style="height:220px"><canvas id="subsectorChart"></canvas></div>
+        </div>
+      </div>
+      <div class="filters" id="filters"></div>
+      <div class="table-wrap">
+        <table id="deals-table">
+          <thead>
+            <tr>
+              <th onclick="sortTable('date')">Date <span class="sort-icon" id="sort-date">↓</span></th>
+              <th onclick="sortTable('company')">Company <span class="sort-icon" id="sort-company">↕</span></th>
+              <th onclick="sortTable('sector')">Sector <span class="sort-icon" id="sort-sector">↕</span></th>
+              <th onclick="sortTable('subsector')">Subsector <span class="sort-icon" id="sort-subsector">↕</span></th>
+              <th onclick="sortTable('series')">Stage <span class="sort-icon" id="sort-series">↕</span></th>
+              <th onclick="sortTable('amountNum')">Amount <span class="sort-icon" id="sort-amountNum">↕</span></th>
+              <th>Valuation</th>
+              <th onclick="sortTable('leadInvestor')">Lead Investor <span class="sort-icon" id="sort-leadInvestor">↕</span></th>
+              <th>All Investors</th>
+            </tr>
+          </thead>
+          <tbody id="deals-tbody"></tbody>
+        </table>
+      </div>
+      <div style="margin-top:10px; font-size:12px; color:var(--gray-dark)" id="table-count"></div>
     </div>
   </div>
-  <div class="filter-bar">
-    <div class="filter-group">
-      <label>Sector</label>
-      <select id="filterSector" onchange="onSectorChange()">
-        <option value="">All</option>
+
+  <div id="talking" class="section">
+    <div class="loading" id="talking-loading"><div class="spinner"></div><span style="color:var(--gray)">Loading…</span></div>
+    <div id="talking-content" style="display:none"></div>
+  </div>
+
+  <div id="investors" class="section">
+    <div class="loading" id="investors-loading"><div class="spinner"></div><span style="color:var(--gray)">Loading…</span></div>
+    <div id="investors-content" style="display:none"></div>
+  </div>
+
+  <div id="news" class="section">
+    <div class="loading" id="news-loading"><div class="spinner"></div><span style="color:var(--gray)">Loading…</span></div>
+    <div id="news-content" style="display:none"></div>
+  </div>
+</main>
+
+<footer>
+  Data sourced from subscribed newsletters. Not investment advice.
+  <span id="footer-ts"></span>
+</footer>
+
+<script>
+let DATA = null;
+let currentSection = 'deals';
+let sortCol = 'date';
+let sortAsc = false;
+let sectorChart = null;
+let subsectorChart = null;
+
+function showSection(id, btn) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  btn.classList.add('active');
+  currentSection = id;
+}
+
+function daysSince(dateStr) {
+  return (Date.now() - new Date(dateStr).getTime()) / 86400000;
+}
+
+function stageColor(series) {
+  if (!series) return 'badge-pre';
+  const s = series.toLowerCase();
+  if (s.includes('pre-seed') || s.includes('pre seed')) return 'badge-pre';
+  if (s.includes('seed')) return 'badge-seed';
+  if (s.includes('series a')) return 'badge-a';
+  if (s.includes('series b')) return 'badge-b';
+  if (s.includes('series c') || s.includes('series d') || s.includes('series e')) return 'badge-c';
+  return 'badge-pre';
+}
+
+function fmtDate(d) {
+  if (!d) return '';
+  return new Date(d + 'T12:00:00').toLocaleDateString('en-US', { month:'short', day:'numeric', year:'numeric' });
+}
+
+// ---------- DEALS ----------
+function buildDeals() {
+  const deals = DATA.deals;
+
+  // Filters
+  const filterEl = document.getElementById('filters');
+  filterEl.innerHTML = `
+    <div class="filter-group"><label>Sector</label>
+      <select id="f-sector" onchange="onSectorChange()">
+        <option value="">All Sectors</option>
         <option value="CPG">CPG</option>
         <option value="Consumer Tech">Consumer Tech</option>
       </select>
     </div>
-    <div class="filter-group">
-      <label>Subsector</label>
-      <select id="filterSubsector">
-        <option value="">All</option>
+    <div class="filter-group"><label>Subsector</label>
+      <select id="f-subsector" onchange="applyFilters()"></select>
+    </div>
+    <div class="filter-group"><label>Stage</label>
+      <select id="f-stage" onchange="applyFilters()">
+        <option value="">All Stages</option>
+        <option>Pre-Seed</option><option>Seed</option>
+        <option>Series A</option><option>Series B</option>
+        <option>Series C</option><option>Minority Investment</option>
       </select>
     </div>
-    <div class="filter-group">
-      <label>Stage</label>
-      <select id="filterStage">
-        <option value="">All</option>
-      </select>
-    </div>
-    <div class="filter-group">
-      <label>Date Range</label>
-      <select id="filterDate">
+    <div class="filter-group"><label>Date Range</label>
+      <select id="f-date" onchange="applyFilters()">
         <option value="30">Last 30 days</option>
         <option value="7">Last 7 days</option>
         <option value="90">Last 90 days</option>
-        <option value="all">All time</option>
+        <option value="0">All time</option>
       </select>
-    </div>
-    <button class="reset-btn" onclick="resetFilters()">Reset</button>
-  </div>
-  <div class="table-wrap">
-    <table>
-      <thead>
-        <tr>
-          <th onclick="sortTable('date')">Date <span class="sort-icon">↕</span></th>
-          <th onclick="sortTable('company')">Company <span class="sort-icon">↕</span></th>
-          <th onclick="sortTable('sector')">Sector <span class="sort-icon">↕</span></th>
-          <th onclick="sortTable('subsector')">Subsector <span class="sort-icon">↕</span></th>
-          <th onclick="sortTable('series')">Stage <span class="sort-icon">↕</span></th>
-          <th onclick="sortTable('amountNum')">Amount <span class="sort-icon">↕</span></th>
-          <th>Valuation</th>
-          <th onclick="sortTable('leadInvestor')">Lead Investor <span class="sort-icon">↕</span></th>
-          <th>All Investors</th>
-        </tr>
-      </thead>
-      <tbody id="deals-tbody"></tbody>
-    </table>
-  </div>
-</section>
+    </div>`;
 
-<!-- SECTION 2: WEEKLY -->
-<section id="section-weekly" class="section">
-  <div class="section-title">This Week in Consumer VC</div>
-  <div id="tp-week-label" class="tp-week"></div>
-  <div id="tp-grid" class="tp-grid"></div>
-  <div id="ref-deals-section" class="ref-deals" style="margin-top:16px">
-    <h3>Deals Referenced This Week</h3>
-    <div id="deal-chips" class="deal-chips"></div>
-  </div>
-</section>
+  populateSubsectors();
+  buildCharts();
+  buildStats();
+  applyFilters();
 
-<!-- SECTION 3: INVESTORS -->
-<section id="section-investors" class="section">
-  <div class="section-title">Investor Activity Tracker</div>
-  <div class="disclaimer">Frequency reflects newsletter coverage, not verified investment data.</div>
-  <div class="toggle-bar">
-    <button class="toggle-btn active" onclick="setInvView('fund')">By Fund</button>
-    <button class="toggle-btn" onclick="setInvView('partner')">By Partner</button>
-  </div>
-  <div id="inv-table"></div>
-</section>
-
-<!-- SECTION 4: FUND NEWS -->
-<section id="section-news" class="section">
-  <div class="section-title">Fund-Level News</div>
-  <div class="news-filters" id="news-filters"></div>
-  <div id="news-feed" class="news-feed"></div>
-</section>
-
-</main>
-
-<footer id="footer-ts"></footer>
-
-<script>
-let DATA = null;
-let sortCol = 'date';
-let sortDir = -1;
-let invView = 'fund';
-let newsFilter = '';
-
-async function init() {
-  const res = await fetch('data.json');
-  DATA = await res.json();
-  renderDeals();
-  renderWeekly();
-  renderInvestors();
-  renderNews();
-  document.getElementById('footer-ts').textContent =
-    `Last updated: ${new Date(DATA.lastUpdated).toLocaleString()} · Data sourced from subscribed newsletters. Not investment advice.`;
+  document.getElementById('deals-loading').style.display = 'none';
+  document.getElementById('deals-content').style.display = 'block';
 }
 
-function showTab(tab) {
-  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
-  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-  document.getElementById('section-' + tab).classList.add('active');
-  event.currentTarget.classList.add('active');
-}
+function onSectorChange() { populateSubsectors(); applyFilters(); }
 
-/* ---- DEALS ---- */
-function getDaysAgo(n) {
-  const d = new Date();
-  d.setDate(d.getDate() - n);
-  return d.toISOString().slice(0,10);
+function populateSubsectors() {
+  const sector = document.getElementById('f-sector')?.value || '';
+  const sub = document.getElementById('f-subsector');
+  if (!sub) return;
+  const cpgSubs = ['Food & Bev','Personal Care & Beauty','Pet','Home','Supplement & Wellness','Apparel','Other CPG'];
+  const techSubs = ['Fintech & Payments','Healthcare & Wellness Tech','Social & Community','Hardware','Marketplace','AI-Native Consumer','Other Consumer Tech'];
+  let opts = '<option value="">All Subsectors</option>';
+  const list = sector === 'CPG' ? cpgSubs : sector === 'Consumer Tech' ? techSubs : [...cpgSubs, ...techSubs];
+  list.forEach(s => opts += `<option>${s}</option>`);
+  sub.innerHTML = opts;
 }
 
 function getFilteredDeals() {
-  const sector = document.getElementById('filterSector').value;
-  const subsector = document.getElementById('filterSubsector').value;
-  const stage = document.getElementById('filterStage').value;
-  const dateRange = document.getElementById('filterDate').value;
-
-  let cutoff = null;
-  if (dateRange !== 'all') cutoff = getDaysAgo(parseInt(dateRange));
-
+  const sector = document.getElementById('f-sector')?.value || '';
+  const subsector = document.getElementById('f-subsector')?.value || '';
+  const stage = document.getElementById('f-stage')?.value || '';
+  const days = parseInt(document.getElementById('f-date')?.value || '30');
   return DATA.deals.filter(d => {
     if (sector && d.sector !== sector) return false;
     if (subsector && d.subsector !== subsector) return false;
     if (stage && d.series !== stage) return false;
-    if (cutoff && d.date < cutoff) return false;
+    if (days > 0 && daysSince(d.date) > days) return false;
     return true;
   });
 }
 
-function get30DayDeals() {
-  const cutoff = getDaysAgo(30);
-  return DATA.deals.filter(d => d.date >= cutoff);
-}
-
-function renderStatCards() {
-  const deals30 = get30DayDeals();
-  // Most active investor
-  const invCount = {};
-  deals30.forEach(d => d.investors.forEach(inv => { invCount[inv] = (invCount[inv]||0)+1; }));
-  const topInv = Object.entries(invCount).sort((a,b)=>b[1]-a[1])[0];
-  // Hottest subsector
-  const subCount = {};
-  deals30.forEach(d => { subCount[d.subsector] = (subCount[d.subsector]||0)+1; });
-  const topSub = Object.entries(subCount).sort((a,b)=>b[1]-a[1])[0];
-
-  document.getElementById('stat-cards').innerHTML = `
-    <div class="stat-card"><div class="label">Deals (30 days)</div><div class="value">${deals30.length}</div></div>
-    <div class="stat-card"><div class="label">Most Active Investor</div><div class="value" style="font-size:20px">${topInv ? topInv[0] : '—'}</div><div class="sub">${topInv ? topInv[1]+' deals' : ''}</div></div>
-    <div class="stat-card"><div class="label">Hottest Subsector</div><div class="value" style="font-size:20px">${topSub ? topSub[0] : '—'}</div><div class="sub">${topSub ? topSub[1]+' deals' : ''}</div></div>
-  `;
-}
-
-let chartSector = null, chartSubsector = null;
-function renderCharts() {
-  const deals30 = get30DayDeals();
-  const sectorCount = {};
-  deals30.forEach(d => { sectorCount[d.sector] = (sectorCount[d.sector]||0)+1; });
-  const subCount = {};
-  deals30.forEach(d => { subCount[d.subsector] = (subCount[d.subsector]||0)+1; });
-  const subSorted = Object.entries(subCount).sort((a,b)=>b[1]-a[1]);
-
-  const chartDefaults = { responsive: true, maintainAspectRatio: false };
-
-  if (chartSector) chartSector.destroy();
-  chartSector = new Chart(document.getElementById('chartSector'), {
-    type: 'doughnut',
-    data: {
-      labels: Object.keys(sectorCount),
-      datasets: [{ data: Object.values(sectorCount), backgroundColor: ['#f59e0b','#3b82f6'], borderColor: '#0f1b2d', borderWidth: 2 }]
-    },
-    options: { ...chartDefaults, plugins: { legend: { labels: { color: '#e2e8f0', font: { size: 13 } } } } }
+function applyFilters() {
+  let filtered = getFilteredDeals();
+  filtered.sort((a, b) => {
+    let av = a[sortCol], bv = b[sortCol];
+    if (sortCol === 'date') { av = av || ''; bv = bv || ''; }
+    if (sortCol === 'amountNum') { av = av != null ? av : -1; bv = bv != null ? bv : -1; }
+    if (av < bv) return sortAsc ? -1 : 1;
+    if (av > bv) return sortAsc ? 1 : -1;
+    return 0;
   });
 
-  if (chartSubsector) chartSubsector.destroy();
-  chartSubsector = new Chart(document.getElementById('chartSubsector'), {
+  const tbody = document.getElementById('deals-tbody');
+  if (filtered.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="9" class="no-data">No deals found for these filters.</td></tr>';
+    document.getElementById('table-count').textContent = '';
+    return;
+  }
+
+  tbody.innerHTML = filtered.map(d => `
+    <tr>
+      <td class="date-col">${fmtDate(d.date)}</td>
+      <td><strong>${d.company}</strong></td>
+      <td><span class="badge ${d.sector === 'CPG' ? 'badge-cpg' : 'badge-tech'}">${d.sector || '—'}</span></td>
+      <td style="color:var(--gray);font-size:12px">${d.subsector || '—'}</td>
+      <td><span class="badge ${stageColor(d.series)}">${d.series || '—'}</span></td>
+      <td class="amount-col">${d.amount || '—'}</td>
+      <td style="color:var(--gray)">${d.valuation || '—'}</td>
+      <td class="lead-investor">${d.leadInvestor || '—'}</td>
+      <td class="investors-list">${(d.investors || []).join(', ') || '—'}</td>
+    </tr>`).join('');
+
+  document.getElementById('table-count').textContent = `Showing ${filtered.length} deals`;
+}
+
+function sortTable(col) {
+  if (sortCol === col) { sortAsc = !sortAsc; }
+  else { sortCol = col; sortAsc = col !== 'date' && col !== 'amountNum'; }
+  document.querySelectorAll('thead th .sort-icon').forEach(el => {
+    el.textContent = '↕'; el.parentElement.classList.remove('sorted');
+  });
+  const icon = document.getElementById('sort-' + col);
+  if (icon) { icon.textContent = sortAsc ? '↑' : '↓'; icon.parentElement.classList.add('sorted'); }
+  applyFilters();
+}
+
+function buildStats() {
+  const last30 = DATA.deals.filter(d => daysSince(d.date) <= 30);
+  const invCount = {};
+  last30.forEach(d => (d.investors || []).forEach(inv => { invCount[inv] = (invCount[inv] || 0) + 1; }));
+  const topInv = Object.entries(invCount).sort((a,b) => b[1]-a[1])[0] || ['—', 0];
+  const subCount = {};
+  last30.forEach(d => { if (d.subsector) subCount[d.subsector] = (subCount[d.subsector] || 0) + 1; });
+  const topSub = Object.entries(subCount).sort((a,b) => b[1]-a[1])[0] || ['—', 0];
+
+  document.getElementById('stat-row').innerHTML = `
+    <div class="stat-card">
+      <div class="label">Total Deals (30d)</div>
+      <div class="value">${last30.length}</div>
+      <div class="sub">across ${[...new Set(last30.map(d=>d.sector))].length} sectors</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Most Active Investor (30d)</div>
+      <div class="value" style="font-size:18px;line-height:1.3">${topInv[0]}</div>
+      <div class="sub">${topInv[1]} deal${topInv[1] !== 1 ? 's' : ''}</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Hottest Subsector (30d)</div>
+      <div class="value" style="font-size:18px;line-height:1.3">${topSub[0]}</div>
+      <div class="sub">${topSub[1]} deal${topSub[1] !== 1 ? 's' : ''}</div>
+    </div>`;
+}
+
+function buildCharts() {
+  const last30 = DATA.deals.filter(d => daysSince(d.date) <= 30);
+
+  const sCount = {};
+  last30.forEach(d => { sCount[d.sector] = (sCount[d.sector] || 0) + 1; });
+  if (sectorChart) sectorChart.destroy();
+  sectorChart = new Chart(document.getElementById('sectorChart'), {
+    type: 'doughnut',
+    data: {
+      labels: Object.keys(sCount),
+      datasets: [{ data: Object.values(sCount), backgroundColor: ['#10b981','#3b82f6','#f59e0b','#a78bfa'], borderWidth: 0 }]
+    },
+    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom', labels: { color: '#94a3b8', boxWidth: 12, padding: 12 } } } }
+  });
+
+  const subCount = {};
+  last30.forEach(d => { if (d.subsector) subCount[d.subsector] = (subCount[d.subsector] || 0) + 1; });
+  const sorted = Object.entries(subCount).sort((a,b)=>b[1]-a[1]).slice(0,8);
+  if (subsectorChart) subsectorChart.destroy();
+  subsectorChart = new Chart(document.getElementById('subsectorChart'), {
     type: 'bar',
     data: {
-      labels: subSorted.map(x=>x[0]),
-      datasets: [{ data: subSorted.map(x=>x[1]), backgroundColor: '#f59e0b99', borderColor: '#f59e0b', borderWidth: 1 }]
+      labels: sorted.map(e=>e[0]),
+      datasets: [{ data: sorted.map(e=>e[1]), backgroundColor: '#f59e0b88', borderColor: '#f59e0b', borderWidth: 1, borderRadius: 4 }]
     },
     options: {
-      ...chartDefaults,
-      indexAxis: 'y',
+      responsive: true, maintainAspectRatio: false, indexAxis: 'y',
       plugins: { legend: { display: false } },
       scales: {
-        x: { ticks: { color: '#94a3b8' }, grid: { color: '#1e3a5f' } },
-        y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { color: '#1e3a5f' } }
+        x: { ticks: { color: '#94a3b8', stepSize: 1 }, grid: { color: 'rgba(255,255,255,0.05)' } },
+        y: { ticks: { color: '#94a3b8', font: { size: 11 } }, grid: { display: false } }
       }
     }
   });
 }
 
-function populateFilters() {
-  // Stages
-  const stages = [...new Set(DATA.deals.map(d=>d.series).filter(Boolean))].sort();
-  const stageEl = document.getElementById('filterStage');
-  stageEl.innerHTML = '<option value="">All</option>';
-  stages.forEach(s => stageEl.insertAdjacentHTML('beforeend', `<option value="${s}">${s}</option>`));
+// ---------- TALKING POINTS ----------
+function buildTalking() {
+  const tp = DATA.weeklyTalkingPoints || {};
+  const points = tp.points || [];
+  const refs = tp.dealsReferenced || [];
+  const el = document.getElementById('talking-content');
+  el.innerHTML = `
+    <div class="section-header"><div class="section-title">This Week in Consumer VC</div></div>
+    <div class="week-label">Week of ${tp.weekOf || '—'} · Generated ${tp.generatedAt || '—'}</div>
+    <div class="tp-grid">
+      ${points.map(p => `
+        <div class="tp-card">
+          <div class="tp-label">${p.label || ''}</div>
+          <div class="tp-context">${p.context || ''}</div>
+          <div class="tp-take">${p.take || ''}</div>
+        </div>`).join('')}
+    </div>
+    ${refs.length ? `
+    <div class="deals-ref">
+      <h3>Deals Referenced This Week</h3>
+      <div class="deals-ref-list">${refs.map(r => `<span>${r}</span>`).join('')}</div>
+    </div>` : ''}`;
+  document.getElementById('talking-loading').style.display = 'none';
+  el.style.display = 'block';
 }
 
-function onSectorChange() {
-  const sector = document.getElementById('filterSector').value;
-  const subEl = document.getElementById('filterSubsector');
-  const cpgSubs = ['Food & Bev','Personal Care & Beauty','Pet','Home','Supplement & Wellness','Apparel','Other CPG'];
-  const techSubs = ['Fintech & Payments','Healthcare & Wellness Tech','Social & Community','Hardware','Marketplace','AI-Native Consumer','Other Consumer Tech'];
-  let subs = [];
-  if (!sector) subs = [...cpgSubs, ...techSubs];
-  else if (sector === 'CPG') subs = cpgSubs;
-  else subs = techSubs;
-  subEl.innerHTML = '<option value="">All</option>';
-  subs.forEach(s => subEl.insertAdjacentHTML('beforeend', `<option value="${s}">${s}</option>`));
-  renderDealsTable();
+// ---------- INVESTORS ----------
+let investorView = 'fund';
+
+function buildInvestors() {
+  const el = document.getElementById('investors-content');
+  el.innerHTML = `
+    <div class="section-header"><div class="section-title">Investor Activity Tracker</div></div>
+    <div class="toggle-row">
+      <button class="toggle-btn active" id="btn-fund" onclick="switchInvestorView('fund')">By Fund</button>
+      <button class="toggle-btn" id="btn-partner" onclick="switchInvestorView('partner')">By Partner</button>
+    </div>
+    <div id="investor-list"></div>
+    <div class="disclaimer">Frequency reflects newsletter coverage, not verified investment data.</div>`;
+  document.getElementById('investors-loading').style.display = 'none';
+  el.style.display = 'block';
+  renderInvestorList();
 }
 
-function resetFilters() {
-  document.getElementById('filterSector').value = '';
-  document.getElementById('filterSubsector').value = '';
-  document.getElementById('filterStage').value = '';
-  document.getElementById('filterDate').value = '30';
-  onSectorChange();
+function switchInvestorView(view) {
+  investorView = view;
+  document.getElementById('btn-fund').classList.toggle('active', view === 'fund');
+  document.getElementById('btn-partner').classList.toggle('active', view === 'partner');
+  renderInvestorList();
 }
 
-function sortTable(col) {
-  if (sortCol === col) sortDir *= -1;
-  else { sortCol = col; sortDir = -1; }
-  renderDealsTable();
-}
-
-function renderDealsTable() {
-  let deals = getFilteredDeals();
-  deals.sort((a,b) => {
-    let av = a[sortCol] ?? '', bv = b[sortCol] ?? '';
-    if (typeof av === 'number' && typeof bv === 'number') return (av - bv) * sortDir;
-    if (av === null) av = -Infinity; if (bv === null) bv = -Infinity;
-    return av < bv ? -sortDir : av > bv ? sortDir : 0;
+function renderInvestorList() {
+  const cutoff = Date.now() - 90 * 86400000;
+  const recent = DATA.investorActivity.filter(r => new Date(r.date).getTime() >= cutoff);
+  const counts = {};
+  const dealMap = {};
+  recent.forEach(r => {
+    const key = investorView === 'partner' ? (r.partner || r.fund) : r.fund;
+    if (!key || key === '') return;
+    counts[key] = (counts[key] || 0) + 1;
+    dealMap[key] = [...new Set([...(dealMap[key] || []), ...(r.deals || [])])];
   });
-  const tbody = document.getElementById('deals-tbody');
-  if (!deals.length) { tbody.innerHTML = '<tr><td colspan="9" class="empty">No deals match filters.</td></tr>'; return; }
-  tbody.innerHTML = deals.map(d => `
-    <tr>
-      <td style="white-space:nowrap">${d.date}</td>
-      <td style="font-weight:600">${d.company}</td>
-      <td><span class="badge ${d.sector==='CPG'?'badge-cpg':'badge-tech'}">${d.sector}</span></td>
-      <td style="color:#94a3b8;font-size:12px">${d.subsector}</td>
-      <td>${d.series||'—'}</td>
-      <td><span class="badge badge-amount">${d.amount}</span></td>
-      <td style="color:#94a3b8;font-size:12px">${d.valuation||'—'}</td>
-      <td style="font-weight:500">${d.leadInvestor||'—'}</td>
-      <td style="font-size:12px;color:#94a3b8">${d.investors.join(', ')||'—'}</td>
-    </tr>
-  `).join('');
-}
-
-function renderDeals() {
-  renderStatCards();
-  renderCharts();
-  populateFilters();
-  onSectorChange();
-  document.getElementById('filterDate').addEventListener('change', renderDealsTable);
-  document.getElementById('filterSubsector').addEventListener('change', renderDealsTable);
-  document.getElementById('filterStage').addEventListener('change', renderDealsTable);
-}
-
-/* ---- WEEKLY ---- */
-function renderWeekly() {
-  const wtp = DATA.weeklyTalkingPoints;
-  document.getElementById('tp-week-label').textContent =
-    `Week of ${wtp.weekOf} · Generated ${wtp.generatedAt}`;
-  document.getElementById('tp-grid').innerHTML = wtp.points.map(p => `
-    <div class="tp-card">
-      <div class="tp-label">${p.label}</div>
-      <div class="tp-context">${p.context}</div>
-      <div class="tp-take">→ ${p.take}</div>
-    </div>
-  `).join('');
-  document.getElementById('deal-chips').innerHTML = wtp.dealsReferenced.map(d =>
-    `<span class="deal-chip">${d}</span>`
-  ).join('');
-}
-
-/* ---- INVESTORS ---- */
-function setInvView(v) {
-  invView = v;
-  document.querySelectorAll('.toggle-btn').forEach((b,i) => b.classList.toggle('active', (i===0&&v==='fund')||(i===1&&v==='partner')));
-  renderInvestors();
-}
-
-function renderInvestors() {
-  const cutoff = getDaysAgo(90);
-  const recent = DATA.investorActivity.filter(r => r.date >= cutoff);
-
-  if (invView === 'fund') {
-    const fundMap = {};
-    recent.forEach(r => {
-      if (!fundMap[r.fund]) fundMap[r.fund] = { deals: new Set(), role: r.role };
-      r.deals.forEach(d => fundMap[r.fund].deals.add(d));
-    });
-    const sorted = Object.entries(fundMap).sort((a,b) => b[1].deals.size - a[1].deals.size);
-    document.getElementById('inv-table').innerHTML = `
-      <div class="inv-table">
-        <div class="inv-head"><span>Fund</span><span># Deals</span><span>Companies</span></div>
-        ${sorted.map(([f,v]) => `
-          <div class="inv-row">
-            <div class="inv-fund">${f}</div>
-            <div class="inv-count">${v.deals.size}</div>
-            <div class="inv-deals-list">${[...v.deals].join(', ')}</div>
+  const sorted = Object.entries(counts).sort((a,b)=>b[1]-a[1]).slice(0,20);
+  document.getElementById('investor-list').innerHTML = `
+    <div class="investor-grid">
+      ${sorted.map(([name, count], i) => `
+        <div class="investor-card">
+          <div class="investor-rank">${i+1}</div>
+          <div class="investor-info">
+            <div class="investor-name">${name}</div>
+            <div class="investor-deals">${(dealMap[name]||[]).slice(0,5).join(', ')}${(dealMap[name]||[]).length > 5 ? ' +more' : ''}</div>
           </div>
-        `).join('')}
-      </div>`;
-  } else {
-    const partMap = {};
-    recent.filter(r => r.partner).forEach(r => {
-      if (!partMap[r.partner]) partMap[r.partner] = { fund: r.fund, deals: new Set() };
-      r.deals.forEach(d => partMap[r.partner].deals.add(d));
-    });
-    const sorted = Object.entries(partMap).sort((a,b) => b[1].deals.size - a[1].deals.size);
-    document.getElementById('inv-table').innerHTML = sorted.length ? `
-      <div class="inv-table">
-        <div class="inv-head"><span>Partner</span><span># Deals</span><span>Companies</span></div>
-        ${sorted.map(([p,v]) => `
-          <div class="inv-row">
-            <div class="inv-fund">${p} <span style="color:#64748b;font-size:12px">(${v.fund})</span></div>
-            <div class="inv-count">${v.deals.size}</div>
-            <div class="inv-deals-list">${[...v.deals].join(', ')}</div>
+          <div style="text-align:center">
+            <div class="investor-count">${count}</div>
+            <div class="investor-count-label">appearances</div>
           </div>
-        `).join('')}
-      </div>` : '<div class="empty" style="padding:32px;color:#64748b">No named partners in last 90 days.</div>';
-  }
+        </div>`).join('')}
+    </div>`;
 }
 
-/* ---- NEWS ---- */
-function renderNews() {
-  const types = ['All', ...new Set(DATA.fundNews.map(n => n.newsType))];
-  document.getElementById('news-filters').innerHTML = types.map(t => `
-    <button class="news-filter-btn ${t==='All'?'active':''}" onclick="setNewsFilter('${t}', this)">${t}</button>
-  `).join('');
-  renderNewsFeed();
-}
-
-function setNewsFilter(t, el) {
-  newsFilter = t === 'All' ? '' : t;
-  document.querySelectorAll('.news-filter-btn').forEach(b => b.classList.remove('active'));
-  el.classList.add('active');
-  renderNewsFeed();
-}
-
-function renderNewsFeed() {
-  const cutoff = getDaysAgo(90);
-  let items = DATA.fundNews.filter(n => n.date >= cutoff);
-  if (newsFilter) items = items.filter(n => n.newsType === newsFilter);
-  items.sort((a,b) => b.date.localeCompare(a.date));
-  document.getElementById('news-feed').innerHTML = items.length ? items.map(n => `
-    <div class="news-card">
-      <div class="news-header">
-        <div class="news-fund">${n.fund}</div>
-        <span class="news-type-badge">${n.newsType}</span>
+// ---------- FUND NEWS ----------
+function buildNews() {
+  const el = document.getElementById('news-content');
+  el.innerHTML = `
+    <div class="section-header">
+      <div class="section-title">Fund-Level News</div>
+      <div class="filters">
+        <select onchange="renderNews(this.value)">
+          <option value="">All Types</option>
+          <option value="New Fund">New Fund</option>
+          <option value="LP Close">LP Close</option>
+          <option value="New Partner Hire">New Partner Hire</option>
+          <option value="Other">Other</option>
+        </select>
       </div>
-      <div class="news-date">${n.date}</div>
-      <div class="news-details">${n.details}</div>
-      <div class="news-source">${n.source}</div>
     </div>
-  `).join('') : '<div class="empty" style="color:#64748b;padding:32px;text-align:center">No fund news matches filter.</div>';
+    <div id="news-list"></div>`;
+  document.getElementById('news-loading').style.display = 'none';
+  el.style.display = 'block';
+  renderNews('');
+}
+
+function badgeClass(type) {
+  if (type === 'New Fund') return 'news-badge-fund';
+  if (type === 'New Partner Hire') return 'news-badge-hire';
+  if (type === 'LP Close') return 'news-badge-lp';
+  return 'news-badge-other';
+}
+
+function renderNews(filter) {
+  const cutoff = Date.now() - 90 * 86400000;
+  let items = DATA.fundNews.filter(n => new Date(n.date).getTime() >= cutoff);
+  if (filter) items = items.filter(n => n.newsType === filter);
+  items.sort((a,b) => new Date(b.date) - new Date(a.date));
+  document.getElementById('news-list').innerHTML = items.length ? `
+    <div class="news-feed">
+      ${items.map(n => `
+        <div class="news-card">
+          <div class="news-header">
+            <div class="fund-name">${n.fund}</div>
+            <div class="news-date">${fmtDate(n.date)}</div>
+          </div>
+          <span class="news-badge ${badgeClass(n.newsType)}">${n.newsType}</span>
+          <div class="news-details">${n.details}</div>
+          <div class="news-source">Source: ${n.source || '—'}</div>
+        </div>`).join('')}
+    </div>` : '<div class="no-data">No fund news found.</div>';
+}
+
+// ---------- INIT ----------
+async function init() {
+  try {
+    const res = await fetch('data.json?t=' + Date.now());
+    DATA = await res.json();
+    const ts = new Date(DATA.lastUpdated);
+    document.getElementById('footer-ts').textContent = 'Last updated: ' + ts.toLocaleString('en-US', { timeZone: 'America/New_York', month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
+    buildDeals();
+    buildTalking();
+    buildInvestors();
+    buildNews();
+  } catch(e) {
+    document.querySelectorAll('.loading').forEach(el => {
+      el.innerHTML = '<div style="color:#ef4444">Error loading data. Make sure data.json is in the same directory.</div>';
+    });
+    console.error(e);
+  }
 }
 
 init();
