@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T12:00:00.000000+00:00",
+  "lastUpdated": "2026-06-24T06:13:01.022398+00:00",
   "processedMessageIds": [
     "19df80e80ef42b17",
     "19d88c052c033410",
@@ -97,7 +97,13 @@
     "19edb494a5d34ec4",
     "19edaf3b239f7548",
     "19eda6434f180ff0",
-    "19ed634833d07059"
+    "19ed634833d07059",
+    "19ef6181cc783a6a",
+    "19ef5c3d8e077ff3",
+    "19ef5a4dc89bcba1",
+    "19ef4e992fce9740",
+    "19ef46bc4cddada7",
+    "19ef3034480b6ed9"
   ],
   "deals": [
     {
@@ -3223,6 +3229,188 @@
       "sector": "Consumer Tech",
       "subsector": "Healthcare & Wellness Tech",
       "source": "Fitt Insider Issue No. 403 (Jun 19, 2026)"
+    },
+    {
+      "id": "deal-184",
+      "company": "Burn Boot Camp",
+      "investors": [
+        "Marshmello"
+      ],
+      "leadInvestor": "",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Minority Investment",
+      "valuation": "",
+      "date": "2026-06-23",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 404 (Jun 23, 2026)"
+    },
+    {
+      "id": "deal-185",
+      "company": "Mavida Health",
+      "investors": [
+        "WPS Health Solutions"
+      ],
+      "leadInvestor": "WPS Health Solutions",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "M&A Exit",
+      "valuation": "",
+      "date": "2026-06-23",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 404 (Jun 23, 2026)"
+    },
+    {
+      "id": "deal-186",
+      "company": "JAMS",
+      "investors": [
+        "Pat McAfee"
+      ],
+      "leadInvestor": "Pat McAfee",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Minority Investment",
+      "valuation": "",
+      "date": "2026-06-23",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Fitt Insider Issue No. 404 (Jun 23, 2026)"
+    },
+    {
+      "id": "deal-187",
+      "company": "Mitsoh",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "Multimillion-dollar",
+      "amountNum": null,
+      "series": "Growth",
+      "valuation": "",
+      "date": "2026-06-23",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Fitt Insider Issue No. 404 (Jun 23, 2026)"
+    },
+    {
+      "id": "deal-188",
+      "company": "RŌZ",
+      "investors": [
+        "L Catterton"
+      ],
+      "leadInvestor": "L Catterton",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-06-23",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "Fitt Insider Issue No. 404 (Jun 23, 2026)"
+    },
+    {
+      "id": "deal-189",
+      "company": "Rapalogix Health",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$20M",
+      "amountNum": 20,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-06-23",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 404 (Jun 23, 2026)"
+    },
+    {
+      "id": "deal-190",
+      "company": "Solar Foods",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "€77.8M (~$89.2M) grant",
+      "amountNum": 89.2,
+      "series": "Growth",
+      "valuation": "",
+      "date": "2026-06-23",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Fitt Insider Issue No. 404 (Jun 23, 2026)"
+    },
+    {
+      "id": "deal-191",
+      "company": "phab",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$4M",
+      "amountNum": 4,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-06-23",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Fitt Insider Issue No. 404 (Jun 23, 2026)"
+    },
+    {
+      "id": "deal-192",
+      "company": "STILLE",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "A$10M (~$7M)",
+      "amountNum": 7,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-06-23",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 404 (Jun 23, 2026)"
+    },
+    {
+      "id": "deal-193",
+      "company": "Ovum",
+      "investors": [
+        "Admiralty Capital Group"
+      ],
+      "leadInvestor": "Admiralty Capital Group",
+      "amount": "A$4M (~$2.8M)",
+      "amountNum": 2.8,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-06-23",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 404 (Jun 23, 2026)"
+    },
+    {
+      "id": "deal-194",
+      "company": "MADE Group",
+      "investors": [
+        "Danone"
+      ],
+      "leadInvestor": "Danone",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "M&A Exit",
+      "valuation": "",
+      "date": "2026-06-23",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Fitt Insider Issue No. 404 (Jun 23, 2026)"
+    },
+    {
+      "id": "deal-195",
+      "company": "FemiClear / CUROXEN",
+      "investors": [
+        "Venture Life"
+      ],
+      "leadInvestor": "Venture Life",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "M&A Exit",
+      "valuation": "",
+      "date": "2026-06-23",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "Fitt Insider Issue No. 404 (Jun 23, 2026)"
     }
   ],
   "investorActivity": [
@@ -4656,51 +4844,128 @@
     {
       "fund": "Old Tom Capital",
       "partner": "",
-      "deals": ["Gleezy"],
+      "deals": [
+        "Gleezy"
+      ],
       "role": "Lead",
       "date": "2026-06-19"
     },
     {
       "fund": "Tiger Finance",
       "partner": "",
-      "deals": ["Glossier"],
+      "deals": [
+        "Glossier"
+      ],
       "role": "Lead",
       "date": "2026-06-19"
     },
     {
       "fund": "L'Oreal",
       "partner": "",
-      "deals": ["Innovist"],
+      "deals": [
+        "Innovist"
+      ],
       "role": "Lead",
       "date": "2026-06-19"
     },
     {
       "fund": "Khosla Ventures",
       "partner": "",
-      "deals": ["Claire"],
+      "deals": [
+        "Claire"
+      ],
       "role": "Lead",
       "date": "2026-06-19"
     },
     {
       "fund": "Lauder Partners",
       "partner": "",
-      "deals": ["Solius Labs"],
+      "deals": [
+        "Solius Labs"
+      ],
       "role": "Lead",
       "date": "2026-06-19"
     },
     {
       "fund": "Andreessen Horowitz",
       "partner": "",
-      "deals": ["Telepatia"],
+      "deals": [
+        "Telepatia"
+      ],
       "role": "Lead",
       "date": "2026-06-19"
     },
     {
       "fund": "Securian Canada",
       "partner": "",
-      "deals": ["June Health"],
+      "deals": [
+        "June Health"
+      ],
       "role": "Lead",
       "date": "2026-06-18"
+    },
+    {
+      "fund": "Marshmello",
+      "partner": "",
+      "deals": [
+        "Burn Boot Camp"
+      ],
+      "role": "Participant",
+      "date": "2026-06-23"
+    },
+    {
+      "fund": "WPS Health Solutions",
+      "partner": "",
+      "deals": [
+        "Mavida Health"
+      ],
+      "role": "Lead",
+      "date": "2026-06-23"
+    },
+    {
+      "fund": "Pat McAfee",
+      "partner": "",
+      "deals": [
+        "JAMS"
+      ],
+      "role": "Participant",
+      "date": "2026-06-23"
+    },
+    {
+      "fund": "L Catterton",
+      "partner": "",
+      "deals": [
+        "RŌZ"
+      ],
+      "role": "Lead",
+      "date": "2026-06-23"
+    },
+    {
+      "fund": "Admiralty Capital Group",
+      "partner": "",
+      "deals": [
+        "Ovum"
+      ],
+      "role": "Lead",
+      "date": "2026-06-23"
+    },
+    {
+      "fund": "Danone",
+      "partner": "",
+      "deals": [
+        "MADE Group"
+      ],
+      "role": "Lead",
+      "date": "2026-06-23"
+    },
+    {
+      "fund": "Venture Life",
+      "partner": "",
+      "deals": [
+        "FemiClear / CUROXEN"
+      ],
+      "role": "Lead",
+      "date": "2026-06-23"
     }
   ],
   "fundNews": [
