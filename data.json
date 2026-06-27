@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T06:13:01.022398+00:00",
+  "lastUpdated": "2026-06-27T12:00:00.000000+00:00",
   "processedMessageIds": [
     "19df80e80ef42b17",
     "19d88c052c033410",
@@ -103,7 +103,18 @@
     "19ef5a4dc89bcba1",
     "19ef4e992fce9740",
     "19ef46bc4cddada7",
-    "19ef3034480b6ed9"
+    "19ef3034480b6ed9",
+    "19ef993d03f3f91c",
+    "19f053e5e53f740e",
+    "19f040448f6a3550",
+    "19f04949e5782e46",
+    "19efe6fd79b61ac1",
+    "19f047d51efdad53",
+    "19f03fe8c96daff5",
+    "19eff99065249b14",
+    "19eff55d92fb3245",
+    "19eff2001d29afce",
+    "19efb7d56a736ac1"
   ],
   "deals": [
     {
@@ -3411,6 +3422,88 @@
       "sector": "CPG",
       "subsector": "Personal Care & Beauty",
       "source": "Fitt Insider Issue No. 404 (Jun 23, 2026)"
+    },
+    {
+      "id": "deal-196",
+      "company": "Teeling Irish Whiskey",
+      "investors": [
+        "Bacardi"
+      ],
+      "leadInvestor": "Bacardi",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "M&A Exit",
+      "valuation": "",
+      "date": "2026-06-24",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Jun 24, 2026)"
+    },
+    {
+      "id": "deal-197",
+      "company": "Fascent",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$1.5M",
+      "amountNum": 1.5,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-06-24",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "This Week in CPG (Jun 24, 2026)"
+    },
+    {
+      "id": "deal-198",
+      "company": "Maxine's Heavenly",
+      "investors": [
+        "Blueberry Capital",
+        "Listen Ventures",
+        "Rocana Ventures",
+        "Village Super Markets",
+        "Paperboy Ventures"
+      ],
+      "leadInvestor": "Blueberry Capital",
+      "amount": "$2.86M",
+      "amountNum": 2.86,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-06-24",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Jun 26, 2026)"
+    },
+    {
+      "id": "deal-199",
+      "company": "Los Sundays Tequila",
+      "investors": [
+        "me&brands (NÜTRL Founders)"
+      ],
+      "leadInvestor": "me&brands (NÜTRL Founders)",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Minority Investment",
+      "valuation": "",
+      "date": "2026-06-24",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Jun 26, 2026)"
+    },
+    {
+      "id": "deal-200",
+      "company": "Coconut Cult",
+      "investors": [
+        "Bridge Finance Group"
+      ],
+      "leadInvestor": "Bridge Finance Group",
+      "amount": "$12.5M",
+      "amountNum": 12.5,
+      "series": "Debt",
+      "valuation": "",
+      "date": "2026-06-24",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Jun 26, 2026)"
     }
   ],
   "investorActivity": [
@@ -4966,6 +5059,69 @@
       ],
       "role": "Lead",
       "date": "2026-06-23"
+    },
+    {
+      "fund": "Bacardi",
+      "partner": "",
+      "deals": [
+        "Teeling Irish Whiskey"
+      ],
+      "role": "Lead",
+      "date": "2026-06-24"
+    },
+    {
+      "fund": "Blueberry Capital",
+      "partner": "",
+      "deals": [
+        "Maxine's Heavenly"
+      ],
+      "role": "Lead",
+      "date": "2026-06-24"
+    },
+    {
+      "fund": "Listen Ventures",
+      "partner": "",
+      "deals": [
+        "Maxine's Heavenly"
+      ],
+      "role": "Participant",
+      "date": "2026-06-24"
+    },
+    {
+      "fund": "Rocana Ventures",
+      "partner": "",
+      "deals": [
+        "Maxine's Heavenly"
+      ],
+      "role": "Participant",
+      "date": "2026-06-24"
+    },
+    {
+      "fund": "Paperboy Ventures",
+      "partner": "",
+      "deals": [
+        "Maxine's Heavenly"
+      ],
+      "role": "Participant",
+      "date": "2026-06-24"
+    },
+    {
+      "fund": "me&brands (NÜTRL Founders)",
+      "partner": "",
+      "deals": [
+        "Los Sundays Tequila"
+      ],
+      "role": "Lead",
+      "date": "2026-06-24"
+    },
+    {
+      "fund": "Bridge Finance Group",
+      "partner": "",
+      "deals": [
+        "Coconut Cult"
+      ],
+      "role": "Lead",
+      "date": "2026-06-24"
     }
   ],
   "fundNews": [

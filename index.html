@@ -237,6 +237,8 @@ function stageColor(series) {
   if (s.includes('series a')) return 'badge-a';
   if (s.includes('series b')) return 'badge-b';
   if (s.includes('series c') || s.includes('series d') || s.includes('series e')) return 'badge-c';
+  if (s.includes('minority')) return 'badge-pre';
+  if (s.includes('debt') || s.includes('credit') || s.includes('revenu')) return 'badge-pre';
   return 'badge-pre';
 }
 
@@ -267,7 +269,7 @@ function buildDeals() {
         <option value="">All Stages</option>
         <option>Pre-Seed</option><option>Seed</option>
         <option>Series A</option><option>Series B</option>
-        <option>Series C</option><option>Minority Investment</option>
+        <option>Series C</option><option>Minority Investment</option><option>Debt</option>
       </select>
     </div>
     <div class="filter-group"><label>Date Range</label>
