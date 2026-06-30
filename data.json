@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T12:00:00.000000+00:00",
+  "lastUpdated": "2026-06-30T20:01:35.479086+00:00",
   "processedMessageIds": [
     "19df80e80ef42b17",
     "19d88c052c033410",
@@ -114,7 +114,14 @@
     "19eff99065249b14",
     "19eff55d92fb3245",
     "19eff2001d29afce",
-    "19efb7d56a736ac1"
+    "19efb7d56a736ac1",
+    "19f19f29506f9436",
+    "19f196dc4f34694d",
+    "19f18e2fe3f76caf",
+    "19f1877ff49f8327",
+    "19f14f7cb3047f3f",
+    "19f136e04475acdb",
+    "19f0f637c7d892e9"
   ],
   "deals": [
     {
@@ -3504,6 +3511,38 @@
       "sector": "CPG",
       "subsector": "Food & Bev",
       "source": "This Week in CPG (Jun 26, 2026)"
+    },
+    {
+      "id": "deal-201",
+      "company": "Frozen One",
+      "investors": [
+        "Brand Foundry Ventures"
+      ],
+      "leadInvestor": "Brand Foundry Ventures",
+      "amount": "$5.75M",
+      "amountNum": 5.75,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-06-30",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "CPGD Newsletter (Jun 30, 2026)"
+    },
+    {
+      "id": "deal-202",
+      "company": "ROZ",
+      "investors": [
+        "L Catterton"
+      ],
+      "leadInvestor": "L Catterton",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Minority Investment",
+      "valuation": "",
+      "date": "2026-06-30",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "CPGD Newsletter (Jun 30, 2026)"
     }
   ],
   "investorActivity": [
@@ -5122,6 +5161,24 @@
       ],
       "role": "Lead",
       "date": "2026-06-24"
+    },
+    {
+      "fund": "Brand Foundry Ventures",
+      "partner": "",
+      "deals": [
+        "Frozen One"
+      ],
+      "role": "Lead",
+      "date": "2026-06-30"
+    },
+    {
+      "fund": "L Catterton",
+      "partner": "",
+      "deals": [
+        "ROZ"
+      ],
+      "role": "Lead",
+      "date": "2026-06-30"
     }
   ],
   "fundNews": [
