@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T20:01:35.479086+00:00",
+  "lastUpdated": "2026-07-01T17:32:53.971381+00:00",
   "processedMessageIds": [
     "19df80e80ef42b17",
     "19d88c052c033410",
@@ -121,7 +121,9 @@
     "19f1877ff49f8327",
     "19f14f7cb3047f3f",
     "19f136e04475acdb",
-    "19f0f637c7d892e9"
+    "19f0f637c7d892e9",
+    "19f1d982019b88af",
+    "19f1a60b958a25d9"
   ],
   "deals": [
     {
@@ -3543,6 +3545,225 @@
       "sector": "CPG",
       "subsector": "Personal Care & Beauty",
       "source": "CPGD Newsletter (Jun 30, 2026)"
+    },
+    {
+      "id": "deal-203",
+      "company": "Saltair",
+      "investors": [
+        "Raymond James (banker)"
+      ],
+      "leadInvestor": "",
+      "amount": "Undisclosed (exploring sale)",
+      "amountNum": null,
+      "series": "Growth",
+      "valuation": "",
+      "date": "2026-07-01",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "This Week in CPG (Jul 1, 2026)"
+    },
+    {
+      "id": "deal-204",
+      "company": "dpHUE",
+      "investors": [
+        "Bethenny Frankel"
+      ],
+      "leadInvestor": "Bethenny Frankel",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Minority Investment",
+      "valuation": "",
+      "date": "2026-07-01",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "This Week in CPG (Jul 1, 2026)"
+    },
+    {
+      "id": "deal-205",
+      "company": "Apothékary",
+      "investors": [
+        "LIFT Ventures (Shiseido)",
+        "NextLevel Management",
+        "RSF Social Finance"
+      ],
+      "leadInvestor": "",
+      "amount": "$16M ($10M equity + $6M debt)",
+      "amountNum": 16,
+      "series": "Growth",
+      "valuation": "",
+      "date": "2026-06-30",
+      "sector": "CPG",
+      "subsector": "Supplement & Wellness",
+      "source": "This Week in CPG (Jul 1, 2026) / Fitt Insider Issue No. 406 (Jun 30, 2026)"
+    },
+    {
+      "id": "deal-206",
+      "company": "Myota",
+      "investors": [
+        "PeakBridge"
+      ],
+      "leadInvestor": "PeakBridge",
+      "amount": "$4.5M",
+      "amountNum": 4.5,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-07-01",
+      "sector": "CPG",
+      "subsector": "Supplement & Wellness",
+      "source": "This Week in CPG (Jul 1, 2026)"
+    },
+    {
+      "id": "deal-207",
+      "company": "Superpower",
+      "investors": [
+        "Giannis Antetokounmpo"
+      ],
+      "leadInvestor": "",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Undisclosed",
+      "valuation": "",
+      "date": "2026-06-30",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 406 (Jun 30, 2026)"
+    },
+    {
+      "id": "deal-208",
+      "company": "Premier League Lacrosse (PLL)",
+      "investors": [
+        "Ares Management",
+        "Joe Tsai"
+      ],
+      "leadInvestor": "Ares Management",
+      "amount": "$100M",
+      "amountNum": 100,
+      "series": "Series E",
+      "valuation": "",
+      "date": "2026-06-30",
+      "sector": "Consumer Tech",
+      "subsector": "Other Consumer Tech",
+      "source": "Fitt Insider Issue No. 406 (Jun 30, 2026)"
+    },
+    {
+      "id": "deal-209",
+      "company": "Just Salad",
+      "investors": [
+        "Jalen Brunson"
+      ],
+      "leadInvestor": "",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Undisclosed",
+      "valuation": "",
+      "date": "2026-06-30",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Fitt Insider Issue No. 406 (Jun 30, 2026)"
+    },
+    {
+      "id": "deal-210",
+      "company": "PNOĒ",
+      "investors": [
+        "iGrow Venture Partners"
+      ],
+      "leadInvestor": "iGrow Venture Partners",
+      "amount": "$4M",
+      "amountNum": 4,
+      "series": "Undisclosed",
+      "valuation": "",
+      "date": "2026-06-30",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 406 (Jun 30, 2026)"
+    },
+    {
+      "id": "deal-211",
+      "company": "Mila",
+      "investors": [
+        "Mensch VC"
+      ],
+      "leadInvestor": "Mensch VC",
+      "amount": "$2.5M",
+      "amountNum": 2.5,
+      "series": "Pre-Seed",
+      "valuation": "",
+      "date": "2026-06-30",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "Fitt Insider Issue No. 406 (Jun 30, 2026)"
+    },
+    {
+      "id": "deal-212",
+      "company": "xCures",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$46M",
+      "amountNum": 46,
+      "series": "Series B",
+      "valuation": "",
+      "date": "2026-06-30",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 406 (Jun 30, 2026)"
+    },
+    {
+      "id": "deal-213",
+      "company": "Absci",
+      "investors": [
+        "Eli Lilly"
+      ],
+      "leadInvestor": "Eli Lilly",
+      "amount": "$100M",
+      "amountNum": 100,
+      "series": "Growth",
+      "valuation": "",
+      "date": "2026-06-30",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 406 (Jun 30, 2026)"
+    },
+    {
+      "id": "deal-214",
+      "company": "Ognomy Sleep",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$20M",
+      "amountNum": 20,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-06-30",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 406 (Jun 30, 2026)"
+    },
+    {
+      "id": "deal-215",
+      "company": "Alan",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "€480M (~$550M)",
+      "amountNum": 550,
+      "series": "Growth",
+      "valuation": "€5.5B",
+      "date": "2026-06-30",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 406 (Jun 30, 2026)"
+    },
+    {
+      "id": "deal-216",
+      "company": "INTU Diagnostics",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "€1.1M (~$1.25M)",
+      "amountNum": 1.25,
+      "series": "Bridge",
+      "valuation": "",
+      "date": "2026-06-30",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 406 (Jun 30, 2026)"
     }
   ],
   "investorActivity": [
@@ -5179,6 +5400,114 @@
       ],
       "role": "Lead",
       "date": "2026-06-30"
+    },
+    {
+      "fund": "Bethenny Frankel",
+      "partner": "",
+      "deals": [
+        "dpHUE"
+      ],
+      "role": "Lead",
+      "date": "2026-07-01"
+    },
+    {
+      "fund": "LIFT Ventures (Shiseido)",
+      "partner": "",
+      "deals": [
+        "Apothékary"
+      ],
+      "role": "Participant",
+      "date": "2026-06-30"
+    },
+    {
+      "fund": "NextLevel Management",
+      "partner": "",
+      "deals": [
+        "Apothékary"
+      ],
+      "role": "Participant",
+      "date": "2026-06-30"
+    },
+    {
+      "fund": "RSF Social Finance",
+      "partner": "",
+      "deals": [
+        "Apothékary"
+      ],
+      "role": "Participant",
+      "date": "2026-06-30"
+    },
+    {
+      "fund": "PeakBridge",
+      "partner": "",
+      "deals": [
+        "Myota"
+      ],
+      "role": "Lead",
+      "date": "2026-07-01"
+    },
+    {
+      "fund": "Giannis Antetokounmpo",
+      "partner": "",
+      "deals": [
+        "Superpower"
+      ],
+      "role": "Participant",
+      "date": "2026-06-30"
+    },
+    {
+      "fund": "Ares Management",
+      "partner": "",
+      "deals": [
+        "Premier League Lacrosse (PLL)"
+      ],
+      "role": "Lead",
+      "date": "2026-06-30"
+    },
+    {
+      "fund": "Joe Tsai",
+      "partner": "",
+      "deals": [
+        "Premier League Lacrosse (PLL)"
+      ],
+      "role": "Participant",
+      "date": "2026-06-30"
+    },
+    {
+      "fund": "Jalen Brunson",
+      "partner": "",
+      "deals": [
+        "Just Salad"
+      ],
+      "role": "Participant",
+      "date": "2026-06-30"
+    },
+    {
+      "fund": "iGrow Venture Partners",
+      "partner": "",
+      "deals": [
+        "PNOĒ"
+      ],
+      "role": "Lead",
+      "date": "2026-06-30"
+    },
+    {
+      "fund": "Mensch VC",
+      "partner": "",
+      "deals": [
+        "Mila"
+      ],
+      "role": "Lead",
+      "date": "2026-06-30"
+    },
+    {
+      "fund": "Eli Lilly",
+      "partner": "",
+      "deals": [
+        "Absci"
+      ],
+      "role": "Lead",
+      "date": "2026-06-30"
     }
   ],
   "fundNews": [
@@ -5301,6 +5630,41 @@
       "details": "Anti Fund, the growth-stage investment firm co-founded by Jake Paul and Geoffrey Woo, raised $100M for its debut growth fund. While largely focused on tech, Anti Fund has also backed consumer brands including OLIPOP, Happy Dad, Ketone-IQ, Khloud, SipMargs, and Sesh. The raise signals growing crossover between celebrity/athlete-backed capital and institutional growth investing.",
       "date": "2026-06-19",
       "source": "This Week in CPG (Jun 19, 2026)"
+    },
+    {
+      "fund": "InvestEco",
+      "newsType": "New Fund",
+      "details": "Consumer-focused investment firm InvestEco raised $106M CAD for Fund IV. Since launching in 2002, InvestEco has backed LesserEvil Snacks, Little Sesame, Mid-Day Squares, Algae Cooking Club, Om Mushroom Superfood, and other consumer startups. The firm expects to make another 6 to 10 investments from Fund IV over the next few years.",
+      "date": "2026-07-01",
+      "source": "This Week in CPG (Jul 1, 2026)"
+    },
+    {
+      "fund": "Avenir Collective (Olsam Group) / Wrinkles Schminkles",
+      "newsType": "Other",
+      "details": "Avenir Collective, a former Amazon aggregator known as Olsam Group, acquired Australian skincare and wrinkle patch brand Wrinkles Schminkles. Founded by Gabrielle Requena and based in Sydney, the bootstrapped brand does around $14M in annual sales.",
+      "date": "2026-07-01",
+      "source": "This Week in CPG (Jul 1, 2026)"
+    },
+    {
+      "fund": "ACON Investments / YumEarth",
+      "newsType": "Other",
+      "details": "Private equity firm ACON Investments acquired YumEarth, an early mover in the better-for-you candy category founded in 2007. The Stamford, CT-based brand is best known for organic, allergy-friendly candy and retails at 30,000 stores including Target, Walmart, Kroger, and Sprouts.",
+      "date": "2026-07-01",
+      "source": "This Week in CPG (Jul 1, 2026)"
+    },
+    {
+      "fund": "OpenLoop Health / Hey Revia",
+      "newsType": "Other",
+      "details": "AI-enabled telehealth provider OpenLoop Health acquired Hey Revia, a platform that uses AI to automate complex healthcare phone calls, expanding OpenLoop's operational automation capabilities.",
+      "date": "2026-06-30",
+      "source": "Fitt Insider Issue No. 406 (Jun 30, 2026)"
+    },
+    {
+      "fund": "CVC Capital Partners / Enjoy! Wellness",
+      "newsType": "Other",
+      "details": "Private equity firm CVC Capital Partners acquired Spanish gym chain Enjoy! Wellness, extending CVC's footprint in the European fitness and wellness sector.",
+      "date": "2026-06-30",
+      "source": "Fitt Insider Issue No. 406 (Jun 30, 2026)"
     }
   ],
   "weeklyTalkingPoints": {
