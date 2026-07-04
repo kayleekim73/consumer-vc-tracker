@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T21:22:11+00:00",
+  "lastUpdated": "2026-07-03T17:09:00+00:00",
   "processedMessageIds": [
     "19df80e80ef42b17",
     "19d88c052c033410",
@@ -125,7 +125,8 @@
     "19f1d982019b88af",
     "19f1a60b958a25d9",
     "19f24188ee76c59d",
-    "19f2373d901176a9"
+    "19f2373d901176a9",
+    "19f27e7fe6972a0f"
   ],
   "deals": [
     {
@@ -3766,6 +3767,58 @@
       "sector": "Consumer Tech",
       "subsector": "Healthcare & Wellness Tech",
       "source": "Fitt Insider Issue No. 406 (Jun 30, 2026)"
+    },
+    {
+      "id": "deal-217",
+      "company": "Nutrabolt",
+      "investors": [
+        "J.P. Morgan (banker)",
+        "Goldman Sachs (banker)",
+        "Bank of America (banker)"
+      ],
+      "leadInvestor": "",
+      "amount": "$1B (potential IPO)",
+      "amountNum": 1000,
+      "series": "Growth",
+      "valuation": "",
+      "date": "2026-07-03",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Jul 3, 2026)"
+    },
+    {
+      "id": "deal-218",
+      "company": "Supply6",
+      "investors": [
+        "Unilever Ventures",
+        "Kriti Sanon",
+        "Zeropearl VC"
+      ],
+      "leadInvestor": "Unilever Ventures",
+      "amount": "$5M+",
+      "amountNum": 5,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-07-03",
+      "sector": "CPG",
+      "subsector": "Supplement & Wellness",
+      "source": "This Week in CPG (Jul 3, 2026)"
+    },
+    {
+      "id": "deal-219",
+      "company": "Oat Cult",
+      "investors": [
+        "Anotherway Ventures"
+      ],
+      "leadInvestor": "Anotherway Ventures",
+      "amount": "£220K",
+      "amountNum": null,
+      "series": "",
+      "valuation": "",
+      "date": "2026-07-03",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Jul 3, 2026)"
     }
   ],
   "investorActivity": [
@@ -5510,6 +5563,33 @@
       ],
       "role": "Lead",
       "date": "2026-06-30"
+    },
+    {
+      "fund": "Unilever Ventures",
+      "partner": "",
+      "deals": [
+        "Supply6"
+      ],
+      "role": "Lead",
+      "date": "2026-07-03"
+    },
+    {
+      "fund": "Zeropearl VC",
+      "partner": "",
+      "deals": [
+        "Supply6"
+      ],
+      "role": "Participant",
+      "date": "2026-07-03"
+    },
+    {
+      "fund": "Anotherway Ventures",
+      "partner": "",
+      "deals": [
+        "Oat Cult"
+      ],
+      "role": "Lead",
+      "date": "2026-07-03"
     }
   ],
   "fundNews": [
@@ -5667,6 +5747,27 @@
       "details": "Private equity firm CVC Capital Partners acquired Spanish gym chain Enjoy! Wellness, extending CVC's footprint in the European fitness and wellness sector.",
       "date": "2026-06-30",
       "source": "Fitt Insider Issue No. 406 (Jun 30, 2026)"
+    },
+    {
+      "fund": "Edrington / Wyoming Whiskey",
+      "newsType": "Other",
+      "details": "Premium spirits company Edrington, owner of Macallan, officially sold its majority (80%) stake in Wyoming Whiskey to WW Partners, led by Wyoming Whiskey co-founder David DeFazio. Edrington first acquired a minority stake in 2018 before upping it to 80% in 2023.",
+      "date": "2026-07-03",
+      "source": "This Week in CPG (Jul 3, 2026)"
+    },
+    {
+      "fund": "Sazerac / Garrard County Distilling",
+      "newsType": "Other",
+      "details": "New Orleans-based spirits giant Sazerac acquired Garrard County Distilling for $20M at a court-ordered auction. Garrard operates a 50,000-square-foot distillery south of Lexington, Kentucky, and the deal continues Sazerac's acquisition spree.",
+      "date": "2026-07-03",
+      "source": "This Week in CPG (Jul 3, 2026)"
+    },
+    {
+      "fund": "Hormel Foods / Zanchetta Alimentos",
+      "newsType": "Other",
+      "details": "Hormel Foods exited Brazil, selling its local operations to Zanchetta Alimentos LTDA as part of its ongoing portfolio streamlining. The move follows Hormel's sale of a 51% stake in Justin's last year.",
+      "date": "2026-07-03",
+      "source": "This Week in CPG (Jul 3, 2026)"
     }
   ],
   "weeklyTalkingPoints": {
