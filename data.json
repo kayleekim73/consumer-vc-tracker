@@ -1,6 +1,10 @@
 {
-  "lastUpdated": "2026-07-03T17:09:00+00:00",
+  "lastUpdated": "2026-07-10T18:52:18+00:00",
   "processedMessageIds": [
+    "19f4d3c0ee089a12",
+    "19f48a169fbd53d6",
+    "19f477bb4d0eaa14",
+    "19f290e6961f8764",
     "19df80e80ef42b17",
     "19d88c052c033410",
     "19e02581775f932d",
@@ -126,7 +130,12 @@
     "19f1a60b958a25d9",
     "19f24188ee76c59d",
     "19f2373d901176a9",
-    "19f27e7fe6972a0f"
+    "19f27e7fe6972a0f",
+    "19f3249c01eededa",
+    "19f3370189891f36",
+    "19f380dc65159156",
+    "19f3d5992cfd617a",
+    "19f3e1117354d888"
   ],
   "deals": [
     {
@@ -3819,6 +3828,142 @@
       "sector": "CPG",
       "subsector": "Food & Bev",
       "source": "This Week in CPG (Jul 3, 2026)"
+    },
+    {
+      "id": "deal-220",
+      "company": "Frozen One",
+      "investors": [
+        "Brand Foundry Ventures"
+      ],
+      "leadInvestor": "Brand Foundry Ventures",
+      "amount": "$5.75M",
+      "amountNum": 5.75,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-07-07",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Fitt Insider Issue No. 407"
+    },
+    {
+      "id": "deal-221",
+      "company": "Materna Medical",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$5M",
+      "amountNum": 5,
+      "series": "Series B",
+      "valuation": "",
+      "date": "2026-07-07",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 407"
+    },
+    {
+      "id": "deal-222",
+      "company": "Glimmer Health",
+      "investors": [
+        "Redesign Health",
+        "UPMC Enterprises"
+      ],
+      "leadInvestor": "",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "",
+      "valuation": "",
+      "date": "2026-07-07",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 407"
+    },
+    {
+      "id": "deal-223",
+      "company": "Handspring Health",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$19M",
+      "amountNum": 19,
+      "series": "Series B",
+      "valuation": "",
+      "date": "2026-07-07",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 407"
+    },
+    {
+      "id": "deal-224",
+      "company": "Rivalz",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$5M",
+      "amountNum": 5,
+      "series": "",
+      "valuation": "",
+      "date": "2026-07-07",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Fitt Insider Issue No. 407"
+    },
+    {
+      "id": "deal-225",
+      "company": "Balance",
+      "investors": [
+        "Shilling VC",
+        "JME Ventures"
+      ],
+      "leadInvestor": "",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-07-07",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 407"
+    },
+    {
+      "id": "deal-226",
+      "company": "CurifyLabs",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "€12M (~$14M)",
+      "amountNum": 14,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-07-07",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 407"
+    },
+    {
+      "id": "deal-227",
+      "company": "Superliving",
+      "investors": [
+        "Lightspeed India"
+      ],
+      "leadInvestor": "Lightspeed India",
+      "amount": "$7M",
+      "amountNum": 7,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-07-07",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 407"
+    },
+    {
+      "id": "deal-228",
+      "company": "Frasé Skin",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "A$875K (~$608K)",
+      "amountNum": 0.608,
+      "series": "",
+      "valuation": "",
+      "date": "2026-07-07",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "Fitt Insider Issue No. 407"
     }
   ],
   "investorActivity": [
@@ -5590,6 +5735,60 @@
       ],
       "role": "Lead",
       "date": "2026-07-03"
+    },
+    {
+      "fund": "Brand Foundry Ventures",
+      "partner": "",
+      "deals": [
+        "Frozen One"
+      ],
+      "role": "Lead",
+      "date": "2026-07-07"
+    },
+    {
+      "fund": "Redesign Health",
+      "partner": "",
+      "deals": [
+        "Glimmer Health"
+      ],
+      "role": "Participant",
+      "date": "2026-07-07"
+    },
+    {
+      "fund": "UPMC Enterprises",
+      "partner": "",
+      "deals": [
+        "Glimmer Health"
+      ],
+      "role": "Participant",
+      "date": "2026-07-07"
+    },
+    {
+      "fund": "Shilling VC",
+      "partner": "",
+      "deals": [
+        "Balance"
+      ],
+      "role": "Lead",
+      "date": "2026-07-07"
+    },
+    {
+      "fund": "JME Ventures",
+      "partner": "",
+      "deals": [
+        "Balance"
+      ],
+      "role": "Lead",
+      "date": "2026-07-07"
+    },
+    {
+      "fund": "Lightspeed India",
+      "partner": "",
+      "deals": [
+        "Superliving"
+      ],
+      "role": "Lead",
+      "date": "2026-07-07"
     }
   ],
   "fundNews": [
