@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T18:52:18+00:00",
+  "lastUpdated": "2026-07-15T18:30:00+00:00",
   "processedMessageIds": [
     "19f4d3c0ee089a12",
     "19f48a169fbd53d6",
@@ -135,7 +135,18 @@
     "19f3370189891f36",
     "19f380dc65159156",
     "19f3d5992cfd617a",
-    "19f3e1117354d888"
+    "19f3e1117354d888",
+    "19f528fbcf6bea1d",
+    "19f4e2c6745ad368",
+    "19f4e2795259b399",
+    "19f4d9bf9b74c430",
+    "19f65ad31787c9ac",
+    "19f6242396db2ba4",
+    "19f611ddb63ba138",
+    "19f66b56e61dda75",
+    "19f66589a672d31a",
+    "19f617e052a8baa2",
+    "19f577c7a083d69c"
   ],
   "deals": [
     {
@@ -3820,7 +3831,7 @@
         "Anotherway Ventures"
       ],
       "leadInvestor": "Anotherway Ventures",
-      "amount": "£220K",
+      "amount": "\u00a3220K",
       "amountNum": null,
       "series": "",
       "valuation": "",
@@ -3926,7 +3937,7 @@
       "company": "CurifyLabs",
       "investors": [],
       "leadInvestor": "",
-      "amount": "€12M (~$14M)",
+      "amount": "\u20ac12M (~$14M)",
       "amountNum": 14,
       "series": "Series A",
       "valuation": "",
@@ -3953,7 +3964,7 @@
     },
     {
       "id": "deal-228",
-      "company": "Frasé Skin",
+      "company": "Fras\u00e9 Skin",
       "investors": [],
       "leadInvestor": "",
       "amount": "A$875K (~$608K)",
@@ -3964,6 +3975,415 @@
       "sector": "CPG",
       "subsector": "Personal Care & Beauty",
       "source": "Fitt Insider Issue No. 407"
+    },
+    {
+      "id": "deal-229",
+      "company": "STEPR",
+      "investors": [
+        "Interactive Strength"
+      ],
+      "leadInvestor": "Interactive Strength",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "M&A Exit",
+      "valuation": "",
+      "date": "2026-07-10",
+      "sector": "Consumer Tech",
+      "subsector": "Hardware",
+      "source": "Fitt Insider Issue No. 408 (Jul 10, 2026)"
+    },
+    {
+      "id": "deal-230",
+      "company": "Pearl Health",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$110M",
+      "amountNum": 110,
+      "series": "Undisclosed",
+      "valuation": "",
+      "date": "2026-07-10",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 408 (Jul 10, 2026)"
+    },
+    {
+      "id": "deal-231",
+      "company": "Pro Camps",
+      "investors": [
+        "FlexWork Sports"
+      ],
+      "leadInvestor": "FlexWork Sports",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "M&A Exit",
+      "valuation": "",
+      "date": "2026-07-10",
+      "sector": "Consumer Tech",
+      "subsector": "Other Consumer Tech",
+      "source": "Fitt Insider Issue No. 408 (Jul 10, 2026)"
+    },
+    {
+      "id": "deal-232",
+      "company": "Alma Mater",
+      "investors": [
+        "athlete-investors"
+      ],
+      "leadInvestor": "",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Undisclosed",
+      "valuation": "",
+      "date": "2026-07-10",
+      "sector": "CPG",
+      "subsector": "Apparel",
+      "source": "Fitt Insider Issue No. 408 (Jul 10, 2026)"
+    },
+    {
+      "id": "deal-233",
+      "company": "Versed",
+      "investors": [
+        "Belle Brands"
+      ],
+      "leadInvestor": "Belle Brands",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "M&A Exit",
+      "valuation": "",
+      "date": "2026-07-10",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "Fitt Insider Issue No. 408 (Jul 10, 2026)"
+    },
+    {
+      "id": "deal-234",
+      "company": "Queue",
+      "investors": [
+        "AlleyCorp"
+      ],
+      "leadInvestor": "AlleyCorp",
+      "amount": "$12.6M",
+      "amountNum": 12.6,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-07-10",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 408 (Jul 10, 2026)"
+    },
+    {
+      "id": "deal-235",
+      "company": "Aura Cacia",
+      "investors": [
+        "Country Life"
+      ],
+      "leadInvestor": "Country Life",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "M&A Exit",
+      "valuation": "",
+      "date": "2026-07-10",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "Fitt Insider Issue No. 408 (Jul 10, 2026)"
+    },
+    {
+      "id": "deal-236",
+      "company": "Reformed",
+      "investors": [
+        "IRIS Ventures"
+      ],
+      "leadInvestor": "IRIS Ventures",
+      "amount": "\u00a317M (~$22M)",
+      "amountNum": 22,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-07-10",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "Fitt Insider Issue No. 408 (Jul 10, 2026)"
+    },
+    {
+      "id": "deal-237",
+      "company": "SKILLCOURT",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "\u20ac1.7M (~$1.9M)",
+      "amountNum": 1.9,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-07-10",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 408 (Jul 10, 2026)"
+    },
+    {
+      "id": "deal-238",
+      "company": "Joey",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$1.4M",
+      "amountNum": 1.4,
+      "series": "Undisclosed",
+      "valuation": "",
+      "date": "2026-07-10",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 408 (Jul 10, 2026)"
+    },
+    {
+      "id": "deal-239",
+      "company": "BRYM",
+      "investors": [
+        "Lotus One Investment"
+      ],
+      "leadInvestor": "Lotus One Investment",
+      "amount": "\u20ac650K (~$743K)",
+      "amountNum": 0.743,
+      "series": "Pre-Seed",
+      "valuation": "",
+      "date": "2026-07-10",
+      "sector": "Consumer Tech",
+      "subsector": "Hardware",
+      "source": "Fitt Insider Issue No. 408 (Jul 10, 2026)"
+    },
+    {
+      "id": "deal-240",
+      "company": "Fitness Sigmaringen",
+      "investors": [
+        "LifeFit Group"
+      ],
+      "leadInvestor": "LifeFit Group",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "M&A Exit",
+      "valuation": "",
+      "date": "2026-07-10",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 408 (Jul 10, 2026)"
+    },
+    {
+      "id": "deal-241",
+      "company": "Wrinkles Schminkles",
+      "investors": [
+        "Avenir Collective"
+      ],
+      "leadInvestor": "Avenir Collective",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "M&A Exit",
+      "valuation": "",
+      "date": "2026-07-10",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "Fitt Insider Issue No. 408 (Jul 10, 2026)"
+    },
+    {
+      "id": "deal-242",
+      "company": "Age Care Labs",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "Rs 85 crore (~$9M)",
+      "amountNum": 9,
+      "series": "Series B1",
+      "valuation": "",
+      "date": "2026-07-10",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 408 (Jul 10, 2026)"
+    },
+    {
+      "id": "deal-243",
+      "company": "Avni Wellness",
+      "investors": [
+        "Proteus Partners"
+      ],
+      "leadInvestor": "Proteus Partners",
+      "amount": "Rs 4 crore (~$470K)",
+      "amountNum": 0.47,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-07-10",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "Fitt Insider Issue No. 408 (Jul 10, 2026)"
+    },
+    {
+      "id": "deal-244",
+      "company": "BUFFS",
+      "investors": [
+        "Jordan Brown",
+        "Nicholas Mares",
+        "Ari Raz",
+        "Sumesh Sachar"
+      ],
+      "leadInvestor": "",
+      "amount": "$1.1M",
+      "amountNum": 1.1,
+      "series": "Pre-Seed",
+      "valuation": "",
+      "date": "2026-07-15",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Jul 15, 2026)"
+    },
+    {
+      "id": "deal-245",
+      "company": "FAVE",
+      "investors": [
+        "Supernatural Ventures",
+        "Great Circle Ventures",
+        "The Angel Group"
+      ],
+      "leadInvestor": "Supernatural Ventures",
+      "amount": "$1M",
+      "amountNum": 1,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-07-15",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Jul 15, 2026)"
+    },
+    {
+      "id": "deal-246",
+      "company": "IM8",
+      "investors": [
+        "General Catalyst"
+      ],
+      "leadInvestor": "General Catalyst",
+      "amount": "$1B",
+      "amountNum": 1000,
+      "series": "Debt",
+      "valuation": "",
+      "date": "2026-07-14",
+      "sector": "CPG",
+      "subsector": "Supplement & Wellness",
+      "source": "This Week in CPG (Jul 15, 2026); Fitt Insider Issue No. 409"
+    },
+    {
+      "id": "deal-247",
+      "company": "Nirva",
+      "investors": [
+        "Lightspeed"
+      ],
+      "leadInvestor": "Lightspeed",
+      "amount": "$8M",
+      "amountNum": 8,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-07-14",
+      "sector": "Consumer Tech",
+      "subsector": "Hardware",
+      "source": "Fitt Insider Issue No. 409"
+    },
+    {
+      "id": "deal-248",
+      "company": "SONATA",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$7M",
+      "amountNum": 7,
+      "series": "",
+      "valuation": "",
+      "date": "2026-07-14",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 409"
+    },
+    {
+      "id": "deal-249",
+      "company": "Sage",
+      "investors": [
+        "Stifel"
+      ],
+      "leadInvestor": "Stifel",
+      "amount": "$35M",
+      "amountNum": 35,
+      "series": "Debt",
+      "valuation": "",
+      "date": "2026-07-14",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 409"
+    },
+    {
+      "id": "deal-250",
+      "company": "Corner Health",
+      "investors": [
+        "Oak HC/FT"
+      ],
+      "leadInvestor": "Oak HC/FT",
+      "amount": "$25M",
+      "amountNum": 25,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-07-14",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 409"
+    },
+    {
+      "id": "deal-251",
+      "company": "Doctorsa",
+      "investors": [
+        "PranaVentures"
+      ],
+      "leadInvestor": "PranaVentures",
+      "amount": "\u20ac1M (~$1.1M)",
+      "amountNum": 1.1,
+      "series": "",
+      "valuation": "",
+      "date": "2026-07-14",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 409"
+    },
+    {
+      "id": "deal-252",
+      "company": "Veramore",
+      "investors": [
+        "Rakuten Capital"
+      ],
+      "leadInvestor": "Rakuten Capital",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Pre-Series A",
+      "valuation": "",
+      "date": "2026-07-14",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "Fitt Insider Issue No. 409"
+    },
+    {
+      "id": "deal-253",
+      "company": "Factor X",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Pre-Seed",
+      "valuation": "",
+      "date": "2026-07-14",
+      "sector": "CPG",
+      "subsector": "Personal Care & Beauty",
+      "source": "Fitt Insider Issue No. 409"
+    },
+    {
+      "id": "deal-254",
+      "company": "Reformed",
+      "investors": [
+        "IRIS Ventures"
+      ],
+      "leadInvestor": "IRIS Ventures",
+      "amount": "$22M",
+      "amountNum": 22,
+      "series": "",
+      "valuation": "",
+      "date": "2026-07-14",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "CPGD Newsletter (Jul 14, 2026)"
     }
   ],
   "investorActivity": [
@@ -5789,6 +6209,200 @@
       ],
       "role": "Lead",
       "date": "2026-07-07"
+    },
+    {
+      "fund": "Interactive Strength",
+      "partner": "",
+      "deals": [
+        "STEPR"
+      ],
+      "role": "Lead",
+      "date": "2026-07-10"
+    },
+    {
+      "fund": "FlexWork Sports",
+      "partner": "",
+      "deals": [
+        "Pro Camps"
+      ],
+      "role": "Lead",
+      "date": "2026-07-10"
+    },
+    {
+      "fund": "Belle Brands",
+      "partner": "",
+      "deals": [
+        "Versed"
+      ],
+      "role": "Lead",
+      "date": "2026-07-10"
+    },
+    {
+      "fund": "AlleyCorp",
+      "partner": "",
+      "deals": [
+        "Queue"
+      ],
+      "role": "Lead",
+      "date": "2026-07-10"
+    },
+    {
+      "fund": "Country Life",
+      "partner": "",
+      "deals": [
+        "Aura Cacia"
+      ],
+      "role": "Lead",
+      "date": "2026-07-10"
+    },
+    {
+      "fund": "IRIS Ventures",
+      "partner": "",
+      "deals": [
+        "Reformed"
+      ],
+      "role": "Lead",
+      "date": "2026-07-10"
+    },
+    {
+      "fund": "Lotus One Investment",
+      "partner": "",
+      "deals": [
+        "BRYM"
+      ],
+      "role": "Lead",
+      "date": "2026-07-10"
+    },
+    {
+      "fund": "LifeFit Group",
+      "partner": "",
+      "deals": [
+        "Fitness Sigmaringen"
+      ],
+      "role": "Lead",
+      "date": "2026-07-10"
+    },
+    {
+      "fund": "Avenir Collective",
+      "partner": "",
+      "deals": [
+        "Wrinkles Schminkles"
+      ],
+      "role": "Lead",
+      "date": "2026-07-10"
+    },
+    {
+      "fund": "Proteus Partners",
+      "partner": "",
+      "deals": [
+        "Avni Wellness"
+      ],
+      "role": "Lead",
+      "date": "2026-07-10"
+    },
+    {
+      "fund": "Chipotle Cultivate Next",
+      "partner": "",
+      "deals": [
+        "Benchmark Labs",
+        "IMIO",
+        "Clean Crop Technologies",
+        "Athian",
+        "SIMPLi",
+        "PopID"
+      ],
+      "role": "Lead",
+      "date": "2026-07-10"
+    },
+    {
+      "fund": "Supernatural Ventures",
+      "partner": "",
+      "deals": [
+        "FAVE"
+      ],
+      "role": "Lead",
+      "date": "2026-07-15"
+    },
+    {
+      "fund": "Great Circle Ventures",
+      "partner": "",
+      "deals": [
+        "FAVE"
+      ],
+      "role": "Participant",
+      "date": "2026-07-15"
+    },
+    {
+      "fund": "The Angel Group",
+      "partner": "",
+      "deals": [
+        "FAVE"
+      ],
+      "role": "Participant",
+      "date": "2026-07-15"
+    },
+    {
+      "fund": "General Catalyst",
+      "partner": "",
+      "deals": [
+        "IM8"
+      ],
+      "role": "Lead",
+      "date": "2026-07-14"
+    },
+    {
+      "fund": "Lightspeed",
+      "partner": "",
+      "deals": [
+        "Nirva"
+      ],
+      "role": "Lead",
+      "date": "2026-07-14"
+    },
+    {
+      "fund": "Stifel",
+      "partner": "",
+      "deals": [
+        "Sage"
+      ],
+      "role": "Lead",
+      "date": "2026-07-14"
+    },
+    {
+      "fund": "Oak HC/FT",
+      "partner": "",
+      "deals": [
+        "Corner Health"
+      ],
+      "role": "Lead",
+      "date": "2026-07-14"
+    },
+    {
+      "fund": "PranaVentures",
+      "partner": "",
+      "deals": [
+        "Doctorsa"
+      ],
+      "role": "Lead",
+      "date": "2026-07-14"
+    },
+    {
+      "fund": "Rakuten Capital",
+      "partner": "",
+      "deals": [
+        "Veramore"
+      ],
+      "role": "Lead",
+      "date": "2026-07-14"
+    },
+    {
+      "fund": "IRIS Ventures",
+      "partner": "",
+      "deals": [
+        "Reformed"
+      ],
+      "role": "Lead",
+      "date": "2026-07-14"
     }
   ],
   "fundNews": [
@@ -5967,6 +6581,14 @@
       "details": "Hormel Foods exited Brazil, selling its local operations to Zanchetta Alimentos LTDA as part of its ongoing portfolio streamlining. The move follows Hormel's sale of a 51% stake in Justin's last year.",
       "date": "2026-07-03",
       "source": "This Week in CPG (Jul 3, 2026)"
+    },
+    {
+      "id": "news-009",
+      "fund": "Citation Capital",
+      "newsType": "LP Close",
+      "details": "Citation Capital closed its inaugural fund with $1.2B in total commitments. Founded in 2023 by Tiffany Hagge and Lydie Hudson, the firm specializes in mid-cap buyouts across services, industrial, and consumer sectors, and previously acquired a majority stake in snack manufacturer Cibo Vita.",
+      "date": "2026-07-15",
+      "source": "This Week in CPG (Jul 15, 2026)"
     }
   ],
   "weeklyTalkingPoints": {
