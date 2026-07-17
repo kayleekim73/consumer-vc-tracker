@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T18:30:00+00:00",
+  "lastUpdated": "2026-07-17T15:51:23+00:00",
   "processedMessageIds": [
     "19f4d3c0ee089a12",
     "19f48a169fbd53d6",
@@ -146,7 +146,10 @@
     "19f66b56e61dda75",
     "19f66589a672d31a",
     "19f617e052a8baa2",
-    "19f577c7a083d69c"
+    "19f577c7a083d69c",
+    "19f6ffb6d919317d",
+    "19f6b74bd7a6fe96",
+    "19f672bc5fda68c8"
   ],
   "deals": [
     {
@@ -341,7 +344,7 @@
         "Newtree Impact"
       ],
       "leadInvestor": "",
-      "amount": "\u20ac6M",
+      "amount": "€6M",
       "amountNum": null,
       "series": "Seed",
       "valuation": "",
@@ -706,13 +709,13 @@
     },
     {
       "id": "deal-034",
-      "company": "Epet\u014dme",
+      "company": "Epetōme",
       "investors": [
         "Active Partners",
         "Redrice Ventures"
       ],
       "leadInvestor": "Active Partners",
-      "amount": "Multi-million \u00a3",
+      "amount": "Multi-million £",
       "amountNum": null,
       "series": "Seed",
       "valuation": "",
@@ -772,7 +775,7 @@
       "company": "Made With Intent",
       "investors": [],
       "leadInvestor": "",
-      "amount": "\u00a32.4M",
+      "amount": "£2.4M",
       "amountNum": null,
       "series": "Seed",
       "valuation": "",
@@ -785,9 +788,9 @@
       "id": "deal-039",
       "company": "Chilly Ones",
       "investors": [
-        "N\u00dcTRL Founders"
+        "NÜTRL Founders"
       ],
-      "leadInvestor": "N\u00dcTRL Founders",
+      "leadInvestor": "NÜTRL Founders",
       "amount": "Undisclosed",
       "amountNum": null,
       "series": "Seed",
@@ -931,7 +934,7 @@
       "company": "Fermtech (Koji Cocoa)",
       "investors": [],
       "leadInvestor": "",
-      "amount": "\u00a32.5M",
+      "amount": "£2.5M",
       "amountNum": 3.1,
       "series": "Seed",
       "valuation": "",
@@ -1005,7 +1008,7 @@
       "company": "Clean Food Group",
       "investors": [],
       "leadInvestor": "",
-      "amount": "\u00a34.5M",
+      "amount": "£4.5M",
       "amountNum": 5.7,
       "series": "Seed",
       "valuation": "",
@@ -1196,7 +1199,7 @@
     },
     {
       "id": "deal-065",
-      "company": "Z\u00f3calo Health",
+      "company": "Zócalo Health",
       "investors": [],
       "leadInvestor": "",
       "amount": "$15M",
@@ -1354,10 +1357,10 @@
       "id": "deal-075",
       "company": "111Skin",
       "investors": [
-        "The Est\u00e9e Lauder Companies",
+        "The Estée Lauder Companies",
         "SKKY Partners"
       ],
-      "leadInvestor": "The Est\u00e9e Lauder Companies",
+      "leadInvestor": "The Estée Lauder Companies",
       "amount": "Undisclosed",
       "amountNum": null,
       "series": "Minority Investment",
@@ -1549,10 +1552,10 @@
       "id": "deal-075",
       "company": "111Skin",
       "investors": [
-        "The Est\u00e9e Lauder Companies",
+        "The Estée Lauder Companies",
         "SKKY Partners"
       ],
-      "leadInvestor": "The Est\u00e9e Lauder Companies",
+      "leadInvestor": "The Estée Lauder Companies",
       "amount": "Undisclosed",
       "amountNum": null,
       "series": "Minority Investment",
@@ -1682,7 +1685,7 @@
         "Aspeya (Philip Morris International)"
       ],
       "leadInvestor": "",
-      "amount": "\u20ac100M (~$110M)",
+      "amount": "€100M (~$110M)",
       "amountNum": 110,
       "series": "Growth",
       "valuation": "",
@@ -1838,7 +1841,7 @@
       "company": "Castore",
       "investors": [],
       "leadInvestor": "",
-      "amount": "\u00a390M (~$122M)",
+      "amount": "£90M (~$122M)",
       "amountNum": 122,
       "series": "Growth",
       "valuation": "",
@@ -2100,7 +2103,7 @@
       "company": "Meatly",
       "investors": [],
       "leadInvestor": "",
-      "amount": "\u00a310.4M (~$14M)",
+      "amount": "£10.4M (~$14M)",
       "amountNum": 14,
       "series": "Series A",
       "valuation": "",
@@ -2132,7 +2135,7 @@
         "4impact capital"
       ],
       "leadInvestor": "4impact capital",
-      "amount": "\u20ac1.4M (~$1.6M)",
+      "amount": "€1.4M (~$1.6M)",
       "amountNum": 1.6,
       "series": "Seed",
       "valuation": "",
@@ -2405,7 +2408,7 @@
         "Guinness Ventures"
       ],
       "leadInvestor": "Guinness Ventures",
-      "amount": "\u00e32.3M (~$2.5M)",
+      "amount": "ã2.3M (~$2.5M)",
       "amountNum": 2.5,
       "series": "Series A",
       "valuation": "",
@@ -2557,7 +2560,7 @@
         "APEX"
       ],
       "leadInvestor": "APEX",
-      "amount": "\u20ac525K (~$612K)",
+      "amount": "€525K (~$612K)",
       "amountNum": 0.6,
       "series": "Pre-Seed",
       "valuation": "",
@@ -2571,7 +2574,7 @@
       "company": "noa",
       "investors": [],
       "leadInvestor": "",
-      "amount": "\u20ac5M (~$5.8M)",
+      "amount": "€5M (~$5.8M)",
       "amountNum": 5.8,
       "series": "Seed",
       "valuation": "",
@@ -2651,7 +2654,7 @@
         "Revaia"
       ],
       "leadInvestor": "Revaia",
-      "amount": "\u00a330M (~$40.3M)",
+      "amount": "£30M (~$40.3M)",
       "amountNum": 40.3,
       "series": "Series C",
       "valuation": "",
@@ -2727,7 +2730,7 @@
       "company": "Rem3dy Health (Nourished)",
       "investors": [],
       "leadInvestor": "",
-      "amount": "\u00a314M (~$18.8M)",
+      "amount": "£14M (~$18.8M)",
       "amountNum": 18.8,
       "series": "Series A",
       "valuation": "",
@@ -2741,7 +2744,7 @@
       "company": "Joyvie Health",
       "investors": [],
       "leadInvestor": "",
-      "amount": "\u00a3771K (~$1M)",
+      "amount": "£771K (~$1M)",
       "amountNum": 1,
       "series": "Pre-Seed",
       "valuation": "",
@@ -3064,7 +3067,7 @@
         "Republic (110 investors, crowdfunding)"
       ],
       "leadInvestor": "",
-      "amount": "\u00a3900K",
+      "amount": "£900K",
       "amountNum": 1.1,
       "series": "Seed",
       "valuation": "",
@@ -3337,7 +3340,7 @@
     },
     {
       "id": "deal-188",
-      "company": "R\u014cZ",
+      "company": "RŌZ",
       "investors": [
         "L Catterton"
       ],
@@ -3370,7 +3373,7 @@
       "company": "Solar Foods",
       "investors": [],
       "leadInvestor": "",
-      "amount": "\u20ac77.8M (~$89.2M) grant",
+      "amount": "€77.8M (~$89.2M) grant",
       "amountNum": 89.2,
       "series": "Growth",
       "valuation": "",
@@ -3509,9 +3512,9 @@
       "id": "deal-199",
       "company": "Los Sundays Tequila",
       "investors": [
-        "me&brands (N\u00dcTRL Founders)"
+        "me&brands (NÜTRL Founders)"
       ],
-      "leadInvestor": "me&brands (N\u00dcTRL Founders)",
+      "leadInvestor": "me&brands (NÜTRL Founders)",
       "amount": "Undisclosed",
       "amountNum": null,
       "series": "Minority Investment",
@@ -3603,7 +3606,7 @@
     },
     {
       "id": "deal-205",
-      "company": "Apoth\u00e9kary",
+      "company": "Apothékary",
       "investors": [
         "LIFT Ventures (Shiseido)",
         "NextLevel Management",
@@ -3686,7 +3689,7 @@
     },
     {
       "id": "deal-210",
-      "company": "PNO\u0112",
+      "company": "PNOĒ",
       "investors": [
         "iGrow Venture Partners"
       ],
@@ -3765,10 +3768,10 @@
       "company": "Alan",
       "investors": [],
       "leadInvestor": "",
-      "amount": "\u20ac480M (~$550M)",
+      "amount": "€480M (~$550M)",
       "amountNum": 550,
       "series": "Growth",
-      "valuation": "\u20ac5.5B",
+      "valuation": "€5.5B",
       "date": "2026-06-30",
       "sector": "Consumer Tech",
       "subsector": "Healthcare & Wellness Tech",
@@ -3779,7 +3782,7 @@
       "company": "INTU Diagnostics",
       "investors": [],
       "leadInvestor": "",
-      "amount": "\u20ac1.1M (~$1.25M)",
+      "amount": "€1.1M (~$1.25M)",
       "amountNum": 1.25,
       "series": "Bridge",
       "valuation": "",
@@ -3831,7 +3834,7 @@
         "Anotherway Ventures"
       ],
       "leadInvestor": "Anotherway Ventures",
-      "amount": "\u00a3220K",
+      "amount": "£220K",
       "amountNum": null,
       "series": "",
       "valuation": "",
@@ -3937,7 +3940,7 @@
       "company": "CurifyLabs",
       "investors": [],
       "leadInvestor": "",
-      "amount": "\u20ac12M (~$14M)",
+      "amount": "€12M (~$14M)",
       "amountNum": 14,
       "series": "Series A",
       "valuation": "",
@@ -3964,7 +3967,7 @@
     },
     {
       "id": "deal-228",
-      "company": "Fras\u00e9 Skin",
+      "company": "Frasé Skin",
       "investors": [],
       "leadInvestor": "",
       "amount": "A$875K (~$608K)",
@@ -4093,7 +4096,7 @@
         "IRIS Ventures"
       ],
       "leadInvestor": "IRIS Ventures",
-      "amount": "\u00a317M (~$22M)",
+      "amount": "£17M (~$22M)",
       "amountNum": 22,
       "series": "Series A",
       "valuation": "",
@@ -4107,7 +4110,7 @@
       "company": "SKILLCOURT",
       "investors": [],
       "leadInvestor": "",
-      "amount": "\u20ac1.7M (~$1.9M)",
+      "amount": "€1.7M (~$1.9M)",
       "amountNum": 1.9,
       "series": "Seed",
       "valuation": "",
@@ -4137,7 +4140,7 @@
         "Lotus One Investment"
       ],
       "leadInvestor": "Lotus One Investment",
-      "amount": "\u20ac650K (~$743K)",
+      "amount": "€650K (~$743K)",
       "amountNum": 0.743,
       "series": "Pre-Seed",
       "valuation": "",
@@ -4330,7 +4333,7 @@
         "PranaVentures"
       ],
       "leadInvestor": "PranaVentures",
-      "amount": "\u20ac1M (~$1.1M)",
+      "amount": "€1M (~$1.1M)",
       "amountNum": 1.1,
       "series": "",
       "valuation": "",
@@ -4384,6 +4387,42 @@
       "sector": "CPG",
       "subsector": "Food & Bev",
       "source": "CPGD Newsletter (Jul 14, 2026)"
+    },
+    {
+      "id": "deal-255",
+      "company": "Final Boss Sour",
+      "investors": [
+        "Evolution VC",
+        "Mondelēz SnackFutures",
+        "The Angel Group"
+      ],
+      "leadInvestor": "",
+      "amount": "$4M",
+      "amountNum": 4,
+      "series": "",
+      "valuation": "",
+      "date": "2026-07-17",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Jul 17, 2026)"
+    },
+    {
+      "id": "deal-256",
+      "company": "Posana",
+      "investors": [
+        "Janica Lane",
+        "Brian Rappaport",
+        "Will Fischer"
+      ],
+      "leadInvestor": "",
+      "amount": "$650K",
+      "amountNum": 0.65,
+      "series": "Pre-Seed",
+      "valuation": "",
+      "date": "2026-07-17",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Jul 17, 2026)"
     }
   ],
   "investorActivity": [
@@ -4674,7 +4713,7 @@
       "fund": "Active Partners",
       "partner": "",
       "deals": [
-        "Epet\u014dme"
+        "Epetōme"
       ],
       "role": "Lead",
       "date": "2026-02-21"
@@ -4683,7 +4722,7 @@
       "fund": "Redrice Ventures",
       "partner": "",
       "deals": [
-        "Epet\u014dme"
+        "Epetōme"
       ],
       "role": "Participant",
       "date": "2026-02-21"
@@ -4959,7 +4998,7 @@
       "date": "2026-04-30"
     },
     {
-      "fund": "The Est\u00e9e Lauder Companies",
+      "fund": "The Estée Lauder Companies",
       "partner": "",
       "deals": [
         "111Skin"
@@ -5031,7 +5070,7 @@
       "date": "2026-04-30"
     },
     {
-      "fund": "The Est\u00e9e Lauder Companies",
+      "fund": "The Estée Lauder Companies",
       "partner": "",
       "deals": [
         "111Skin"
@@ -5197,7 +5236,7 @@
       "fund": "Lerer Hippeau",
       "partner": "",
       "deals": [
-        "Brainiac (exit \u2014 acquired by Bel Group)"
+        "Brainiac (exit — acquired by Bel Group)"
       ],
       "role": "Existing Investor",
       "date": "2026-05-07"
@@ -5908,7 +5947,7 @@
       "fund": "L Catterton",
       "partner": "",
       "deals": [
-        "R\u014cZ"
+        "RŌZ"
       ],
       "role": "Lead",
       "date": "2026-06-23"
@@ -5986,7 +6025,7 @@
       "date": "2026-06-24"
     },
     {
-      "fund": "me&brands (N\u00dcTRL Founders)",
+      "fund": "me&brands (NÜTRL Founders)",
       "partner": "",
       "deals": [
         "Los Sundays Tequila"
@@ -6034,7 +6073,7 @@
       "fund": "LIFT Ventures (Shiseido)",
       "partner": "",
       "deals": [
-        "Apoth\u00e9kary"
+        "Apothékary"
       ],
       "role": "Participant",
       "date": "2026-06-30"
@@ -6043,7 +6082,7 @@
       "fund": "NextLevel Management",
       "partner": "",
       "deals": [
-        "Apoth\u00e9kary"
+        "Apothékary"
       ],
       "role": "Participant",
       "date": "2026-06-30"
@@ -6052,7 +6091,7 @@
       "fund": "RSF Social Finance",
       "partner": "",
       "deals": [
-        "Apoth\u00e9kary"
+        "Apothékary"
       ],
       "role": "Participant",
       "date": "2026-06-30"
@@ -6106,7 +6145,7 @@
       "fund": "iGrow Venture Partners",
       "partner": "",
       "deals": [
-        "PNO\u0112"
+        "PNOĒ"
       ],
       "role": "Lead",
       "date": "2026-06-30"
@@ -6403,6 +6442,43 @@
       ],
       "role": "Lead",
       "date": "2026-07-14"
+    },
+    {
+      "fund": "Evolution VC",
+      "partner": "",
+      "deals": [
+        "Final Boss Sour"
+      ],
+      "role": "Participant",
+      "date": "2026-07-17"
+    },
+    {
+      "fund": "Mondelēz SnackFutures",
+      "partner": "",
+      "deals": [
+        "Final Boss Sour"
+      ],
+      "role": "Participant",
+      "date": "2026-07-17"
+    },
+    {
+      "fund": "The Angel Group",
+      "partner": "",
+      "deals": [
+        "Final Boss Sour"
+      ],
+      "role": "Participant",
+      "date": "2026-07-17"
+    },
+    {
+      "fund": "Springdale Ventures",
+      "partner": "",
+      "deals": [
+        "Hetal",
+        "Martie"
+      ],
+      "role": "Participant",
+      "date": "2026-07-17"
     }
   ],
   "fundNews": [
@@ -6589,6 +6665,14 @@
       "details": "Citation Capital closed its inaugural fund with $1.2B in total commitments. Founded in 2023 by Tiffany Hagge and Lydie Hudson, the firm specializes in mid-cap buyouts across services, industrial, and consumer sectors, and previously acquired a majority stake in snack manufacturer Cibo Vita.",
       "date": "2026-07-15",
       "source": "This Week in CPG (Jul 15, 2026)"
+    },
+    {
+      "id": "news-010",
+      "fund": "Hockey Stick Ventures",
+      "newsType": "New Fund",
+      "details": "Hockey Stick Ventures launched its $3M Fund I. Founded by Sean Hershman in late 2023, the firm has already backed Recess, The Coconut Cult, Renais Gin, Leisure Hydration, Slate Milk, De Soi, and Liquid Death.",
+      "date": "2026-07-17",
+      "source": "This Week in CPG (Jul 17, 2026)"
     }
   ],
   "weeklyTalkingPoints": {
@@ -6613,39 +6697,39 @@
     ],
     "points": [
       {
-        "label": "a16z Leads Telepatia's $33M Series A \u2014 Conversational AI Consumer Apps Hit Institutional Scale",
-        "context": "Andreessen Horowitz led Telepatia's $33M Series A this week, backing an AI-native consumer application in the conversational/companion AI category. The round signals that a16z \u2014 after years of writing checks in AI infrastructure \u2014 is now deploying at Series A in consumer-facing AI applications with confidence. Telepatia represents the category's maturation from 'interesting experiment' to 'institutionally fundable at scale' within a single product cycle.",
-        "take": "Founders building AI-native consumer apps should treat a16z's Telepatia conviction as a category legitimization signal \u2014 Series A conversations with institutional funds are now viable for conversational AI consumer products that can demonstrate retention and monetization, even without the scale benchmarks that pre-AI consumer apps required to cross the seed-to-A threshold."
+        "label": "a16z Leads Telepatia's $33M Series A — Conversational AI Consumer Apps Hit Institutional Scale",
+        "context": "Andreessen Horowitz led Telepatia's $33M Series A this week, backing an AI-native consumer application in the conversational/companion AI category. The round signals that a16z — after years of writing checks in AI infrastructure — is now deploying at Series A in consumer-facing AI applications with confidence. Telepatia represents the category's maturation from 'interesting experiment' to 'institutionally fundable at scale' within a single product cycle.",
+        "take": "Founders building AI-native consumer apps should treat a16z's Telepatia conviction as a category legitimization signal — Series A conversations with institutional funds are now viable for conversational AI consumer products that can demonstrate retention and monetization, even without the scale benchmarks that pre-AI consumer apps required to cross the seed-to-A threshold."
       },
       {
-        "label": "Consumer Hardware Sees Four Deals in One Week \u2014 The Category Is No Longer Being Skipped",
-        "context": "Four consumer hardware deals closed this week across different price points and use cases: Temple ($54M Growth, sleep tech), Solius Labs ($23M Series A, light therapy backed by Lauder Partners), Claire ($11.6M Seed, Khosla Ventures), and Kimba ($6.5M Seed, Selva Ventures). The breadth of stages \u2014 from seed to growth \u2014 and the caliber of lead investors (Khosla, Lauder Partners) signals that hardware-native consumer companies are no longer systematically avoided by top-tier VCs.",
-        "take": "Consumer hardware founders at the seed and Series A stage now have four recent comps with named institutional leads to anchor valuation conversations \u2014 the Solius Labs Series A (Lauder Partners) and Claire Seed (Khosla Ventures) are particularly useful because both were hardware-first bets by funds not historically associated with hardware risk, signaling an expansion of the lead investor pool beyond specialist hardware funds."
+        "label": "Consumer Hardware Sees Four Deals in One Week — The Category Is No Longer Being Skipped",
+        "context": "Four consumer hardware deals closed this week across different price points and use cases: Temple ($54M Growth, sleep tech), Solius Labs ($23M Series A, light therapy backed by Lauder Partners), Claire ($11.6M Seed, Khosla Ventures), and Kimba ($6.5M Seed, Selva Ventures). The breadth of stages — from seed to growth — and the caliber of lead investors (Khosla, Lauder Partners) signals that hardware-native consumer companies are no longer systematically avoided by top-tier VCs.",
+        "take": "Consumer hardware founders at the seed and Series A stage now have four recent comps with named institutional leads to anchor valuation conversations — the Solius Labs Series A (Lauder Partners) and Claire Seed (Khosla Ventures) are particularly useful because both were hardware-first bets by funds not historically associated with hardware risk, signaling an expansion of the lead investor pool beyond specialist hardware funds."
       },
       {
         "label": "Everlab's A$65M (~$46M) Series A in Australia Illustrates Global Consumer Health Tech's Institutional Moment",
-        "context": "Australian longevity and preventive health platform Everlab raised A$65M (~$46M) in a Series A led by Airtree Ventures \u2014 the largest consumer health Series A to close outside the US/UK this week. Alongside French health tech rocapin's $13M Series A (Educapital), the week saw two non-US consumer health platforms reaching institutional scale. Both companies leverage personalized health data to drive preventive consumer health decisions.",
-        "take": "Global consumer health tech at the Series A stage is no longer a US-centric opportunity \u2014 Everlab and rocapin together signal that leading non-US VCs (Airtree in ANZ, Educapital in Europe) are deploying conviction capital into consumer health platforms, meaning US-based founders in the category now face international competition for the same category leadership positions and should accelerate international go-to-market strategies before these platforms establish global network effects."
+        "context": "Australian longevity and preventive health platform Everlab raised A$65M (~$46M) in a Series A led by Airtree Ventures — the largest consumer health Series A to close outside the US/UK this week. Alongside French health tech rocapin's $13M Series A (Educapital), the week saw two non-US consumer health platforms reaching institutional scale. Both companies leverage personalized health data to drive preventive consumer health decisions.",
+        "take": "Global consumer health tech at the Series A stage is no longer a US-centric opportunity — Everlab and rocapin together signal that leading non-US VCs (Airtree in ANZ, Educapital in Europe) are deploying conviction capital into consumer health platforms, meaning US-based founders in the category now face international competition for the same category leadership positions and should accelerate international go-to-market strategies before these platforms establish global network effects."
       },
       {
         "label": "Longevity-Adjacent Consumer Plays Are Clustering: Solius, Gero, Rejoni All Raise in the Same Week",
-        "context": "Three companies targeting biological aging or longevity mechanisms closed rounds this week: Solius Labs ($23M Series A, photobiomodulation light therapy), Gero ($17M Growth, AI-driven longevity biomarker platform), and Rejoni ($25M Growth, cellular regeneration). All three attack different points on the longevity stack \u2014 hardware delivery, biomarker diagnostics, and cellular biology \u2014 suggesting the category is broad enough to support parallel institutional bets rather than being winner-take-all.",
-        "take": "The simultaneous institutional backing of three longevity-adjacent companies at different scientific and commercial stages validates a portfolio theory for the category \u2014 founders and VCs considering longevity bets should scope which of the three longevity layers (hardware delivery, diagnostics, intervention) they are positioned in and use Solius/Gero/Rejoni as the reference comps for each layer rather than treating 'longevity' as a monolithic category with a single market leader."
+        "context": "Three companies targeting biological aging or longevity mechanisms closed rounds this week: Solius Labs ($23M Series A, photobiomodulation light therapy), Gero ($17M Growth, AI-driven longevity biomarker platform), and Rejoni ($25M Growth, cellular regeneration). All three attack different points on the longevity stack — hardware delivery, biomarker diagnostics, and cellular biology — suggesting the category is broad enough to support parallel institutional bets rather than being winner-take-all.",
+        "take": "The simultaneous institutional backing of three longevity-adjacent companies at different scientific and commercial stages validates a portfolio theory for the category — founders and VCs considering longevity bets should scope which of the three longevity layers (hardware delivery, diagnostics, intervention) they are positioned in and use Solius/Gero/Rejoni as the reference comps for each layer rather than treating 'longevity' as a monolithic category with a single market leader."
       },
       {
         "label": "Rhoback's $50M CHAMP-Led Round: Athlete Capital Is Now Writing Growth Equity Checks",
-        "context": "Performance apparel brand Rhoback raised $50M in a growth equity round led by CHAMP \u2014 the recently formed platform partnership between L Catterton and Patricof Co that enables elite athletes including Kevin Durant, Cooper Flagg, and Livvy Dunne to co-invest in consumer brands. L Catterton and Patricof Co also participated directly. The round illustrates how CHAMP is being deployed as a lead investment vehicle rather than purely an athlete endorsement overlay.",
-        "take": "CHAMP's emergence as a lead investor in growth-stage consumer brands \u2014 rather than a celebrity co-investment sidecar \u2014 changes the composition of competitive growth equity rounds for premium apparel and active lifestyle brands. Founders in the $30-75M growth range should now evaluate CHAMP as a strategic lead candidate whose athlete network provides a distribution advantage that pure financial VCs cannot replicate, particularly for performance and lifestyle brands where athlete authenticity drives conversion."
+        "context": "Performance apparel brand Rhoback raised $50M in a growth equity round led by CHAMP — the recently formed platform partnership between L Catterton and Patricof Co that enables elite athletes including Kevin Durant, Cooper Flagg, and Livvy Dunne to co-invest in consumer brands. L Catterton and Patricof Co also participated directly. The round illustrates how CHAMP is being deployed as a lead investment vehicle rather than purely an athlete endorsement overlay.",
+        "take": "CHAMP's emergence as a lead investor in growth-stage consumer brands — rather than a celebrity co-investment sidecar — changes the composition of competitive growth equity rounds for premium apparel and active lifestyle brands. Founders in the $30-75M growth range should now evaluate CHAMP as a strategic lead candidate whose athlete network provides a distribution advantage that pure financial VCs cannot replicate, particularly for performance and lifestyle brands where athlete authenticity drives conversion."
       },
       {
         "label": "L'Oreal Acquires Innovist: Big Beauty's India Strategy Is Acquisition-Led",
         "context": "L'Oreal acquired Indian skincare brand Innovist this week, following a pattern of global beauty conglomerates building India exposure through acquisition rather than organic market entry. Innovist joins a growing list of Indian direct-to-consumer beauty brands that have exited to strategic acquirers as India's skincare and personal care market matures. The deal reflects Big Beauty's accelerating recognition that India is a must-win market requiring local brand equity rather than export-driven growth.",
-        "take": "The L'Oreal/Innovist acquisition opens a clearer exit thesis for India-born consumer beauty brands at the seed and Series A stage \u2014 founders building in the Indian personal care category should now be pitching to global beauty strategics not just as future distribution partners but as potential acquirers in the 3-5 year horizon, using the Innovist exit as a proof point that India-native brand equity is valued at the M&A level by top-tier global strategics."
+        "take": "The L'Oreal/Innovist acquisition opens a clearer exit thesis for India-born consumer beauty brands at the seed and Series A stage — founders building in the Indian personal care category should now be pitching to global beauty strategics not just as future distribution partners but as potential acquirers in the 3-5 year horizon, using the Innovist exit as a proof point that India-native brand equity is valued at the M&A level by top-tier global strategics."
       },
       {
         "label": "Anti Fund's $100M Debut: Celebrity-Backed Growth Vehicles Are Institutionalizing at Scale",
-        "context": "Anti Fund, co-founded by Jake Paul and Geoffrey Woo, closed a $100M debut growth fund targeting consumer brands including prior bets on OLIPOP, Happy Dad, Ketone-IQ, Khloud, and SipMargs. The raise follows CHAMP's formation and reflects a broader institutionalization of celebrity and athlete-backed investment vehicles \u2014 where the LP relationship and co-investment access are themselves the structural value add, rather than just brand endorsement. Anti Fund's $100M scale places it firmly in the institutional growth equity tier.",
-        "take": "The $100M Anti Fund close signals that consumer founders seeking growth capital should evaluate celebrity-backed institutional vehicles (Anti Fund, CHAMP) as legitimate lead candidates rather than soft capital sources \u2014 the combination of institutional check size, portfolio network effects across co-invested brands, and authentic consumer reach is a differentiated value proposition that traditional growth equity funds cannot easily replicate for brands targeting younger or wellness-adjacent consumer demographics."
+        "context": "Anti Fund, co-founded by Jake Paul and Geoffrey Woo, closed a $100M debut growth fund targeting consumer brands including prior bets on OLIPOP, Happy Dad, Ketone-IQ, Khloud, and SipMargs. The raise follows CHAMP's formation and reflects a broader institutionalization of celebrity and athlete-backed investment vehicles — where the LP relationship and co-investment access are themselves the structural value add, rather than just brand endorsement. Anti Fund's $100M scale places it firmly in the institutional growth equity tier.",
+        "take": "The $100M Anti Fund close signals that consumer founders seeking growth capital should evaluate celebrity-backed institutional vehicles (Anti Fund, CHAMP) as legitimate lead candidates rather than soft capital sources — the combination of institutional check size, portfolio network effects across co-invested brands, and authentic consumer reach is a differentiated value proposition that traditional growth equity funds cannot easily replicate for brands targeting younger or wellness-adjacent consumer demographics."
       }
     ]
   }
