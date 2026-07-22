@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T15:51:23+00:00",
+  "lastUpdated": "2026-07-22T17:13:27+00:00",
   "processedMessageIds": [
     "19f4d3c0ee089a12",
     "19f48a169fbd53d6",
@@ -149,7 +149,20 @@
     "19f577c7a083d69c",
     "19f6ffb6d919317d",
     "19f6b74bd7a6fe96",
-    "19f672bc5fda68c8"
+    "19f672bc5fda68c8",
+    "19f719638ba98609",
+    "19f8a3c112f41931",
+    "19f89bdc516de3d3",
+    "19f86b0d8c654076",
+    "19f8664ed4f52440",
+    "19f87522d283c611",
+    "19f875ffd71e0b92",
+    "19f8652d18b59c97",
+    "19f84d0fd7425552",
+    "19f82ee1ee720c01",
+    "19f7d00cc2d40964",
+    "19f7c4d443041d18",
+    "19f7b8900dd8accf"
   ],
   "deals": [
     {
@@ -4423,6 +4436,448 @@
       "sector": "CPG",
       "subsector": "Food & Bev",
       "source": "This Week in CPG (Jul 17, 2026)"
+    },
+    {
+      "id": "deal-257",
+      "company": "Wonder",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$650M",
+      "amountNum": 650,
+      "series": "Series D",
+      "valuation": "$9B",
+      "date": "2026-07-17",
+      "sector": "Consumer Tech",
+      "subsector": "Marketplace",
+      "source": "Fitt Insider Issue No. 410"
+    },
+    {
+      "id": "deal-258",
+      "company": "Oura",
+      "investors": [
+        "Eli Lilly"
+      ],
+      "leadInvestor": "Eli Lilly",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Minority Investment",
+      "valuation": "",
+      "date": "2026-07-17",
+      "sector": "Consumer Tech",
+      "subsector": "Hardware",
+      "source": "Fitt Insider Issue No. 410"
+    },
+    {
+      "id": "deal-259",
+      "company": "June Bio",
+      "investors": [
+        "Ada Ventures"
+      ],
+      "leadInvestor": "Ada Ventures",
+      "amount": "$3.8M",
+      "amountNum": 3.8,
+      "series": "Undisclosed",
+      "valuation": "",
+      "date": "2026-07-17",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 410"
+    },
+    {
+      "id": "deal-260",
+      "company": "Neko Health",
+      "investors": [
+        "Lightspeed Venture Partners",
+        "O.G. Venture Partners"
+      ],
+      "leadInvestor": "Lightspeed Venture Partners",
+      "amount": "$700M",
+      "amountNum": 700,
+      "series": "Series C",
+      "valuation": "",
+      "date": "2026-07-17",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 410"
+    },
+    {
+      "id": "deal-261",
+      "company": "Syntetica",
+      "investors": [
+        "lululemon"
+      ],
+      "leadInvestor": "",
+      "amount": "$30M",
+      "amountNum": 30,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-07-17",
+      "sector": "CPG",
+      "subsector": "Apparel",
+      "source": "Fitt Insider Issue No. 410"
+    },
+    {
+      "id": "deal-262",
+      "company": "Sightera Biosciences",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "€3M (~$3.4M)",
+      "amountNum": 3.4,
+      "series": "Pre-Seed",
+      "valuation": "",
+      "date": "2026-07-17",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 410"
+    },
+    {
+      "id": "deal-263",
+      "company": "ENGO",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "€5.1M (~$5.8M)",
+      "amountNum": 5.8,
+      "series": "Undisclosed",
+      "valuation": "",
+      "date": "2026-07-17",
+      "sector": "Consumer Tech",
+      "subsector": "Hardware",
+      "source": "Fitt Insider Issue No. 410"
+    },
+    {
+      "id": "deal-264",
+      "company": "Hemispheric",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$52M",
+      "amountNum": 52,
+      "series": "Undisclosed",
+      "valuation": "",
+      "date": "2026-07-17",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 410"
+    },
+    {
+      "id": "deal-265",
+      "company": "Organic Traditions",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$10.5M",
+      "amountNum": 10.5,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-07-22",
+      "sector": "CPG",
+      "subsector": "Supplement & Wellness",
+      "source": "This Week in CPG (Jul 22, 2026)"
+    },
+    {
+      "id": "deal-266",
+      "company": "Jesse & Ben's",
+      "investors": [
+        "Greycroft",
+        "Foundership"
+      ],
+      "leadInvestor": "Greycroft",
+      "amount": "$10M",
+      "amountNum": 10,
+      "series": "Series A",
+      "valuation": "",
+      "date": "2026-07-22",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Jul 22, 2026)"
+    },
+    {
+      "id": "deal-267",
+      "company": "Utz Brands",
+      "investors": [
+        "Intersnack Group"
+      ],
+      "leadInvestor": "Intersnack Group",
+      "amount": "~$2.9B",
+      "amountNum": 2900,
+      "series": "M&A Exit",
+      "valuation": "",
+      "date": "2026-07-22",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Jul 22, 2026)"
+    },
+    {
+      "id": "deal-268",
+      "company": "Luca Mariano Distillery",
+      "investors": [
+        "Apogee 21"
+      ],
+      "leadInvestor": "Apogee 21",
+      "amount": "$19.5M",
+      "amountNum": 19.5,
+      "series": "M&A Exit",
+      "valuation": "",
+      "date": "2026-07-22",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Jul 22, 2026)"
+    },
+    {
+      "id": "deal-269",
+      "company": "Rod & Hammer",
+      "investors": [
+        "Apogee 21"
+      ],
+      "leadInvestor": "Apogee 21",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "M&A Exit",
+      "valuation": "",
+      "date": "2026-07-22",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Jul 22, 2026)"
+    },
+    {
+      "id": "deal-270",
+      "company": "Custom Bakehouse",
+      "investors": [
+        "Starco Brands"
+      ],
+      "leadInvestor": "Starco Brands",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "M&A Exit",
+      "valuation": "",
+      "date": "2026-07-22",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "This Week in CPG (Jul 22, 2026)"
+    },
+    {
+      "id": "deal-271",
+      "company": "Radial Health",
+      "investors": [
+        "BrainsWay"
+      ],
+      "leadInvestor": "BrainsWay",
+      "amount": "$3M",
+      "amountNum": 3,
+      "series": "Minority Investment",
+      "valuation": "",
+      "date": "2026-07-21",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 411 (Jul 21, 2026)"
+    },
+    {
+      "id": "deal-272",
+      "company": "Sound Minds Behavioral",
+      "investors": [
+        "BrainsWay"
+      ],
+      "leadInvestor": "BrainsWay",
+      "amount": "$500K",
+      "amountNum": 0.5,
+      "series": "Minority Investment",
+      "valuation": "",
+      "date": "2026-07-21",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 411 (Jul 21, 2026)"
+    },
+    {
+      "id": "deal-273",
+      "company": "General Biotechnologies",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$7.4M",
+      "amountNum": 7.4,
+      "series": "Undisclosed",
+      "valuation": "",
+      "date": "2026-07-21",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 411 (Jul 21, 2026)"
+    },
+    {
+      "id": "deal-274",
+      "company": "Woddle Baby",
+      "investors": [
+        "Capital Q Ventures"
+      ],
+      "leadInvestor": "Capital Q Ventures",
+      "amount": "$5M",
+      "amountNum": 5,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-07-21",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 411 (Jul 21, 2026)"
+    },
+    {
+      "id": "deal-275",
+      "company": "Cognify Health",
+      "investors": [
+        "Game Changers Ventures"
+      ],
+      "leadInvestor": "Game Changers Ventures",
+      "amount": "Undisclosed (multimillion-dollar)",
+      "amountNum": null,
+      "series": "Undisclosed",
+      "valuation": "",
+      "date": "2026-07-21",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 411 (Jul 21, 2026)"
+    },
+    {
+      "id": "deal-276",
+      "company": "Hilo",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$19M",
+      "amountNum": 19,
+      "series": "Series B",
+      "valuation": "",
+      "date": "2026-07-21",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 411 (Jul 21, 2026)"
+    },
+    {
+      "id": "deal-277",
+      "company": "Nous Energy",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "€2.3M (~$2.6M)",
+      "amountNum": 2.6,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-07-21",
+      "sector": "CPG",
+      "subsector": "Supplement & Wellness",
+      "source": "Fitt Insider Issue No. 411 (Jul 21, 2026)"
+    },
+    {
+      "id": "deal-278",
+      "company": "ProFuse Technology",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$1.5M",
+      "amountNum": 1.5,
+      "series": "Undisclosed",
+      "valuation": "",
+      "date": "2026-07-21",
+      "sector": "CPG",
+      "subsector": "Supplement & Wellness",
+      "source": "Fitt Insider Issue No. 411 (Jul 21, 2026)"
+    },
+    {
+      "id": "deal-279",
+      "company": "Bravo Fit",
+      "investors": [
+        "Franchise Equity Partners"
+      ],
+      "leadInvestor": "Franchise Equity Partners",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "M&A Exit",
+      "valuation": "",
+      "date": "2026-07-21",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 411 (Jul 21, 2026)"
+    },
+    {
+      "id": "deal-280",
+      "company": "Iconic Health Clubs Dublin",
+      "investors": [
+        "Urban Gym Group"
+      ],
+      "leadInvestor": "Urban Gym Group",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "M&A Exit",
+      "valuation": "",
+      "date": "2026-07-21",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 411 (Jul 21, 2026)"
+    },
+    {
+      "id": "deal-281",
+      "company": "Flamme",
+      "investors": [
+        "Arya"
+      ],
+      "leadInvestor": "Arya",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "M&A Exit",
+      "valuation": "",
+      "date": "2026-07-21",
+      "sector": "Consumer Tech",
+      "subsector": "Social & Community",
+      "source": "Fitt Insider Issue No. 411 (Jul 21, 2026)"
+    },
+    {
+      "id": "deal-282",
+      "company": "Kindred Health",
+      "investors": [
+        "GoRocky"
+      ],
+      "leadInvestor": "GoRocky",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "M&A Exit",
+      "valuation": "",
+      "date": "2026-07-21",
+      "sector": "Consumer Tech",
+      "subsector": "Healthcare & Wellness Tech",
+      "source": "Fitt Insider Issue No. 411 (Jul 21, 2026)"
+    },
+    {
+      "id": "deal-283",
+      "company": "BUFFS",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$1.1M",
+      "amountNum": 1.1,
+      "series": "Pre-Seed",
+      "valuation": "",
+      "date": "2026-07-21",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "CPGD Newsletter (Jul 21, 2026)"
+    },
+    {
+      "id": "deal-284",
+      "company": "Posana",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "Undisclosed",
+      "amountNum": null,
+      "series": "Pre-Seed",
+      "valuation": "",
+      "date": "2026-07-21",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "CPGD Newsletter (Jul 21, 2026)"
+    },
+    {
+      "id": "deal-285",
+      "company": "FAVE",
+      "investors": [],
+      "leadInvestor": "",
+      "amount": "$1M",
+      "amountNum": 1,
+      "series": "Seed",
+      "valuation": "",
+      "date": "2026-07-21",
+      "sector": "CPG",
+      "subsector": "Food & Bev",
+      "source": "CPGD Newsletter (Jul 21, 2026)"
     }
   ],
   "investorActivity": [
@@ -6479,6 +6934,161 @@
       ],
       "role": "Participant",
       "date": "2026-07-17"
+    },
+    {
+      "fund": "Eli Lilly",
+      "partner": "",
+      "deals": [
+        "Oura"
+      ],
+      "role": "Lead",
+      "date": "2026-07-17"
+    },
+    {
+      "fund": "Ada Ventures",
+      "partner": "",
+      "deals": [
+        "June Bio"
+      ],
+      "role": "Lead",
+      "date": "2026-07-17"
+    },
+    {
+      "fund": "Lightspeed Venture Partners",
+      "partner": "",
+      "deals": [
+        "Neko Health"
+      ],
+      "role": "Lead",
+      "date": "2026-07-17"
+    },
+    {
+      "fund": "O.G. Venture Partners",
+      "partner": "",
+      "deals": [
+        "Neko Health"
+      ],
+      "role": "Lead",
+      "date": "2026-07-17"
+    },
+    {
+      "fund": "lululemon",
+      "partner": "",
+      "deals": [
+        "Syntetica"
+      ],
+      "role": "Participant",
+      "date": "2026-07-17"
+    },
+    {
+      "fund": "Greycroft",
+      "partner": "",
+      "deals": [
+        "Jesse & Ben's"
+      ],
+      "role": "Lead",
+      "date": "2026-07-22"
+    },
+    {
+      "fund": "Foundership",
+      "partner": "",
+      "deals": [
+        "Jesse & Ben's"
+      ],
+      "role": "Participant",
+      "date": "2026-07-22"
+    },
+    {
+      "fund": "Intersnack Group",
+      "partner": "",
+      "deals": [
+        "Utz Brands"
+      ],
+      "role": "Lead",
+      "date": "2026-07-22"
+    },
+    {
+      "fund": "Apogee 21",
+      "partner": "",
+      "deals": [
+        "Luca Mariano Distillery",
+        "Rod & Hammer"
+      ],
+      "role": "Lead",
+      "date": "2026-07-22"
+    },
+    {
+      "fund": "Starco Brands",
+      "partner": "",
+      "deals": [
+        "Custom Bakehouse"
+      ],
+      "role": "Lead",
+      "date": "2026-07-22"
+    },
+    {
+      "fund": "BrainsWay",
+      "partner": "",
+      "deals": [
+        "Radial Health",
+        "Sound Minds Behavioral"
+      ],
+      "role": "Lead",
+      "date": "2026-07-21"
+    },
+    {
+      "fund": "Capital Q Ventures",
+      "partner": "",
+      "deals": [
+        "Woddle Baby"
+      ],
+      "role": "Lead",
+      "date": "2026-07-21"
+    },
+    {
+      "fund": "Game Changers Ventures",
+      "partner": "",
+      "deals": [
+        "Cognify Health"
+      ],
+      "role": "Lead",
+      "date": "2026-07-21"
+    },
+    {
+      "fund": "Franchise Equity Partners",
+      "partner": "",
+      "deals": [
+        "Bravo Fit"
+      ],
+      "role": "Lead",
+      "date": "2026-07-21"
+    },
+    {
+      "fund": "Urban Gym Group",
+      "partner": "",
+      "deals": [
+        "Iconic Health Clubs Dublin"
+      ],
+      "role": "Lead",
+      "date": "2026-07-21"
+    },
+    {
+      "fund": "Arya",
+      "partner": "",
+      "deals": [
+        "Flamme"
+      ],
+      "role": "Lead",
+      "date": "2026-07-21"
+    },
+    {
+      "fund": "GoRocky",
+      "partner": "",
+      "deals": [
+        "Kindred Health"
+      ],
+      "role": "Lead",
+      "date": "2026-07-21"
     }
   ],
   "fundNews": [
